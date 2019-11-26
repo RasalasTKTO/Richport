@@ -72,7 +72,16 @@
 	Lard,				S,		-1,		750
 	PigSteakMeat,			S,		-1,		175
 	SheepSteakMeat,			S,		-1,		175	
-	WolfSteakMeat,			S,		-1,		225	
+	WolfSteakMeat,			S,		-1,		225
+
+<Category> Fish
+	Carp,				1,		-1,		250
+	Mackerel,			1,		-1,		250
+	Sardines,			1,		-1,		250
+	zeroy_chub,			1,		-1,		250	
+	zeroy_cod,			1,		-1,		250
+	zeroy_pike,			1,		-1,		250
+	zeroy_shell,			1,		-1,		250	
 									
 <Category> Drinks									
 	Canteen,			*,		400,		200	
@@ -243,8 +252,8 @@
 	Hedgehog_Dismantled,		*,        	500,    	100		
 	Hedgehog_Kit,			*,        	1000,    	500	
 	Hesco_1_Kit,			*,        	1000,    	500	
-	Hesco_3_Kit,			*,        	1000,    	500	
-	Hesco_5_Kit,			*,        	1000,    	500	
+	Hesco_3_Kit,			*,        	3000,    	500	
+	Hesco_5_Kit,			*,        	5000,    	500	
 	MetalBeam,			*,        	500,    	100	
 	Razorwire,			*,        	500,    	100	
 	Razorwire_Kit,			*,        	1000,    	500	
@@ -366,7 +375,8 @@
 									
 <Category> Vanilla Guns									
 	AKM,					W,		20000,		3300
-	AKS74U,					W		17000,		2750
+	AKS74U,					W,		17000,		2750
+	AK101,					W,		20000,		3300
 	CZ527,					W,		15000,		2500
 	CZ61,					W,		2000,		400
 	CZ75,					W,		3500,		500
@@ -619,6 +629,7 @@
 										
 <Category> Magazines									
 	Mag_AK74_30Rnd,			M,		200,		100
+	Mag_AK101_30Rnd,		M,		220,		110
 	Mag_AKM_30Rnd,			M,		220,		110
 	Mag_cs5_10Rnd_mung,		M,		200,	 	100
 	Mag_CZ527_5rnd,			M,		60,		30
@@ -1624,7 +1635,7 @@
 	CrSk_Land_Rover_Defender_110_Green, 	V, 		150000,		20000
 	CrSk_Land_Rover_Defender_110_UN, 	V, 		150000,		20000
 	//CrSk_HMMWV_PMC,                 	V,		50000,		25000
-	//CrSk_HMMWV_PMC_Woodland,       		V,		50000,		25000
+	//CrSk_HMMWV_PMC_Woodland,       	V,		50000,		25000
 	Gerph_Zil130,				V,		175000,		16000
 	Hatchback_02,				V,		16000,		9600
 	OffroadHatchback,			V,		14000,		8000
@@ -1647,7 +1658,6 @@
 	CivSedanHood,			*,		 400,		140
 	CivSedanTrunk,			*,		 450,		150
 	CivSedanWheel,			*,		 600,		120
-
 	Sedan_02_Trunk, 		*,		 500,		180
 	Sedan_02_Hood,	                *,		 500,		180
 	Sedan_02_Door_2_2,		*,		 500,		180
@@ -1655,7 +1665,6 @@
 	Sedan_02_Door_2_1,		*,		 400,		140
 	Sedan_02_Door_1_1,		*,		 450,		150
 	Sedan_02_Wheel,			*,		 600,		120
-
 	Defender110_koleso, 		*, 		2000, 		1000
 	Defender110_dver_1_1, 		*, 		2000, 		1000
 	Defender110_dver_2_1, 		*, 		2000, 		1000
@@ -1732,9 +1741,9 @@
         DingoDoors_CoDriver,		        *,		1000,	500
         DingoDoors_Cargo1,			*,		1000,	500
         DingoDoors_Cargo2,			*,		1000,	500
-        DingoHood,					*,		700,	350
-        DingoTrunk,					*,		500,	250
-        DingoWheel,					*,		700,	350
+        DingoHood,				*,		700,	350
+        DingoTrunk,				*,		500,	250
+        DingoWheel,				*,		700,	350
 
 		
 <Category> Keys
@@ -2979,6 +2988,7 @@
 	MSFC_Tigr308,				W,		75000,		10000
 	MSFC_AKCR2019,				W,		75000,		10000
 	MSFC_AK15M,				W,		75000,		10000
+	MSFC_AK15MR_Green,			W,		75000,		10000
 	MSFC_AK12M,				W,		75000,		10000
 	MSFC_AK13M,				W,		75000,		10000
 	MSFC_RPK74,				W,		75000,		10000	
@@ -3376,34 +3386,34 @@
 		
 <Category> SQUAD MSF-C Weapon Magazines
 
-//        MSFC_PMAG762_Mag_30Rnd_Desert,                          *,      440,     155
-//        MSFC_PMAG762_Mag_30Rnd_Green,                           *,      440,     155
-//        MSFC_PMAG556_Mag_30Rnd_Desert,                          *,      440,     155
-//        MSFC_PMAG556_Mag_30Rnd_Green,                           *,      440,     155
-//        MSFC_Tigr308_10_Rnd,                                    *,      440,     155
-//        MSFC_RPK_Mag_45Rnd,                                     *,      440,     155
-//        MSFC_SCAR17_Mag_20Rnd,                                  *,      440,     155
-//        MSFC_PMAG762_Mag_30Rnd,                                 *,      625,     310
-//        MSFC_PMAG556_Mag_30Rnd,                                 *,      625,     310
-//        MSFC_STANAG556_Mag_30Rnd,                               *,      625,     310
-//        MSFC_RPK74_Mag_45Rnd,                                   *,      625,     310
-//        MSFC_DRUM762_Mag_75Rnd,                                 *,      625,     310
-	MSFC_Mag_AK101_30Rnd_WHITE,									*,		350,		125
-	MSFC_Mag_AK74_30Rnd_WHITE,									*,		350,		125
-	MSFC_Mag_AKM_Drum75Rnd_WHITE,								*,		350,		125
-	MSFC_Mag_AKM_Palm30Rnd_WHITE,								*,		350,		125
-	MSFC_PMAG556_Mag_30Rnd,										*,		500,		250
-	MSFC_PMAG556_Mag_30Rnd_Desert,								*,		350,		125
-	MSFC_PMAG556_Mag_30Rnd_Green,								*,		350,		125
-	MSFC_PMAG762_Mag_30Rnd,										*,		500,		250
-	MSFC_PMAG762_Mag_30Rnd_Desert,								*,		350,		125
-	MSFC_PMAG762_Mag_30Rnd_Green,								*,		350,		125
-	MSFC_RPK_Mag_45Rnd,											*,		350,		125
-	MSFC_RPK16_DRUM_Mag_96Rnd,									*,		500,		250
-	MSFC_RPK74_Mag_45Rnd,										*,		500,		250
-	MSFC_SCAR17_Mag_20Rnd,										*,		350,		125
-	MSFC_STANAG556_Mag_30Rnd,									*,		500,		250
-	MSFC_Tigr308_10_Rnd,										*,		350,		125
+//      MSFC_PMAG762_Mag_30Rnd_Desert,                          *,      440,    155
+//      MSFC_PMAG762_Mag_30Rnd_Green,                           *,      440,    155
+//      MSFC_PMAG556_Mag_30Rnd_Desert,                          *,      440,    155
+//      MSFC_PMAG556_Mag_30Rnd_Green,                           *,      440,    155
+//      MSFC_Tigr308_10_Rnd,                                    *,      440,    155
+//      MSFC_RPK_Mag_45Rnd,                                     *,      440,    155
+//      MSFC_SCAR17_Mag_20Rnd,                                  *,      440,    155
+//      MSFC_PMAG762_Mag_30Rnd,                                 *,      625,    310
+//      MSFC_PMAG556_Mag_30Rnd,                                 *,      625,    310
+//      MSFC_STANAG556_Mag_30Rnd,                               *,      625,    310
+//      MSFC_RPK74_Mag_45Rnd,                                   *,      625,    310
+//      MSFC_DRUM762_Mag_75Rnd,                                 *,      625,    310
+//	MSFC_Mag_AK101_30Rnd_WHITE,				*,	350,	125
+//	MSFC_Mag_AK74_30Rnd_WHITE,				*,	350,	125
+//	MSFC_Mag_AKM_Drum75Rnd_WHITE,				*,	350,	125
+//	MSFC_Mag_AKM_Palm30Rnd_WHITE,				*,	350,	125
+	MSFC_PMAG556_Mag_30Rnd,					*,	500,	250
+	MSFC_PMAG556_Mag_30Rnd_Desert,				*,	350,	125
+	MSFC_PMAG556_Mag_30Rnd_Green,				*,	350,	125
+	MSFC_PMAG762_Mag_30Rnd,					*,	500,	250
+	MSFC_PMAG762_Mag_30Rnd_Desert,				*,	350,	125
+	MSFC_PMAG762_Mag_30Rnd_Green,				*,	350,	125
+	MSFC_RPK_Mag_45Rnd,					*,	350,	125
+	MSFC_RPK16_DRUM_Mag_96Rnd,				*,	500,	250
+	MSFC_RPK74_Mag_45Rnd,					*,	500,	250
+	MSFC_SCAR17_Mag_20Rnd,					*,	350,	125
+	MSFC_STANAG556_Mag_30Rnd,				*,	500,	250
+	MSFC_Tigr308_10_Rnd,					*,	350,	125
 		
 <Category> SQUAD MSF-C Weapon Attachments
         MSFC_AK_Zenitco_Handguard,                              *,      500,     250
