@@ -30,106 +30,123 @@
 
 				<Trader> Consume Trader
 								
-<Category> Vegetables									
-	Apple,				*,		50,		25
-	CaninaBerry,			*,		50,		25	
-	GreenBellPepper,		*,		25,		15		
-	Pear,				*,		50,		25
-	Plum,				*,		25,		15
-	Potato,				*,		25,		15
-	Pumpkin,			*,		25,		15	
-	SambucusBerry,			*,		50,		25	
-	Tomato,				*,		25,		15
-	Zucchini,			*,		15,		15	
-	AgaricusMushroom,		*,		25,		15		
-	AmanitaMushroom,		*,		25,		15		
-	AuriculariaMushroom,		*,		25,		15		
-	BoletusMushroom,		*,		25,		15		
-	LactariusMushroom,		*,		25,		15		
-	MacrolepiotaMushroom,		*,		25,		15		
-	PleurotusMushroom,		*,		25,		15		
-	PsilocybeMushroom,		*,		25,		15		
-									
-<Category> Packaged Food									
-	BakedBeansCan,			*,		150,		75	
-	BoxCerealCrunchin,		*,		400,		200		
-	Marmalade,			*,		150,		75	
-	PeachesCan,			*,		150,		75	
-	pickles_closed,                 *,            	250,		125						
-	PowderedMilk,			*,		250,		125	
-	Rice,				*,		400,		200
-	SardinesCan,			*,		100,		50	
-	SpaghettiCan,			*,		150,		75	
-	TacticalBaconCan,		*,		250,		125		
-	TunaCan,			*,		200,		100	
-									
-<Category> Meat									
-	BoarSteakMeat,			S,		-1,		300	
-	ChickenBreastMeat,		S,		-1,		300		
-	CowSteakMeat,			S,		-1,		150	
-	DeerSteakMeat,			S,		-1,		300	
-	GoatSteakMeat,			S,		-1,		175	
-	Lard,				S,		-1,		750
-	PigSteakMeat,			S,		-1,		175
-	SheepSteakMeat,			S,		-1,		175	
+<Category> Vegetables											
+	Apple,				*,		50,		25		
+	CaninaBerry,			*,		50,		25			
+	GreenBellPepper,		*,		25,		15				
+	Kiwi,				*,		25,		15						
+	Pear,				*,		50,		25		
+	Plum,				*,		25,		15		
+	Potato,				*,		25,		15										
+	Pumpkin,			*,		25,		15			
+	SambucusBerry,			*,		50,		25			
+	Tomato,				*,		25,		15		
+	Zucchini,			*,		15,		15			
+	AgaricusMushroom,		*,		25,		15				
+	AmanitaMushroom,		*,		25,		15				
+	AuriculariaMushroom,		*,		25,		15				
+	BoletusMushroom,		*,		25,		15				
+	LactariusMushroom,		*,		25,		15				
+	MacrolepiotaMushroom,		*,		25,		15				
+	PleurotusMushroom,		*,		25,		15				
+	PsilocybeMushroom,		*,		25,		15				
+											
+											
+<Category> Packaged Food											
+	BakedBeansCan,			*,		150,		75			
+	BoxCerealCrunchin,		*,		400,		200				
+	Marmalade,			*,		150,		75			
+	PeachesCan,			*,		150,		75			
+	PowderedMilk,			*,		250,		125			
+	Rice,				*,		400,		200		
+	SardinesCan,			*,		100,		50			
+	SpaghettiCan,			*,		150,		75			
+	TacticalBaconCan,		*,		250,		125				
+	TunaCan,			*,		200,		100			
+											
+											
+<Category> Other edibles											
+	ketchup_mung,			*,		75,		40							
+	MassGoatStew,			*,		-1,		400					
+	MassRavioli,			*,		150,		75					
+	pickles_closed,                 *,            	250,		125							
+	sandwich_mung,			*,		500,		250					
+	vinegar_mung,			*,		75,		40					
+	Vodka,				*,		200,		100				
+	wonderbread_mung,		*,		200,		100						
+											
+											
+<Category> Meat											
+	BoarSteakMeat,			S,		-1,		300			
+	Bone,				10,		-1,		200
+	ChickenBreastMeat,		S,		-1,		300				
+	CowSteakMeat,			S,		-1,		150			
+	DeerSteakMeat,			S,		-1,		300			
+	GoatSteakMeat,			S,		-1,		175			
+	Guts,				S,		-1,		400						
+	Lard,				S,		-1,		750		
+	PigSteakMeat,			S,		-1,		175			
+	SheepSteakMeat,			S,		-1,		175			
 	WolfSteakMeat,			S,		-1,		225
 
-<Category> Fish
-	Carp,				1,		-1,		250
-	Mackerel,			1,		-1,		250
-	Sardines,			1,		-1,		250
-	zeroy_chub,			1,		-1,		250	
-	zeroy_cod,			1,		-1,		250
-	zeroy_pike,			1,		-1,		250
-	zeroy_shell,			1,		-1,		250	
-									
-<Category> Drinks									
-	Canteen,			*,		400,		200	
-	SodaCan_Cola, 			*,		200,		100	
-	SodaCan_Kvass, 			*,		200,		100	
-	SodaCan_Pipsi, 			*,		200,		100	
-	SodaCan_Spite, 			*,		200,		100	
-	WaterBottle,			*,		200,		100	
-									
-<Category> Medical Supplies									
-	//Defibrillator,		*,		35, 		20		
-	//InjectionVial,		*,		5, 		2		
-	//Rag,				1,		1,		0
-	//Syringe,			*,		8, 		5	
-	BandageDressing,		2,		150,		75		
-	BloodBagEmpty,			*,		75,		50	
-	BloodTestKit,			*,		50,		25	
-	DisinfectantSpray,		*,		500,		250		
-	FirstAidKit,			*,		1000,		500	
-	SalineBag,			*,		100,		50	
-	StartKitIV,			*,		100,		50	
-	Thermometer,			*,		500,		250	
-									
-<Category> Medications									
-	CharcoalTablets,		*,		250,		125		
-	DisinfectantAlcohol,		*,		200,		100		
-	Epinephrine,			*,		100,		50	
-	Morphine,			*,		100,		50	
-	PainkillerTablets,		*,		100,		50		
-	TetracyclineAntibiotics,	*,		250,		125			
-	VitaminBottle,			*,		500,		250	
-									
-<Category> Animal Pelt									
-	CowPelt,                	*,      	-1,   		1500				
-	DeerPelt,               	*,      	-1,   		3750				
-	GoatPelt,               	*,      	-1,   		2000				
-	PigPelt,                	*,      	-1,   		2000				
-	SheepPelt,              	*,      	-1,   		2000				
-	WildboarPelt,           	*,      	-1,   		3750				
-	WolfPelt,               	*,      	-1,   		1750					
-									
-<Category> Money Exchange (stacks of 10)									
-	MoneyRuble1,			10,		10,		-1	
-	MoneyRuble5,			10,		50,		-1	
-	MoneyRuble10,			10,		100,		-1	
-	MoneyRuble25,			10,		250,		-1	
-	MoneyRuble50,			10,		500,		-1	
-	MoneyRuble100,			10,		1000,		-1	
+<Category> Animal Pelt											
+	CowPelt,                	*,      	-1,   		1500						
+	DeerPelt,               	*,      	-1,   		3750						
+	GoatPelt,               	*,      	-1,   		2000						
+	PigPelt,                	*,      	-1,   		2000						
+	SheepPelt,              	*,      	-1,   		2000						
+	WildboarPelt,           	*,      	-1,   		3750						
+	WolfPelt,               	*,      	-1,   		1750			
+											
+<Category> Fish											
+	Carp,				1,		-1,		250		
+	Mackerel,			1,		-1,		250			
+	Sardines,			1,		-1,		250			
+	zeroy_chub,			1,		-1,		250			
+	zeroy_cod,			1,		-1,		250			
+	zeroy_pike,			1,		-1,		250			
+	zeroy_shell,			1,		-1,		250			
+											
+<Category> Drinks											
+	Canteen,			*,		400,		200			
+	SodaCan_Cola, 			*,		200,		100			
+	SodaCan_Kvass, 			*,		200,		100			
+	SodaCan_Pipsi, 			*,		200,		100			
+	SodaCan_Spite, 			*,		200,		100			
+	WaterBottle,			*,		200,		100			
+											
+<Category> Medical Supplies											
+	//Defibrillator,		*,		35, 		20				
+	//InjectionVial,		*,		5, 		2				
+	//Rag,				1,		1,		0		
+	//Syringe,			*,		8, 		5			
+	BandageDressing,		2,		150,		75				
+	BloodBagEmpty,			*,		75,		50			
+	BloodTestKit,			*,		50,		25			
+	DisinfectantSpray,		*,		500,		250				
+	FirstAidKit,			*,		1000,		500			
+	SalineBag,			*,		100,		50			
+	StartKitIV,			*,		100,		50			
+	Thermometer,			*,		500,		250			
+											
+<Category> Medications											
+	CharcoalTablets,		*,		250,		125				
+	DisinfectantAlcohol,		*,		200,		100				
+	Epinephrine,			*,		100,		50			
+	Morphine,			*,		100,		50			
+	PainkillerTablets,		*,		100,		50				
+	PurificationTablets,		*,		250,		125								
+	TetracyclineAntibiotics,	*,		250,		125					
+	VitaminBottle,			*,		500,		250			
+											
+<Category> Money Exchange (stacks of 10)											
+	MoneyRuble1,			10,		10,		-1			
+	MoneyRuble5,			10,		50,		-1			
+	MoneyRuble10,			10,		100,		-1			
+	MoneyRuble25,			10,		250,		-1			
+	MoneyRuble50,			10,		500,		-1			
+	MoneyRuble100,			10,		1000,		-1			
+
 		
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -372,121 +389,177 @@
 	NailedBaseballBat,			W,		100,		20	
 	Pipe,					W,		50,		10
 	StunBaton,				W,		500,		100
+
+<Category> Grenades									
+	F1Grenade,				W, 		2000,		400
+	FrashGrenade,M67Grenade,		W, 		2000,		400
+	GermanGrenade,				W, 		2000,		400
+	M18SmokeGrenade_Green,          	W, 		500, 		100
+	M18SmokeGrenade_Purple,          	W, 		500, 		100
+	M18SmokeGrenade_Red,          		W, 		500,		100
+	M18SmokeGrenade_White,          	W, 		500,		100
+	M18SmokeGrenade_Yellow,          	W, 		500, 		100
+	MK2Grenade,				W, 		2000,		400
+	RDG2SmokeGrenade_Black,         	W, 		500,		100
+	RDG2SmokeGrenade_White,         	W, 		500, 		100
+	RGD5Grenade,				W, 		2000,		400									
+
+<Category> Fireguns									
+	AK101,					W,		20000,		3300	
+	AK74,					W,		20000,		3300	
+	AKM,					W,		20000,		3300	
+	AKS74U,					W,		17000,		2750	
+	AKSR,                            	W,        	25000,    	4000
+	AR15,                            	W,       	20000,    	3300
+	CZ527,					W,		15000,		2500	
+	CZ61,					W,		6000,		600	
+	CZ75,					W,		3500,		500	
+	FAL,					W,		25000,		4000	
+	FNX45,					W,		3500,		500	
+	Glock19,				W,		3500,		500		
+	Izh18,					W,		2500,		450	
+	M4A1,					W,		20000,		3300	
+	MakarovIJ70,				W,		1500,		300		
+	MKII,					W,		1750,		350	
+	Mosin9130,				W,		25000,		4000		
+	Mp133Shotgun,				W,		12000,		2000		
+	MP5K,					W,		12500,		2100	
+	SawedoffMosin9130,			W,		15000,		2500	
+	SKS,					W,		12500,		2100	
+	SVD,					W,		25000,		4000	
+	UMP45,					W,		15000,		2500	
+	VSS,					W,		20000,		3300	
+	Winchester70,				W,		25000,		4000		
 									
-<Category> Vanilla Guns									
-	AKM,					W,		20000,		3300
-	AKS74U,					W,		17000,		2750
-	AK101,					W,		20000,		3300
-	CZ527,					W,		15000,		2500
-	CZ61,					W,		2000,		400
-	CZ75,					W,		3500,		500
-	FAL,					W,		25000,		4000
-	FNX45,					W,		2500,		450
-	Glock19,				W,		3500,		500
-	Izh18,					W,		2500,		450
-	M4A1,					W,		20000,		3300
-	MakarovIJ70,				W,		1500,		300
-	MKII,					W,		1750,		350
-	Mosin9130,				W,		25000,		4000
-	Mp133Shotgun,				W,		12000,		2000
-	MP5K,					W,		12500,		2100
-	SKS,					W,		12500,		2100
-	SVD,					W,		25000,		4000
-	UMP45,					W,		15000,		2500
-	VSS,					W,		20000,		3300
-	Winchester70,				W,		25000,		4000
-									
-<Category> Mass Sidearms									
+<Category> Mass Weapons									
 	MassG18,                		W,      	4000,   	1000				
 	MassG18_Green,          		W,      	4000,   	1000				
-									
-<Category> Mass Rifles									
-	MassM19,              			W,      	4500,    	1000			
-	MassM19_Wood,           		W,      	4500,   	1000				
-	Massmini14,             		W,      	5000,    	1250				
-									
-<Category> Mass Shotguns									
 	Massarmsan,			    	W,		15000,		2500
 	MassStevens301,         		W,      	1500,   	500				
 	MassStevens301_green,   		W,      	1500,   	500				
 	MassStevens301_tan,     		W,      	1500,   	500				
-									
-<Category> Mass Assault Rifles									
-	MassAR15,               		W,		20000,		3300			
-	MassB52,			    	W,		20000,		3300	
-	MassPPSH41,			   	W,		20000,		3300	
-	MassPPSH41_Black,	    		W,		20000,		3300		
-	MassPPSH41_Camo,			W,		20000,		3300		
-	MassPPSH41_Green,	    		W,		20000,		3300	
-	MassPpskn,			    	W,		20000,		3300	
-									
-//<Category> Light Machine Guns									
-									
-<Category> Mass Sniper Rifles									
-	MassKivaari,				W,		-1,		20000
+	MassStevens301SHORT,			W,      	1500,   	500			
+	MassStevens301SHORT_green,		W,      	1500,   	500				
+	MassStevens301SHORT_tan,		W,      	1500,   	500				
+	MassStevens301SuperShort,		W,      	1500,   	500				
+	MassStevens301SuperShort_green,		W,      	1500,   	500				
+	MassStevens301SuperShort_tan,		W,      	1500,   	500				
+	MassAR15,               		W,		20000,		3300		
+	MassB52,			    	W,		20000,		3300
 	MassM110,			    	W,		25000,		4000
+	MassPPSH41,			   	W,		20000,		3300
+	MassPPSH41_Black,	    		W,		20000,		3300	
+	MassPPSH41_Camo,			W,		20000,		3300	
+	MassPPSH41_Green,	    		W,		20000,		3300	
+	MassPpskn,			    	W,		20000,		3300
+	MassKivaari,				W,		-1,		20000
+	MassM19,              			W,      	4500,    	1000			
+	MassM19_Wood,           		W,      	4500,   	1000				
 	Massm300,			    	W,		75000,		15000
 	Massm300_camo,				W,		75000,		15000
+	Massmini14,             		W,      	5000,    	1250				
 	MassScout556,				W,		10000,		2000
 	MassSVT40,			    	W,		-1,		20000
 	MassSVT40_Black,			W,		-1,		20000	
 	MassSVT40_Camo,				W,		-1,		20000
 	MassSVT40_Green,	    		W,		-1,		20000	
 									
-<Category> Grenades									
-	M18SmokeGrenade_Green,          	W, 		500, 		100								
-	M18SmokeGrenade_Purple,          	W, 		500, 		100								
-	M18SmokeGrenade_Yellow,          	W, 		500, 		100								
-	RDG2SmokeGrenade_White,         	W, 		500, 		100								
-									
+<Category> Munghard's Item Pack Weapons
+	csmcmillan_mung,			W,		20000,		3300
+	diana_m27_mung,				W,		2500,		450
+	Gewehr43_mung,				W,		20000,		3300
+	izh54_mung,				W,		10000,		1700
+	lebedev_PL15_mung,			W,		2000,		500
+	Mag_cs5_10Rnd_mung,			M,		500,		100
+	Mag_gewehr43_10Rnd_mung,		M,		500,		100
+	Nagant1895_mung,			W,		3500,		500
+
 <Category> Arma Weapon Pack Remastered									
-	A2AA12, 				W, 		20000, 		3300		
-	A2AA12_Magazine, 			W, 		1000, 		500			
-	A2AS50, 				W, 		-1,     	20000			
-	A2AS50_Magazine, 			W, 		1000, 		500			
-	A2bizon, 				W, 		15000, 		2500		
-	A2G36_C, 				W, 		20000, 		3300		
-	A2M14_DMR, 				W, 		75000, 		10000		
-	A2M16A4, 				W, 		25000,		4000		
-	A2M240, 				W, 		-1,     	20000			
-	A2M40A3, 				W, 		25000, 		4000		
-	A2M40A3_Magazine, 			W, 		1000, 		500			
-	A2MK16, 				W, 		20000, 		3300		
-	A2mk17, 				W, 		25000,		4000		
-	A2mk17_s, 				W, 		25000, 		4000		
-	A2MK48, 				W, 		-1, 		20000		
-	A2MK48_Magazine, 			W, 		1000, 		500			
-	A2WM110_black,				W, 		25000, 		4000		
-	A2WM110_desert, 			W, 		25000,		4000			
-	bizon_magazine, 			W, 		500, 		250			
-	DMRScope, 				W, 		10000, 		2000		
-	m240_magazine, 				W, 		1000, 		250
+	//A2107_Magazine,			M,		1000,		500						
+	//A2M107,				W,		-1,		20000					
+	A2AA12, 				W, 		20000, 		3300	
+	A2AA12_Magazine, 			M, 		1000, 		500		
+	A2AS50, 				W, 		-1,     	20000		
+	A2AS50_Magazine, 			M, 		1000, 		500		
+	A2bizon, 				W, 		15000, 		2500	
+	A2G36_C, 				W, 		20000, 		3300	
+	A2M14_DMR, 				W, 		75000, 		10000	
+	A2M14_DMRMAG, 				M,		500,		250					
+	A2M16A4, 				W, 		25000,		4000	
+	A2M240, 				W, 		-1,     	20000		
+	A2M40A3, 				W, 		25000, 		4000	
+	A2M40A3_Magazine, 			M, 		1000, 		500		
+	A2MK16, 				W, 		20000, 		3300	
+	A2mk17, 				W, 		25000,		4000	
+	A2mk17_mag,				M,		500,		250					
+	A2mk17_s, 				W, 		25000, 		4000	
+	A2MK48, 				W, 		-1, 		20000	
+	A2MK48_Magazine, 			M, 		1000, 		500		
+	A2WM110_black,				W, 		25000, 		4000	
+	A2WM110_desert, 			W, 		25000,		4000		
+	A2WM110_mag,				M,		500,		250					
+	bizon_magazine, 			M,		500,		250		
+	DMRScope, 				W, 		10000, 		2000	
+	L85A2,					W, 		20000, 		3300				
+	L85A2_NoGrip,				W, 		20000, 		3300					
+	m240_magazine, 				M, 		1000, 		250	
+	Mag_L85A2_30Rnd				M,		500,		250					
+
+<Category> Weapon's Expansion Pack
+	//WE_AR15_Olive,			W,		20000,		3300
+	//WE_AR15_Tan,				W,		20000,		3300
+	//WE_DesertEagle,			W,		20000,		3300
+	//WE_HoneyBadger,			W,		20000,		3300
+	//WE_HoneyBadger_Black,			W,		20000,		3300
+	//WE_HoneyBadger_Olive,			W,		20000,		3300
+	//WE_Luger,				W,		2000,		400
+	//WE_M82,				W,		20000,		3300
+	//WE_RK92_Olive,			W,		20000,		3300
+	//WE_RK92_Tan,				W,		20000,		3300
+	//WE_SSG69_Black,			W,		25000,		4000
+	//WE_SSG69_Olive,			W,		25000,		4000
+	WE_ACR,					W,		20000,		3300
+	WE_AR15,				W,		20000,		3300
+	WE_M16A3,				W,		20000,		3300
+	WE_M24A3,				W,		75000,		15000
+	WE_M9,					W,		3500,		500
+	WE_MAT49,				W,		12500,		2100
+	WE_MP5SD,				W,		15000,		2500
+	WE_PSG1,				W,		20000,		3300
+	WE_RK92,				W,		20000,		3300
+	WE_SSG69,				W,		25000,		4000
+	WE_STG44,				W,		20000,		3300
 
 <Category> Weapon Redux Pack
-	gp_AugSteyr,				W,		20000,		3300
-	gp_Blaze95,				W,		15000,		2500
-	gp_Blaze95New,				W,		15000,		2500
-	GP_Colt1911,				W,		3500,		500
-	GP_Colt1911Engraved,			W,		3500,		500
+	gp_AugSteyr,				W,		20000,		3300	
+	gp_Blaze95,				W,		15000,		2500	
+	gp_Blaze95New,				W,		15000,		2500	
+	GP_Colt1911,				W,		3500,		500	
+	GP_Colt1911Engraved,			W,		3500,		500		
 	gp_DE,					W,		8000,		1200
-	gp_DE,					W,		8000,		1200
-	gp_Longhorn,				W,		15000,		2500
-	gp_M249,				W,		75000,		10000
-	gp_MiniUzi,				W,		12500,		2100
+	GP_izh43new,				W,		10000,		1700	
+	GP_izh43new_SawedOff,			W,		10000,		1700	
+	gp_Longhorn,				W,		15000,		2500	
+	gp_M249,				W,		75000,		10000	
+	gp_MiniUzi,				W,		12500,		2100	
 	gp_P1,					W,		1500,		300
-	gp_Ruger1022,				W,		12500,		2100
-	gp_Saiga12kShotgun,			W,		15000,		2500
-	gp_ScoutNew,				W,		15000,		2500
-	gp_shotgunizh43,			W,		12000,		2000
-	gp_Trumpet,				W,		12500,		2100
+	gp_Ruger1022,				W,		12500,		2100	
+	GP_Ruger1022_Black,			W,		12500,		2100	
+	GP_Ruger1022_Green,			W,		12500,		2100	
+	gp_Saiga12kShotgun,			W,		15000,		2500		
+	gp_ScoutNew,				W,		15000,		2500	
+	gp_ScoutNew_Black,			W,		15000,		2500	
+	gp_ScoutNew_Green,			W,		15000,		2500	
+	gp_shotgunizh43,			W,		12000,		2000		
+	gp_Trumpet,				W,		12500,		2100	
 
-<Category> Military Overhault Pack                    					
+//<Category> Military Overhault Pack                    					
 	//AdminHatchet,                    	*,        	500000,    	500000
 	//AdminSaw,                        	*,        	500000,    	500000
 	//LandMineTimeBased,                	*,        	200,    	50
 	//LandMineTrap,                    	*,        	200,    	50
-	AKSR,                            	W,        	25000,    	4000
-	AR15,                            	W,       	20000,    	3300
+	//AKSR,                            	W,        	25000,    	4000
+	//AR15,                            	W,       	20000,    	3300
 	
 		
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
