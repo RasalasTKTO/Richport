@@ -216,9 +216,9 @@
 	Spotlight,			*,		600,		200			
 												
 <Category> Cooking & Hunting Supplies											
-	LeatherKnifeSheath              *,             500,   		250										
-	NylonKnifeSheath,               *,             500,   		250										
-	PurificationTablets,		*,		 5,		2			
+	LeatherKnifeSheath,             *,              500,   		250										
+	NylonKnifeSheath,               *,              500,   		250										
+	PurificationTablets,		*,		250,		125			
 	Pot,				*,		25,		10	
 	Tripod,				*,		35,		15	
 												
@@ -259,9 +259,6 @@
 	TannedLeather,			*,		4,		1		
 	WoodenPlank,			*,		50,		15		
 	XmasLights,			*,		25,		10		
-	CarTent,			*,		5000,		700		
-	LargeTent,			*,		7000,		1200		
-	MediumTent,			*,		3000,		500
 
 <Category> Base Fortifications						
 	CementBag,			*,        	500,    	100	
@@ -288,15 +285,17 @@
 	Skyline_Kit_Shelf,		*,        	4500,    	1500		
 	Skyline_Kit_StorageBox,		*,        	5000,    	1800		
 
-
 <Category> Tents											
+	CarTent,			*,		5000,		700		
+	LargeTent,			*,		7000,		1200		
+	MediumTent,			*,		3000,		500	
 	makeshifttent_mung,		*,		1000,		500			
 	OP_ImpTent,			*,		3000,		500		
 	OP_Tentbase,			*,		3000,		500		
 	OP_Tentbase2,			*,		3000,		500		
 	OP_Tentbase3,			*,		3000,		500		
-	SneakyMakeShiftTent2Kit		*,		1000,		500			
-	SneakyMakeShiftTentKit		*,		1000,		500			
+	SneakyMakeShiftTent2Kit,	*,		1000,		500			
+	SneakyMakeShiftTentKit,		*,		1000,		500			
 												
 <Category> OP_Baseitems											
     	Gardenbox,			*,		600,		200		
