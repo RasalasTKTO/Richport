@@ -392,7 +392,8 @@
 
 <Category> Grenades									
 	F1Grenade,				W, 		2000,		400
-	FrashGrenade,M67Grenade,		W, 		2000,		400
+	FrashGrenade,				W,		500,		100
+	M67Grenade,				W, 		2000,		400
 	GermanGrenade,				W, 		2000,		400
 	M18SmokeGrenade_Green,          	W, 		500, 		100
 	M18SmokeGrenade_Purple,          	W, 		500, 		100
@@ -503,7 +504,7 @@
 	L85A2,					W, 		20000, 		3300				
 	L85A2_NoGrip,				W, 		20000, 		3300					
 	m240_magazine, 				M, 		1000, 		250	
-	Mag_L85A2_30Rnd				M,		500,		250					
+	//Mag_L85A2_30Rnd			-M,		500,		250					
 
 <Category> Weapon's Expansion Pack
 	//WE_AR15_Olive,			W,		20000,		3300
@@ -531,8 +532,9 @@
 	WE_STG44,				W,		20000,		3300
 
 <Category> Weapon Redux Pack
-	gp_AugSteyr,				W,		20000,		3300	
-	gp_Blaze95,				W,		15000,		2500	
+	//gp_Blaze95,				W,		15000,		2500
+	//gp_shotgunizh43,			W,		12000,		2000	
+	gp_AugSteyr,				W,		20000,		3300
 	gp_Blaze95New,				W,		15000,		2500	
 	GP_Colt1911,				W,		3500,		500	
 	GP_Colt1911Engraved,			W,		3500,		500		
@@ -550,7 +552,6 @@
 	gp_ScoutNew,				W,		15000,		2500	
 	gp_ScoutNew_Black,			W,		15000,		2500	
 	gp_ScoutNew_Green,			W,		15000,		2500	
-	gp_shotgunizh43,			W,		12000,		2000		
 	gp_Trumpet,				W,		12500,		2100	
 
 //<Category> Military Overhault Pack                    					
@@ -2337,7 +2338,7 @@
 	MSFC_BIG_BACKPACK_MulticamSnow,                 	*,	3000,	1500
         MSFC_SMALL_BACKPACK_MulticamSnow,	            	*,	1000,	500
 		
-	<Category> SQUAD MSF-C Other Clothes
+<Category> SQUAD MSF-C Other Clothes
         MSFCIIIM6800GasMaskFilter,                              *,      500,      250
         MSFC_ZSh12M_Visor_Bandit,                               *,      1000,     650
         MSFCOpsCoreHeadPhones_Desert,                           *,      1000,     650
@@ -3905,47 +3906,64 @@
 	Mag_PPSH_50Rnd,                 M,      2000,   1000
 	Mag_DesertEgle_9rnd,            M,      2000,   1000
 
-<Category> FIDOv4 Ammobox
-	AmmoBox_12x99_10Rnd_TracerGreen,      *,	200,	40
-	AmmoBox_12x99_10Rnd_TracerYell,       *,	200,	40
-	AmmoBox_762x25_25Rnd,                 *,	100,	20
-	AmmoBox_762x33_20Rnd,                 *,	100,	20
-	AmmoBox_792x57_25Rnd,                 *,	100,	20
-	AmmoBox_9x39_20Rnd_Tracer,            *,	200,	40
-	AmmoBox_12x99_10Rnd,                  *,	100,	20
-	AmmoBox_5_7_x28,                      *,        100,    20
-    AmmoBox_5_7_x28_Tracer,    		      *,        200,    40
-	AmmoBox_792x33,                       *,        100,    20
-	AmmoBox_9x18,                         *,        100,    20
-	AmmoBox_338Tracer,                    *,        200,    40
-	AmmoBox_338,                          *,        100,    20
-	AmmoBox_00buck_10rnd_Tracer,          *,        200,    40
-	AmmoBox_408CT_10rnd,                  *,        100,    40
-	AmmoBox_00buck_Needles_10rnd,         *,        100,    50
-	AmmoBox_00buck_Tracers_10rnd,         *,        100,    50
-		
-<Category> FIDOv4 Ammo
-	Ammo_nails,                  	10,		50,	15
-	Ammo_12x99,                  	1,		10,	5
-	//Ammo_9x39Tracer,           	1,		10,	5
-	Ammo_792x57,                 	1,		10,	5
-	Ammo_762x33,                 	1,		10,	5
-	Ammo_762x25,                 	1,		10,	5
-	//Ammo_12x99Tracer_Yell,     	1,		10,	5
-	//Ammo_12x99Tracer_Green,    	1,		10,	5
-	Ammo_792x33,                 	1,		10,	5
-	Ammo_9x18,                   	1,		10,	5
-	//Ammo_338tracer,            	1,		10,	5
-	Ammo_338,                    	1,		10,	5
-	Ammo_shock,                  	1,		10,	5
-	//Ammo_12gaPellets_tracer,   	1,		10,	5
-	Ammo_4x30,                   	1,		10,	5
-	//Ammo_5_7x28Tracer,         	1,		10,	5
-	Ammo_5_7x28,                 	1,		10,	5
-	//Ammo_408TRACER,            	1,		10,	5
-	Ammo_408,                    	1,		10,	5
-	Ammo_12_7x55,                	1,		10,	5
-	Ammo_12gaNeedles,               1,		10,	5		
+<Category> FIDOv4 Ammunition (full stacks)
+	Ammo_nails,				*,		100,		20
+	Ammo_shock,				*,		100,		20
+	Ammo_12x99,				*,		500,		100
+	Ammo_12x99Tracer_Green,			*,		500,		100
+	Ammo_12x99Tracer_Yell,			*,		500,		100
+	Ammo_12_7x55,				*,		500,		100
+	Ammo_12GaBB,				*,		50,		10
+	Ammo_12gaNeedles,			*,		300,		60
+	Ammo_12gaPellets_tracer,		*,		300,		60
+	Ammo_303,				*,		500,		100
+	Ammo_338,				*,		500,		100
+	Ammo_338Tracer,				*,		500,		100
+	//Ammo_357,				*,		500,		100
+	Ammo_408,				*,		750,		200
+	Ammo_408Chey,				*,		750,		200
+	Ammo_408Tracer,				*,		750,		200	
+	Ammo_4x30,				*,		500,		100
+	Ammo_5_7x28Tracer,			*,		500,		100
+	Ammo_5_7x28Tracer,			*,		500,		100
+	Ammo_50Cal,				*,		750,		200
+	Ammo_762x25,				*,		500,		100	
+	Ammo_762x33,				*,		500,		100
+	Ammo_792x33,				*,		500,		100	
+	Ammo_792x57,				*,		500,		100
+	Ammo_9x18,				*,		500,		100
+	Ammo_9x39Tracer,			*,		250,		50
+		// When changing Prices here keep in Mind that Players							
+		// can just unpack the Ammoboxes and sell the Ammo seperatly!							
+		// Originally the Ammoboxes buying Price is 20% less than							
+		// buying single Ammo. The Selling Price is the same as							
+		// selling the Ammo seperately.
+	//AmmoBox_12_7x55,			*,		-1,		100
+	//AmmoBox_357_20Rnd,			*,		-1,		100
+	//AmmoBox_408Tracer,			*,		-1,		100
+	//AmmoBox_4x30,				*,		-1,		100
+	//AmmoBox_50Cal,			*,		-1,		100
+	AmmoBox_00buck_10rnd_Tracer,		*,		-1,		15
+	AmmoBox_00buck_Needles_10rnd,		*,		-1,		15
+	AmmoBox_00buck_Tracers_10rnd,		*,		-1,		15
+	AmmoBox_12GaBB,				*,		-1,		5
+	AmmoBox_12x99_10Rnd,			*,		-1,		25
+	AmmoBox_12x99_10Rnd_TracerGreen,	*,		-1,		25
+	AmmoBox_12x99_10Rnd_TracerYell,		*,		-1,		25
+	AmmoBox_303_15rnd,			*,		-1,		25
+	AmmoBox_338,				*,		-1,		25
+	AmmoBox_338Tracer,			*,		-1,		25
+	AmmoBox_408Chey,			*,		-1,		50
+	AmmoBox_408CT_10rnd,			*,		-1,		50
+	AmmoBox_5_7_x28,			*,		-1,		25
+	AmmoBox_5_7_x28_Tracer,			*,		-1,		25
+	AmmoBox_762x25_25Rnd,			*,		-1,		25
+	AmmoBox_762x33_20Rnd,			*,		-1,		25
+	AmmoBox_792x33,				*,		-1,		25
+	AmmoBox_792x57_25Rnd,			*,		-1,		25
+	AmmoBox_9x18,				*,		-1,		25
+	AmmoBox_9x39_20Rnd_Tracer,		*,		-1,		15
+	MassAmmoBox_556x45_10Rnd,		*,		-1,		10		
 
 <Category> FIDOv4 Suppressors
 	556_Suppressor,			*,		1400,	200
