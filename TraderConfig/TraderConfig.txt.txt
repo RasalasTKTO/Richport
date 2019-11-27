@@ -475,35 +475,24 @@
 	Nagant1895_mung,			W,		3500,		500
 
 <Category> Arma Weapon Pack Remastered									
-	//A2107_Magazine,			M,		1000,		500						
-	//A2M107,				W,		-1,		20000					
+	//L85A2,				W, 		20000, 		3300
+	//L85A2_NoGrip,				W, 		20000, 		3300	
 	A2AA12, 				W, 		20000, 		3300	
-	A2AA12_Magazine, 			M, 		1000, 		500		
 	A2AS50, 				W, 		-1,     	20000		
-	A2AS50_Magazine, 			M, 		1000, 		500		
 	A2bizon, 				W, 		15000, 		2500	
 	A2G36_C, 				W, 		20000, 		3300	
 	A2M14_DMR, 				W, 		75000, 		10000	
-	A2M14_DMRMAG, 				M,		500,		250					
 	A2M16A4, 				W, 		25000,		4000	
 	A2M240, 				W, 		-1,     	20000		
 	A2M40A3, 				W, 		25000, 		4000	
-	A2M40A3_Magazine, 			M, 		1000, 		500		
 	A2MK16, 				W, 		20000, 		3300	
 	A2mk17, 				W, 		25000,		4000	
-	A2mk17_mag,				M,		500,		250					
 	A2mk17_s, 				W, 		25000, 		4000	
 	A2MK48, 				W, 		-1, 		20000	
-	A2MK48_Magazine, 			M, 		1000, 		500		
 	A2WM110_black,				W, 		25000, 		4000	
 	A2WM110_desert, 			W, 		25000,		4000		
-	A2WM110_mag,				M,		500,		250					
-	bizon_magazine, 			M,		500,		250		
 	DMRScope, 				W, 		10000, 		2000	
-	L85A2,					W, 		20000, 		3300				
-	L85A2_NoGrip,				W, 		20000, 		3300					
-	m240_magazine, 				M, 		1000, 		250	
-	//Mag_L85A2_30Rnd			-M,		500,		250					
+					
 
 <Category> Weapon's Expansion Pack
 	//WE_AR15_Olive,			W,		20000,		3300
@@ -704,13 +693,13 @@
 	Mag_AK74_30Rnd,			M,		200,		100
 	Mag_AK101_30Rnd,		M,		220,		110
 	Mag_AKM_30Rnd,			M,		220,		110
-	Mag_cs5_10Rnd_mung,		M,		200,	 	100
+	Mag_AKSR_30Rnd,			M,		300,		150
+	Mag_AR15_30Rnd,			M,		220,		110
 	Mag_CZ527_5rnd,			M,		60,		30
 	Mag_CZ61_20Rnd,			M,		100,		50
 	Mag_CZ75_15Rnd,			M,		40,		20
 	Mag_FAL_20Rnd,			M,		100,		50
 	Mag_FNX45_15Rnd,		M,		40,		20
-	Mag_gewehr43_10Rnd_mung,	M, 		400,	 	200
 	Mag_Glock_15Rnd,		M,		100,		25
 	Mag_IJ70_8Rnd,			M,		30,		15
 	Mag_MKII_10Rnd,			M,		500,		100
@@ -719,7 +708,19 @@
 	Mag_SVD_10Rnd,			M,		250,		125
         Mag_UMP_25Rnd,			M,		150,		75
 	Mag_VSS_10Rnd,			M,		220,		110
-									
+
+<Category> Arma Weapon Pack Remastered Magazines
+	//Mag_L85A2_30Rnd			M,		500,		250	
+	A2AA12_Magazine, 			M, 		1000, 		500	
+	A2AS50_Magazine, 			M, 		1000, 		500	
+	A2M14_DMRMAG, 				M,		500,		250
+	A2M40A3_Magazine, 			M, 		1000, 		500	
+	A2mk17_mag,				M,		500,		250
+	A2MK48_Magazine, 			M, 		1000, 		500	
+	A2WM110_mag,				M,		500,		250
+	bizon_magazine, 			M,		500,		250	
+	m240_magazine, 				M, 		1000, 		250
+								
 <Category> Mass Magazines									
 	kivaarimag,			M,		300,		150
 	Mag_Scout_5Rnd,         	M,		250,		100
@@ -3665,150 +3666,150 @@
 
 				<Trader> FIDOv4
 <Category> FIDOv4 Assault Rifles
-	DDM,			        W,	2500,	1000	
-	FP4_AK101_Blue,			W,	1500,	750	
-	FP4_AK101_red,			W,	1500,	750	
-	FP4_AKS74U_Brown,		W,	1200,	600	
-	FP4_AKS74U_Blue,		W,	1200,	600	
-	FP4_AKS74U_Red,			W,	1200,	600	
-	FP4_AKS74U,			W,	1200,	600	
-	FP4_AKS74U_Black,		W,	1200,	600	
-	FP4_AKS74U_Green,		W,	1200,	600	
-	FP4_AKS74U_Tactical,		W,	1200,	600	
-	AK12,    			W,	1500,	750	
-	AK12_camo,			W,	1500,	750	
-	AK12_camoCITY,			W,	1500,	750	
-	AK12_camoVKPO,			W,	1500,	750	
-	sg550,			        W,	1500,	750
-	SG552,			        W,	1500,	750	
-	AK74UM,			        W,	1500,	750	
-	ACE23,			        W,	2000,	1000	
-	ace23_desert,			W,	2200,	1100	
-	SCAR_OLD,			W,	2500,	1000	
-	FN_SCAR_OLD,			W,	2500,	1000
-	SCAR,			        W,	3000,	1000	
-	SCAR_Black,			W,	4000,	1000	
-	FN_SCAR_Black,			W,	4000,	1000
-	FN_SCAR_H,			W,	5000,	1100	
-	AS_VAL_WhiteSpray, 		W,	2000,	750	
-	AS_VAL,			        W,	2000,	750	
-	AS_VAL_Desert,			W,	2000,	750	
-	AS_VAL_green,			W,	2000,	750	
-	AS_VAL_M,			W,	2000,	750	
-	RPK,			        W,	1000,	500	
-	RPK_camo,			W,	1200,	600	
-	PKP,                    	W,      1000,   500
-	FP4_Groza,              	W,      2000,   1000
-	STG_44,                 	W,      2000,   1000
-	AN94,                   	W,      2000,   1000
-	L85A2,                  	W,      2000,   1000
-	L85A2_NoGrip,           	W,      2000,   1000
-	G36_C,                  	W,      2000,   1000
-	HK416A5,                	W,      2000,   1000
-	RPD,                    	W,      3500,   1000
-	FN_P90,                 	W,      2000,   1000
-	AEK973,                 	W,      2000,   1000
-	AEK971,                 	W,      2000,   1000
-	RK62,                   	W,      2000,   1000
-	F2000,                  	W,      2000,   1000
-	Tompson,                	W,      2000,   1000
-	HK_416,                 	W,      2000,   1000
-	G_43,                   	W,      2000,   1000
+	DDM,			        W,	20000,	3300	
+	FP4_AK101_Blue,			W,	20000,	3300	
+	FP4_AK101_red,			W,	20000,	3300	
+	FP4_AKS74U_Brown,		W,	20000,	3300	
+	FP4_AKS74U_Blue,		W,	20000,	3300	
+	FP4_AKS74U_Red,			W,	20000,	3300	
+	FP4_AKS74U,			W,	20000,	3300	
+	FP4_AKS74U_Black,		W,	20000,	3300	
+	FP4_AKS74U_Green,		W,	20000,	3300	
+	FP4_AKS74U_Tactical,		W,	20000,	3300	
+	AK12,    			W,	20000,	3300	
+	AK12_camo,			W,	20000,	3300	
+	AK12_camoCITY,			W,	20000,	3300	
+	AK12_camoVKPO,			W,	20000,	3300	
+	sg550,			        W,	20000,	3300
+	SG552,			        W,	20000,	3300	
+	AK74UM,			        W,	20000,	3300	
+	ACE23,			        W,	20000,	3300	
+	ace23_desert,			W,	20000,	3300	
+	SCAR_OLD,			W,	20000,	3300	
+	FN_SCAR_OLD,			W,	20000,	3300
+	SCAR,			        W,	20000,	3300	
+	SCAR_Black,			W,	20000,	3300	
+	FN_SCAR_Black,			W,	20000,	3300
+	FN_SCAR_H,			W,	20000,	3300	
+	AS_VAL_WhiteSpray, 		W,	20000,	3300	
+	AS_VAL,			        W,	20000,	3300	
+	AS_VAL_Desert,			W,	20000,	3300	
+	AS_VAL_green,			W,	20000,	3300	
+	AS_VAL_M,			W,	20000,	3300	
+	RPK,			        W,	20000,	3300	
+	RPK_camo,			W,	20000,	3300	
+	PKP,                    	W,      20000,  3300
+	FP4_Groza,              	W,      20000,  3300
+	STG_44,                 	W,      20000,  3300
+	AN94,                   	W,      20000,  3300
+	L85A2,                  	W,      20000,  3300
+	L85A2_NoGrip,           	W,      20000,  3300
+	G36_C,                  	W,      20000,  3300
+	HK416A5,                	W,      20000,  3300
+	RPD,                    	W,      20000,  3300
+	FN_P90,                 	W,      20000,  3300
+	AEK973,                 	W,      20000,  3300
+	AEK971,                 	W,      20000,  3300
+	RK62,                   	W,      20000,  3300
+	F2000,                  	W,      20000,  3300
+	Tompson,                	W,      20000,  3300
+	HK_416,                 	W,      20000,  3300
+	G_43,                   	W,      20000,  3300
 
 <Category> FIDOv4 Rifles
-	M1Carbine,			W,	1500,	750	
-	K_98,			        W,	-1,	2000
-	svt40,			        W,	1500,	750
-	FP4_M24_Rifle,           	W,      -1,   15000
-	SA_VZ58,                	W,      1500,   750
- 	M1_Garand,              	W,      -1,   15000
-	FNC,			        W,	1000,	500	
-	FP4_SOCOM_16,           	W,      2500,   750
-	Lee_Enf4,               	W,      1500,   750
+	M1Carbine,			W,	25000,	 4000
+	K_98,			        W,	-1,	 20000
+	svt40,			        W,	25000,	 4000
+	FP4_M24_Rifle,           	W,      -1,      20000
+	SA_VZ58,                	W,      25000,   4000
+ 	M1_Garand,              	W,      -1,   	 20000
+	FNC,			        W,	25000,	 4000	
+	FP4_SOCOM_16,           	W,      25000,   4000
+	Lee_Enf4,               	W,      25000,   4000
 
 <Category> FIDOv4 Handguns
-	PB1967,			        W,	500,	250	
-	COLT_1911,			W,	500,	250	
-	COLT_1911_Desert,		W,	700,	350	
-	COLT_1911_Camo,			W,	700,	350	
-	COLT_1911_Ranger,		W,	700,	350	
-	COLT_1911_Fury,			W,	700,	350	
-	COLT_1911_red,			W,	700,	350	
-	GSH18,			        W,	700,	350	
-	M1935,			        W,	700,	350	
-	p220,			        W,	700,	350	
-	NailgGun,			W,	500,	250	
-	glock_18,			W,	400,	200	
-	P99,			        W,	800,	400	
-	SR1M,			        W,	700,	350	
-	M9_Berreta,			W,	800,	400	
-	Pistol_Tokarev,			W,	700,	350	
-	Pistol_Tokarev_Old,		W,	700,	350
-	PM,			        W,	400,	200	
-	OTS33,			        W,	700,	350	
-	FP4_GLOCK19,			W,	700,	350
-	FP4_DE,			        W,	700,	350	
-	FP4_DesetEagle,	        	W,	700,	350
-	FP4_DesetEagle_Dark,		W,	1000,	500
-	USP,			        W,	400,	200	
-	FP4_ShockPistol,		W,	700,	350
-	FP4_shock_bat,			W,	200,	100
-	APS_Pistol,			W,	700,	350	
+	PB1967,			        W,	2500,	350	
+	COLT_1911,			W,	3000,	400	
+	COLT_1911_Desert,		W,	3000,	400	
+	COLT_1911_Camo,			W,	3000,	400	
+	COLT_1911_Ranger,		W,	3000,	400	
+	COLT_1911_Fury,			W,	3000,	400	
+	COLT_1911_red,			W,	3000,	400	
+	GSH18,			        W,	3000,	400	
+	M1935,			        W,	3000,	400	
+	p220,			        W,	3000,	400	
+	//NailgGun,			W,	500,	250	
+	glock_18,			W,	5000,	750	
+	P99,			        W,	2500,	350	
+	SR1M,			        W,	3500,	500	
+	M9_Berreta,			W,	3500,	500	
+	Pistol_Tokarev,			W,	2500,	350	
+	Pistol_Tokarev_Old,		W,	2500,	350
+	PM,			        W,	3500,	500	
+	OTS33,			        W,	3500,	500	
+	FP4_GLOCK19,			W,	3500,	500
+	FP4_DE,			        W,	8000,	1500	
+	FP4_DesetEagle,	        	W,	8000,	1500
+	FP4_DesetEagle_Dark,		W,	8000,	1500
+	USP,			        W,	3500,	500	
+	FP4_ShockPistol,		W,	1000,	200
+	FP4_shock_bat,			W,	1000,	200
+	APS_Pistol,			W,	3500,	500	
 
 <Category> FIDOv4 Shotguns
-	Saiga_12,			W,	3500,	1000
-	TOZ34,			        W,	1500,	750	
-	590_Shotgun,			W,	2000,	750	
-	M1912_Shotgun,			W,	1700,	750	
-	Mp153Shotgun_black,		W,	1750,	750	
-	Mp153Shotgun,			W,	1500,	750	
-	R870,			        W,	1500,	750	
-	RS_x1_Armtac,	        	W,	1500,	750	
-	RS_x1_Armtac_Pank,      	W,	1500,	750	
-	RS_x1_Armtac_TwoFire,   	W,	1500,	750	
-	RS_x1_Armtac_Desert,    	W,	1500,	750	
-	RS_x1_Armtac_berezka,   	W,	1500,	750	
-	VEPR12u,			W,	1500,	750	
-	VEPR12,			        W,	2000,	1000	
+	Saiga_12,			W,	18000,	3000
+	TOZ34,			        W,	12000,	2000	
+	590_Shotgun,			W,	12000,	2000	
+	M1912_Shotgun,			W,	12000,	2000	
+	Mp153Shotgun_black,		W,	12000,	2000	
+	Mp153Shotgun,			W,	12000,	2000	
+	R870,			        W,	12000,	2000	
+	RS_x1_Armtac,	        	W,	12000,	2000	
+	RS_x1_Armtac_Pank,      	W,	12000,	2000	
+	RS_x1_Armtac_TwoFire,   	W,	12000,	2000	
+	RS_x1_Armtac_Desert,    	W,	12000,	2000	
+	RS_x1_Armtac_berezka,   	W,	12000,	2000	
+	VEPR12u,			W,	12000,	2000	
+	VEPR12,			        W,	12000,	2000	
 
 <Category> FIDOv4 Sniper Rifles
-	VSK94,			        W,	25000,	2000
-	SVD_1963,			W,	7500,	1800
-	Vintorez_oldHard,		W,	2000,	1000
-	Vintorez_veteran,		W,	5000,	1000	
-	Vintorez,			W,	5000,	1000	
-	Vintorez_Old,			W,	5000,	1000
-	R700,			        W,	-1,	5000
-	PSG1,			        W,	25000,	2000
-	CS5,			        W,	10000,	2200
-	M98B,			        W,	-1,	3000
-	SV98,			        W,	-1,	3000
-	FP4_M24_Rifle_Snake,    	W,      -1,     2200
-	M200_Intervention,      	W,      50000,  7500
+	VSK94,			        W,	25000,	4000
+	SVD_1963,			W,	25000,	4000
+	Vintorez_oldHard,		W,	25000,	4000
+	Vintorez_veteran,		W,	25000,	4000	
+	Vintorez,			W,	25000,	4000	
+	Vintorez_Old,			W,	25000,	4000
+	R700,			        W,	-1,	20000
+	PSG1,			        W,	25000,	4000
+	CS5,			        W,	25000,	4000
+	M98B,			        W,	-1,	20000
+	SV98,			        W,	-1,	20000
+	FP4_M24_Rifle_Snake,    	W,      -1,     20000
+	M200_Intervention,      	W,      100000, 20000
  	VSSK,			        W,	-1,	50000
- 	L96A1,			        W,	-1,	10000
-	L96A1_tactical,         	W,      -1,     10000
+ 	L96A1,			        W,	-1,	20000
+	L96A1_tactical,         	W,      -1,     20000
 
 <Category> FIDOv4 Sub Machine Guns
-	KAC,			        W,	1500,	750
-	SR2,			        W,	1200,	600	
-	SR2_black,			W,	1500,	750	
-	MAC10,			        W,	1000,	500	
-	MAC10_desert,			W,	1500,	750	
-	CBJ,			        W,	1500,	750	
-	PP19_01,			W,	1500,	750	
-	MP40,			        W,	1500,	750	
-	PPSH,			        W,	1500,	750	
-	HK_MP7,			        W,	1500,	750	
-	TEC9,			        W,	1500,	750	
-	pp91,			        W,	1500,	750	
-	FP4_PPSH,			W,	1500,	750	
+	KAC,			        W,	15000,	2500
+	SR2,			        W,	15000,	2500	
+	SR2_black,			W,	15000,	2500	
+	MAC10,			        W,	15000,	2500	
+	MAC10_desert,			W,	15000,	2500	
+	CBJ,			        W,	15000,	2500	
+	PP19_01,			W,	15000,	2500	
+	MP40,			        W,	15000,	2500	
+	PPSH,			        W,	15000,	2500	
+	HK_MP7,			        W,	15000,	2500	
+	TEC9,			        W,	15000,	2500	
+	pp91,			        W,	15000,	2500
+	FP4_PPSH,			W,	15000,	2500	
 
 <Category> FIDOv4 Heavy Guns
 	//m82,			        *,	200000,	20000	
-	m82_308win,			*,	-1,	1500
-        m300_cheytac,			*,	-1,	1500	
-	M500,			        *,	30000,	1500	
+	m82_308win,			*,	-1,	20000
+        m300_cheytac,			*,	-1,	20000	
+	M500,			        *,	15000,	2500	
 
 <Category> FIDOv4 Magazines Part 1
 	Mag_M1_15Rnds,	                M,	300,	150
@@ -3990,7 +3991,7 @@
 	AK_Bttstck_M,                   *,		100,	20
 	HK416A5_Bttstck,                *,		100,	20
 	AEK_Buttstock,                  *,		100,	20
-	FP4_HK_416_Buttstock,           *,     	100,    20
+	FP4_HK_416_Buttstock,           *,     		100,    20
 	VEPR12_Buttstock,               *,		100,	20
 		
 <Category> FIDOv4 Bayonets
