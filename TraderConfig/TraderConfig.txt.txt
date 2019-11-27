@@ -294,8 +294,8 @@
 	OP_Tentbase,			*,		3000,		500		
 	OP_Tentbase2,			*,		3000,		500		
 	OP_Tentbase3,			*,		3000,		500		
-	SneakyMakeShiftTent2Kit,	*,		1000,		500			
-	SneakyMakeShiftTentKit,		*,		1000,		500			
+	//SneakyMakeShiftTent2Kit,	*,		1000,		500			
+	//SneakyMakeShiftTentKit,	*,		1000,		500			
 												
 <Category> OP_Baseitems											
     	Gardenbox,			*,		600,		200		
@@ -337,6 +337,7 @@
 	Bear_White,			*,		5,		1		
 
 <Category> Zeroy's FishingZ											
+	Hook,					*,		100,		50
 	Zeroy_fishing_backpack_black,		*,		500,		200			
 	Zeroy_fishing_backpack_brown,		*,		500,		200			
 	Zeroy_fishing_backpack_camo,		*,		500,		200			
@@ -391,7 +392,7 @@
 
 <Category> Grenades									
 	F1Grenade,				W, 		2000,		400
-	FrashGrenade,				W,		500,		100
+	FlashGrenade,				W,		500,		100
 	M67Grenade,				W, 		2000,		400
 	GermanGrenade,				W, 		2000,		400
 	M18SmokeGrenade_Green,          	W, 		500, 		100
@@ -475,8 +476,6 @@
 	Nagant1895_mung,			W,		3500,		500
 
 <Category> Arma Weapon Pack Remastered									
-	//L85A2,				W, 		20000, 		3300
-	//L85A2_NoGrip,				W, 		20000, 		3300	
 	A2AA12, 				W, 		20000, 		3300	
 	A2AS50, 				W, 		-1,     	20000		
 	A2bizon, 				W, 		15000, 		2500	
@@ -492,7 +491,8 @@
 	A2WM110_black,				W, 		25000, 		4000	
 	A2WM110_desert, 			W, 		25000,		4000		
 	DMRScope, 				W, 		10000, 		2000	
-					
+	L85A2,					W, 		20000, 		3300
+	L85A2_NoGrip,				W, 		20000, 		3300					
 
 <Category> Weapon's Expansion Pack
 	//WE_AR15_Olive,			W,		20000,		3300
@@ -610,7 +610,7 @@
 	Ammo_303,				*,		500,		100
 	Ammo_338,				*,		500,		100
 	Ammo_338Tracer,				*,		500,		100
-	//Ammo_357,				*,		500,		100
+	Ammo_357,				*,		500,		100
 	Ammo_408,				*,		750,		200
 	Ammo_408Chey,				*,		750,		200
 	Ammo_408Tracer,				*,		750,		200	
@@ -709,6 +709,16 @@
         Mag_UMP_25Rnd,			M,		150,		75
 	Mag_VSS_10Rnd,			M,		220,		110
 
+<Category> Weapon's Expansion Pack
+	Mag_M24A3_5Rnd,			M,		500,		100
+	Mag_m9_15Rnd,			M,		500,		100
+	Mag_MAT49_20Rnd,		M,		500,		100
+	Mag_PSG1_20Rnd,			M,		500,		100
+	Mag_RK92_30Rnd,			M,		500,		100
+	Mag_SSG69_5Rnd,			M,		500,		100
+	Mag_STG44_30Rnd,		M,		500,		100
+	Magazine_M24_10Rnd,		M,		500,		100
+
 <Category> Arma Weapon Pack Remastered Magazines
 	//Mag_L85A2_30Rnd			M,		500,		250	
 	A2AA12_Magazine, 			M, 		1000, 		500	
@@ -753,19 +763,32 @@
 	MP5k_StockBttstck,		*,		100,		50
 									
 <Category> Optics								
-	ACOGOptic,			*,		300,		120
-	BUISOptic,			*,		150,		60
-	FNP45_MRDSOptic,		*,		250,		100
-	HuntingOptic,			*,		1000,		550
-	KazuarOptic,			*,		2200,		1400
-	KobraOptic,			*,		600,		250
-	M4_CarryHandleOptic,		*,		150,		60
-	M4_T3NRDSOptic,			*,		500,		200
-	M68Optic,			*,		500,		200
-	MosinLRS,			*,		750,		350
-	PSO11Optic,			*,		1400,		840
-	PSO1Optic,			*,		1100,		600
-	PUScopeOptic,			*,		900,		500
+	ACOGOptic,			*,		5000,		1000
+	BUISOptic,			*,		1000,		200
+	FNP45_MRDSOptic,		*,		1000,		200
+	GrozaOptic,			*,		1000,		200
+	HuntingOptic,			*,		10000,		2000
+	KashtanOptic,			*,		1000,		200
+	KazuarOptic,			*,		2200,		500
+	KobraOptic,			*,		1000,		200
+	LongrangeOptic,			*,		10000,		2000
+	M4_CarryHandleOptic,		*,		1000,		200
+	M4_T3NRDSOptic,			*,		1000,		200
+	M68Optic,			*,		1000,		200
+	M82Optic,			*,		1000,		200
+	MosinLRS,			*,		10000,		2000
+	PistolOptic,			*,		1000,		200
+	PSO11Optic,			*,		2000,		500
+	PSO1Optic,			*,		2000,		500
+	PUScopeOptic,			*,		2000,		500
+	ReflexOptic,			*,		5000,		1000
+	WE_HAMROptic,			*,		10000,		2000
+	WE_HMOptic,			*,		2000,		500
+	WE_OKP7OpticEast,		*,		2000,		500
+	WE_OKP7OpticWest,		*,		2000,		500
+	WE_PN23Optic,			*,		2000,		500
+	WE_PSG1Optic,			*,		2000,		500
+
 									
 //<Category> Supressors								
 	//AK_Suppressor,		*,		250,		125
