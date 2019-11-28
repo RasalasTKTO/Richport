@@ -364,7 +364,15 @@
 	zeroy_ImprovisedFishingRod,		*,		50,		20				
 	zeroy_tacklebox,		    	*,		50,		20			
 	zeroy_tacklebox_camo,		      	*,		50,		20		
-	zeroy_tacklebox_green,		        *,		50,		20			
+	zeroy_tacklebox_green,		        *,		50,		20	
+
+<Category> Car Tools
+
+        ToolKit,		        *,		10000,		1500
+        BlowTorch,		        *,		10000,		1500
+        Ratchet,		        *,		10000,		1500
+        SteelBrush,		        *,		10000,		1500
+		
         												
 <Category> Gold												
         //Goldbar_Base, 			1, 		-1, 		10000			
