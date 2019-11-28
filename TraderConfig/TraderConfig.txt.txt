@@ -1726,19 +1726,21 @@
 				<Trader> Vehicles Trader
 
 <Category> Vehicles
-	CivilianSedan,				V,		18000,		11000		// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
-	Sedan_02,                               V,              15000,           6000
-        CrSk_Land_Rover_Defender_110, 		V, 		150000, 	20000
-	CrSk_Land_Rover_Defender_110_Green, 	V, 		150000,		20000
-	CrSk_Land_Rover_Defender_110_UN, 	V, 		150000,		20000
-	//CrSk_HMMWV_PMC,                 	V,		50000,		25000
-	//CrSk_HMMWV_PMC_Woodland,       	V,		50000,		25000
-	Gerph_Zil130,				V,		175000,		16000
-	Hatchback_02,				V,		16000,		9600
-	OffroadHatchback,			V,		14000,		8000
-        //MRAP_4x4,      			V,	        200000,         30000
-	CrSk_GAZ_3309,				V,		250000,		30000
-        Dingo,					V,		175000,  	25000
+	CivilianSedan,				V,		18000,		12000		// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
+	Sedan_02,                               V,              15000,          10000
+        CrSk_Land_Rover_Defender_110, 		V, 		150000, 	50000
+	CrSk_Land_Rover_Defender_110_Green, 	V, 		150000,		50000
+	CrSk_Land_Rover_Defender_110_UN, 	V, 		150000,		50000
+	//CrSk_HMMWV_PMC,                 	V,		50000,		20000
+	//CrSk_HMMWV_PMC_Woodland,       	V,		50000,		20000
+	//CrSk_Chevrolet_Tahoe_08_Police,       V,      	30000,    	20000
+	CrSk_Chevrolet_Tahoe_08,                V,      	150000,    	50000
+	Gerph_Zil130,				V,		175000,		60000
+	Hatchback_02,				V,		16000,		10500
+	OffroadHatchback,			V,		14000,		9000
+        //MRAP_4x4,      			V,	        200000,         75000
+	CrSk_GAZ_3309,				V,		250000,		100000
+        Dingo,					V,		175000,  	60000
 	
 <Category> Vehicle Parts
 	CarBattery,			*,		 100,		50
@@ -1755,6 +1757,15 @@
 	CivSedanHood,			*,		 400,		140
 	CivSedanTrunk,			*,		 450,		150
 	CivSedanWheel,			*,		 600,		120
+	ChevyTahoe08_bagazhnik,         *,      	2200,   	1200					
+	ChevyTahoe08_dver_1_1,          *,      	2500,   	1000					
+	//ChevyTahoe08_dver_1_1_Police, *,      	2500,   	1000					
+	ChevyTahoe08_dver_1_2,          *,      	2500,   	1000					
+	ChevyTahoe08_dver_2_1,          *,      	2500,   	1000					
+	//ChevyTahoe08_dver_2_1_Police, *,      	2500,   	1000					
+	ChevyTahoe08_dver_2_2,          *,      	2500,   	1000					
+	ChevyTahoe08_kapot,             *,      	2500,   	1000					
+	ChevyTahoe08_Koleso,		*,		2000,		1000
 	Sedan_02_Trunk, 		*,		 500,		180
 	Sedan_02_Hood,	                *,		 500,		180
 	Sedan_02_Door_2_2,		*,		 500,		180
@@ -1828,7 +1839,6 @@
         //mrap_doors_cargo2,          	*,              1000,           500
         //mrap_doors_trunk,         	*,              1000,           500
         //mrap_doors_hood,             	*,              1000,           500
-
 	GAZ3309_kapot,				*,		2500,	1000
 	GAZ3309_dver_1_1,			*,		2500,	1000
 	GAZ3309_dver_2_1,			*,		2500,	1000
