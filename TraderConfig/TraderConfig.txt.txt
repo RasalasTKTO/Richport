@@ -1749,6 +1749,7 @@
         //MRAP_4x4,      			V,	        200000,         75000
 	CrSk_GAZ_3309,				V,		250000,		100000
         Dingo,					V,		175000,  	60000
+        CrSk_Ford_Bronco_Offroad_86,            V,              175000,         60000
 	
 <Category> Vehicle Parts
 	CarBattery,			*,		 100,		50
@@ -1859,6 +1860,10 @@
         DingoHood,				*,		700,	350
         DingoTrunk,				*,		500,	250
         DingoWheel,				*,		700,	350
+        BroncoOff86_dver_1_1,				   *,		2500,	1000
+	BroncoOff86_dver_2_1,				   *,		2200,	1200
+	BroncoOff86_kapot,				   *,		2500,	1000
+        BroncoOff86_koleso,				   *,		2500,	1000
 
 		
 <Category> Keys
