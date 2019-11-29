@@ -99,13 +99,13 @@
 	WolfPelt,               	*,      	-1,   		1750			
 											
 <Category> Fish											
-	Carp,				1,		-1,		5		
-	Mackerel,			1,		-1,		5			
-	Sardines,			1,		-1,		5			
-	zeroy_chub,			1,		-1,		5			
-	zeroy_cod,			1,		-1,		5			
-	zeroy_pike,			1,		-1,		5			
-	zeroy_shell,			1,		-1,		5			
+	Carp,				S,		-1,		5		
+	Mackerel,			S,		-1,		5			
+	Sardines,			S,		-1,		5			
+	zeroy_chub,			S,		-1,		5			
+	zeroy_cod,			S,		-1,		5			
+	zeroy_pike,			S,		-1,		5			
+	zeroy_shell,			S,		-1,		5			
 											
 <Category> Drinks											
 	Canteen,			*,		400,		200			
