@@ -99,13 +99,13 @@
 	WolfPelt,               	*,      	-1,   		1750			
 											
 <Category> Fish											
-	Carp,				1,		-1,		250		
-	Mackerel,			1,		-1,		250			
-	Sardines,			1,		-1,		250			
-	zeroy_chub,			1,		-1,		250			
-	zeroy_cod,			1,		-1,		250			
-	zeroy_pike,			1,		-1,		250			
-	zeroy_shell,			1,		-1,		250			
+	Carp,				1,		-1,		5		
+	Mackerel,			1,		-1,		5			
+	Sardines,			1,		-1,		5			
+	zeroy_chub,			1,		-1,		5			
+	zeroy_cod,			1,		-1,		5			
+	zeroy_pike,			1,		-1,		5			
+	zeroy_shell,			1,		-1,		5			
 											
 <Category> Drinks											
 	Canteen,			*,		400,		200			
@@ -3897,9 +3897,9 @@
 	Mag_VAL_20Rnd,                  M,	300,	150
 	mag_vss_10rnds,                 M,	300,	150
 	Mag_pp99_16Rnd,                 M,	300,	150
-	//Mag_m82_10Rnd,                  M,	500,	150
+	Mag_m82_10Rnd,                  M,	500,	150
 	Mag_STG44_30Rnd,                M,	500,	150
-	//Mag_m82_10Rnd308,               M,	250,	100
+	Mag_m82_10Rnd308,               M,	250,	100
 	Mag_PKP_200Rnd,                 M,      1000,   400
 	Mag_PKP_200Rnd_Tracer,          M,      1500,   700
 	FP4_Mag_Groza_20Rnd,            M,      1200,   600
