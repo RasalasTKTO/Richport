@@ -3970,9 +3970,10 @@
 <Category> FIDOv4 Ammunition (full stacks)
 	Ammo_nails,				*,		100,		20
 	Ammo_shock,				*,		100,		20
-	Ammo_12x99,				*,		500,		100
-	Ammo_12x99Tracer_Green,			*,		500,		100
-	Ammo_12x99Tracer_Yell,			*,		500,		100
+        Ammo_127x99,                            *,		500,		100
+	//Ammo_12x99,				*,		500,		100
+	//Ammo_12x99Tracer_Green,			*,		500,		100
+	//Ammo_12x99Tracer_Yell,			*,		500,		100
 	Ammo_12_7x55,				*,		500,		100
 	Ammo_12GaBB,				*,		50,		10
 	Ammo_12gaNeedles,			*,		300,		60
