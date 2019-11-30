@@ -9,7 +9,7 @@
         //                                                                                                                //
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-<CurrencyName> #tm_ruble								// Currency Name (Only used for the Text in the upper right Corner of the Trader Menu)
+<CurrencyName> #tm_ruble		ccccc						// Currency Name (Only used for the Text in the upper right Corner of the Trader Menu)
 	<Currency> MoneyRuble1, 	1						// Currency Classname, Currency Money Value
 	<Currency> MoneyRuble5, 	5
 	<Currency> MoneyRuble10, 	10
@@ -283,7 +283,21 @@
 	Skyline_Kit_Gun_Cabinet,	*,        	5000,    	1600			
 	Skyline_Kit_Gun_Rack,		*,        	6500,    	2200		
 	Skyline_Kit_Shelf,		*,        	4500,    	1500		
-	Skyline_Kit_StorageBox,		*,        	5000,    	1800		
+	Skyline_Kit_StorageBox,		*,        	5000,    	1800	
+	
+<Category> Base Storage
+		Base_Almara_Kit,				*,		1800,	340	
+		Base_Almara_Large_Kit,				*,		2000,	350
+		Base_BMetalCrate_Kit,				*,		1500,	325
+		Base_GMetalCrate_Kit,				*,		1500,	325		
+		Base_Chernarus_Flag_Kit,			*,		100,	10
+		Base_Cot_Kit,					*,		650,	100
+		Base_CornerSofa_Kit,				*,		350,	50
+		Base_LeatherSofa_Kit,				*,		350,	50
+		Base_Nightstand_Kit,				*,		1200,	250
+		Base_SingleBed_Kit,				*,		800,	120
+		Base_CoffeeTable_Kit,				*,		350,	50
+		Base_WoodStorage_Kit,				*,		2000,	350
 
 <Category> Tents											
 	CarTent,			*,		5000,		700		
