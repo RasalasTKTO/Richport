@@ -622,9 +622,10 @@
 	AmmoBox_9x39AP_20Rnd,			*,		-1,		20
 
 <Category> Other Ammunition (full stacks)						
-	Ammo_12x99,				*,		500,		100
-	Ammo_12x99Tracer_Green,			*,		500,		100
-	Ammo_12x99Tracer_Yell,			*,		500,		100
+	//Ammo_12x99,				*,		500,		100
+	//Ammo_12x99Tracer_Green,			*,		500,		100
+	//Ammo_12x99Tracer_Yell,			*,		500,		100
+        Ammo_127x99,                            *,		500,		100
 	Ammo_12_7x55,				*,		500,		100
 	Ammo_12GaBB,				*,		50,		10
 	Ammo_12gaNeedles,			*,		300,		60
@@ -3866,7 +3867,7 @@
 	FP4_PPSH,			W,	15000,	2500	
 
 <Category> FIDOv4 Heavy Guns
-	//m82,			        *,	200000,	20000	
+	m82,			        *,	-1,	50000
 	m82_308win,			*,	-1,	20000
         m300_cheytac,			*,	-1,	20000	
 	M500,			        *,	15000,	2500	
