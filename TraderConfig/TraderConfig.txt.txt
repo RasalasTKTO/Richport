@@ -99,13 +99,13 @@
 	WolfPelt,               	*,      	-1,   		1750			
 											
 <Category> Fish											
-	Carp,				S,		-1,		5		
-	Mackerel,			S,		-1,		5			
-	Sardines,			S,		-1,		5			
-	zeroy_chub,			S,		-1,		5			
-	zeroy_cod,			S,		-1,		5			
-	zeroy_pike,			S,		-1,		5			
-	zeroy_shell,			S,		-1,		5			
+	Carp,				S,		-1,		500		
+	Mackerel,			S,		-1,		500			
+	Sardines,			S,		-1,		500			
+	zeroy_chub,			S,		-1,		500			
+	zeroy_cod,			S,		-1,		500			
+	zeroy_pike,			S,		-1,		500			
+	zeroy_shell,			S,		-1,		500			
 											
 <Category> Drinks											
 	Canteen,			*,		400,		200			
@@ -286,18 +286,18 @@
 	Skyline_Kit_StorageBox,		*,        	5000,    	1800	
 	
 <Category> Base Storage
-		Base_Almara_Kit,				*,		1800,	340	
-		Base_Almara_Large_Kit,				*,		2000,	350
-		Base_BMetalCrate_Kit,				*,		1500,	325
-		Base_GMetalCrate_Kit,				*,		1500,	325		
-		Base_Chernarus_Flag_Kit,			*,		100,	10
-		Base_Cot_Kit,					*,		650,	100
-		Base_CornerSofa_Kit,				*,		350,	50
-		Base_LeatherSofa_Kit,				*,		350,	50
-		Base_Nightstand_Kit,				*,		1200,	250
-		Base_SingleBed_Kit,				*,		800,	120
-		Base_CoffeeTable_Kit,				*,		350,	50
-		Base_WoodStorage_Kit,				*,		2000,	350
+	Base_Almara_Kit,		*,		1800,		340	
+	Base_Almara_Large_Kit,		*,		2000,		350
+	Base_BMetalCrate_Kit,		*,		1500,		325
+	Base_GMetalCrate_Kit,		*,		1500,		325		
+	Base_Chernarus_Flag_Kit,	*,		100,		10
+	Base_Cot_Kit,			*,		650,		100
+	Base_CornerSofa_Kit,		*,		350,		50
+	Base_LeatherSofa_Kit,		*,		350,		50
+	Base_Nightstand_Kit,		*,		1200,		250
+	Base_SingleBed_Kit,		*,		800,		120
+	Base_CoffeeTable_Kit,		*,		350,		50
+	Base_WoodStorage_Kit,		*,		2000,		350
 
 <Category> Tents											
 	CarTent,			*,		5000,		700		
@@ -338,11 +338,11 @@
 	Chopper_WindowKit,		*,		250,		125			
 												
 <Category> Seeds & Lime											
-	GardenLime,			*,		20,		7			
-	PepperSeedsPack,		*,		4, 		1				
-	PumpkinSeedsPack,		*,		10, 		3				
-	TomatoSeedsPack,		*,		4, 		1				
-	ZucchiniSeedsPack,		*,		6, 		2				
+	GardenLime,			*,		200,		100			
+	PepperSeedsPack,		*,		50, 		25				
+	PumpkinSeedsPack,		*,		50, 		25				
+	TomatoSeedsPack,		*,		50, 		25				
+	ZucchiniSeedsPack,		*,		50, 		25				
 												
 <Category> Fluffy Pets <3											
 	Bear_Beige,			*,		5,		1		
