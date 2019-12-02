@@ -806,6 +806,8 @@
 	Mag_VSS_10Rnd,			M,		220,		110
 
 <Category> Weapon's Expansion Pack
+        Mag_HoneyBadger_30Rnd,          M,              500,            100
+        Mag_DesertEagle_9rnd,           M,              500,            100
 	Mag_M24A3_5Rnd,			M,		500,		100
 	Mag_m9_15Rnd,			M,		500,		100
 	Mag_MAT49_20Rnd,		M,		500,		100
