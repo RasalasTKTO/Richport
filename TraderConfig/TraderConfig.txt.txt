@@ -1758,7 +1758,9 @@
 	MassPlateCarrierPouches_PartizanM,	*,		500,	200						
 	MassPlateCarrierPouches_Winter,		*,		500,	200					
 											
-<Category> Mass' Other Stuff											
+<Category> Mass' Other Stuff	
+
+	MassBallisticShield,	                *,		3500,	500								
 	Mag_CMAG_10Rnd_Black,	                *,		600,	300						
 	Mass_TradeVest,			        *,		500,	200				
 	MassAR500,			        *,		1000,	500				
