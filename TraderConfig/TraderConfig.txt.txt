@@ -518,14 +518,16 @@
 	MakarovIJ70,				W,		1500,		300		
 	MKII,					W,		1750,		350	
 	Mosin9130,				W,		25000,		4000		
-	Mp133Shotgun,				W,		12000,		2000		
+	Mp133Shotgun,				W,		12000,		2000	
+	Izh43Shotgun,				W,		12000,		2000		
 	MP5K,					W,		12500,		2100	
 	SawedoffMosin9130,			W,		15000,		2500	
 	SKS,					W,		12500,		2100	
 	SVD,					W,		25000,		4000	
 	UMP45,					W,		15000,		2500	
 	VSS,					W,		20000,		3300	
-	Winchester70,				W,		25000,		4000		
+	Winchester70,				W,		25000,		4000
+        B95,			        	W,		50000,		5000
 									
 <Category> Mass Weapons									
 	MassG18,                		W,      	4000,   	1000				
@@ -539,7 +541,9 @@
 	MassStevens301SHORT_tan,		W,      	1500,   	500				
 	MassStevens301SuperShort,		W,      	1500,   	500				
 	MassStevens301SuperShort_green,		W,      	1500,   	500				
-	MassStevens301SuperShort_tan,		W,      	1500,   	500				
+	MassStevens301SuperShort_tan,		W,      	1500,   	500	
+	MassM16,				W,		15000,		2500
+	MassType81,      	    		W,		15000,		2500			
 	MassAR15,               		W,		20000,		3300		
 	MassB52,			    	W,		20000,		3300
 	MassM110,			    	W,		25000,		4000
@@ -594,10 +598,15 @@
 	WE_AR15_Tan,				W,		20000,		3300
 	WE_DesertEagle,				W,		20000,		3300
 	WE_HoneyBadger,				W,		20000,		3300
-	WE_HoneyBadger_Black,			W,		20000,		3300
 	WE_HoneyBadger_Olive,			W,		20000,		3300
+	WE_HoneyBadger_Snow,			W,		20000,		3300
+	WE_HoneyBadger_Woodland,		W,		20000,		3300
 	//WE_Luger,				W,		2000,		400
 	WE_M82,				        W,		-1,		50000
+	WE_M82_Snow,			        W,		-1,		50000
+	WE_M82_Woodland,		        W,		-1,		50000
+	WE_M82_Tan,			        W,		-1,		50000
+	WE_M82_Olive,			        W,		-1,		50000
 	WE_RK92_Olive,				W,		20000,		3300
 	WE_RK92_Tan,				W,		20000,		3300
 	WE_SSG69_Black,				W,		25000,		4000
@@ -1749,7 +1758,9 @@
 	MassPlateCarrierPouches_PartizanM,	*,		500,	200						
 	MassPlateCarrierPouches_Winter,		*,		500,	200					
 											
-<Category> Mass' Other Stuff											
+<Category> Mass' Other Stuff	
+
+	MassBallisticShield,	                *,		3500,	500								
 	Mag_CMAG_10Rnd_Black,	                *,		600,	300						
 	Mass_TradeVest,			        *,		500,	200				
 	MassAR500,			        *,		1000,	500				
@@ -1781,7 +1792,8 @@
 	MassRatnik,			        *,		500,	200				
 	MassRatnik_Black,			*,		500,	200				
 	MassRatnik_Tan,			        *,		500,	200				
-	MassScope,	                        *,		500,	200						
+	MassScope,	                        *,		500,	200	
+	MassBinocs,	                        *,		5000,	750						
 											
 <Category> Mass' Bags											
 	Massbag,			    	*,		2000,	700			
@@ -1832,8 +1844,20 @@
 	MassMolleBeltBlack,                  	*,      	600,    300								
 	MassMolleBeltODG,                    	*,      	600,    300								
 	MassMolleBeltWD,                     	*,      	600,    300								
-	MassToolbelt,                        	*,      	400,    200								
+	MassToolbelt,                        	*,      	400,    200		
 
+<Category> Military Snowgear										
+	GhillieBushrag_Winter,			*,		1000,	200				
+	GhillieHood_Winter,		*,		1000,	200					
+	GhillieSuit_Winter,			*,		1000,	200				
+	GhillieTop_Winter,		*,		1000,	200					
+	Winter_Military_Jacket,		*,		1000,	200					
+	Winter_Military_Hood,		*,		1000,	200					
+	Winter_Military_Pants,			*,		1000,	200				
+	Arctic_Military_Balaclava,			*,		1000,	200				
+	Arctic_Military_Helmet,		*,		1000,	200					
+	Arctic_Military_Jacket,			*,		1000,	200				
+	Arctic_Military_Pants,		*,		1000,	200					
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	
@@ -1842,7 +1866,11 @@
 
 <Category> Vehicles
 	CivilianSedan,				V,		18000,		12000		// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
+	CivilianSedan_Black,			V,		18000,		12000
+	CivilianSedan_Wine,			V,		18000,		12000
 	Sedan_02,                               V,              15000,          10000
+	Sedan_02_Grey,                          V,              15000,          10000
+	Sedan_02_Red,                           V,              15000,          10000
         CrSk_Land_Rover_Defender_110, 		V, 		150000, 	50000
 	CrSk_Land_Rover_Defender_110_Green, 	V, 		150000,		50000
 	CrSk_Land_Rover_Defender_110_UN, 	V, 		150000,		50000
@@ -1852,11 +1880,16 @@
 	CrSk_Chevrolet_Tahoe_08,                V,      	150000,    	50000
 	Gerph_Zil130,				V,		175000,		60000
 	Hatchback_02,				V,		16000,		10500
+	Hatchback_02_Black,			V,		16000,		10500
+	Hatchback_02_Blue,			V,		16000,		10500
 	OffroadHatchback,			V,		14000,		9000
+	OffroadHatchback_Blue,			V,		14000,		9000
+	OffroadHatchback_White,			V,		14000,		9000
         //MRAP_4x4,      			V,	        200000,         75000
 	CrSk_GAZ_3309,				V,		250000,		100000
         Dingo,					V,		175000,  	60000
         CrSk_Ford_Bronco_Offroad_86,            V,              175000,         60000
+	zeroy_jeep_willis,			V,		125000,		25000
 	
 <Category> Vehicle Parts
 	CarBattery,			*,		 100,		50
@@ -1882,13 +1915,27 @@
 	ChevyTahoe08_dver_2_2,          *,      	2500,   	1000					
 	ChevyTahoe08_kapot,             *,      	2500,   	1000					
 	ChevyTahoe08_Koleso,		*,		2000,		1000
+	
 	Sedan_02_Trunk, 		*,		 500,		180
 	Sedan_02_Hood,	                *,		 500,		180
 	Sedan_02_Door_2_2,		*,		 500,		180
 	Sedan_02_Door_1_2,		*,		 500,		180
 	Sedan_02_Door_2_1,		*,		 400,		140
 	Sedan_02_Door_1_1,		*,		 450,		150
-	Sedan_02_Wheel,			*,		 600,		120
+	Sedan_02_Trunk_Grey, 		*,		 500,		180
+	Sedan_02_Hood_Grey,	        *,		 500,		180
+	Sedan_02_Door_2_2_Grey,		*,		 500,		180
+	Sedan_02_Door_2_1_Grey,		*,		 500,		180
+	Sedan_02_Door_1_2_Grey,		*,		 400,		140
+	Sedan_02_Door_1_1_Grey,		*,		 450,		150
+	Sedan_02_Trunk_Red, 		*,		 500,		180
+	Sedan_02_Hood_Red,	        *,		 500,		180
+	Sedan_02_Door_2_2_Red,		*,		 500,		180
+	Sedan_02_Door_2_1_Red,		*,		 500,		180
+	Sedan_02_Door_1_2_Red,		*,		 400,		140
+	Sedan_02_Door_1_1_Red,		*,		 450,		150
+	Sedan_02_Wheel,				*,		 600,		120
+
 	Defender110_koleso, 		*, 		2000, 		1000
 	Defender110_dver_1_1, 		*, 		2000, 		1000
 	Defender110_dver_2_1, 		*, 		2000, 		1000
@@ -1909,18 +1956,46 @@
 	Defender110_dver_2_2_UN, 	*, 		2000, 		1000
 	Defender110_kapot_UN, 		*,		2000, 		1000
 	Defender110_bagazhnik_UN, 	*, 		2000, 		1000
+	
 	Hatchback_02_Door_1_1,		*,		 450,		160
 	Hatchback_02_Door_1_2,		*,		 450,		160
 	Hatchback_02_Door_2_1,		*,		 450,		160
 	Hatchback_02_Door_2_2,		*,		 450,		160
-	Hatchback_02_Hood,		*,		 300,		100
-	Hatchback_02_Trunk,		*,		 380,		130
-	Hatchback_02_Wheel,		*,		 500,		100
+	Hatchback_02_Hood,			*,		 300,		100
+	Hatchback_02_Trunk,			*,		 380,		130
+	
+	Hatchback_02_Door_1_1_Black,		*,		 450,		160
+	Hatchback_02_Door_1_2_Black,		*,		 450,		160
+	Hatchback_02_Door_2_1_Black,		*,		 450,		160
+	Hatchback_02_Door_2_2_Black,		*,		 450,		160
+	Hatchback_02_Hood_Black,			*,		 300,		100
+	Hatchback_02_Trunk_Black,			*,		 380,		130
+	
+	Hatchback_02_Door_1_1_Blue,		*,		 450,		160
+	Hatchback_02_Door_1_2_Blue,		*,		 450,		160
+	Hatchback_02_Door_2_1_Blue,		*,		 450,		160
+	Hatchback_02_Door_2_2_Blue,		*,		 450,		160
+	Hatchback_02_Hood_Blue,			*,		 300,		100
+	Hatchback_02_Trunk_Blue,			*,		 380,		130
+	Hatchback_02_Wheel,			*,		 500,		100
+	
 	HatchbackDoors_CoDriver,	*,		 450,		160
 	HatchbackDoors_Driver,		*,		 450,		160
 	HatchbackHood,			*,		 300,		100
 	HatchbackTrunk,			*,		 380,		130
+	
+	HatchbackDoors_Driver_Blue,	*,		 450,		160
+	HatchbackDoors_CoDriver_Blue,		*,		 450,		160
+	HatchbackHood_Blue,			*,		 300,		100
+	HatchbackTrunk_Blue,			*,		 380,		130
+	
+	HatchbackDoors_CoDriver_White,	*,		 450,		160
+	HatchbackDoors_Driver_White,	*,		 450,		160
+	HatchbackHood_White,			*,		 300,		100
+	HatchbackTrunk_White,			*,		 380,		130
+	
 	HatchbackWheel,			*,		 500,		100
+	
 	// HMMWV_PMC_dver_1_1,		*,		2500,		1000
 	// HMMWV_PMC_dver_1_1,             *,		2000,		1000
 	// HMMWV_PMC_dver_1_2,		*,		2200,		1200
@@ -1971,6 +2046,20 @@
 	BroncoOff86_dver_2_1,				   *,		2200,	1200
 	BroncoOff86_kapot,				   *,		2500,	1000
         BroncoOff86_koleso,				   *,		2500,	1000
+		zeroy_jeep_willis_clean,		VNK,		25000,		8000	
+		zeroy_jeep_willis_dirty,		VNK,		25000,		8000	
+		zeroy_jeep_willis_camo,			VNK,		25000,		8000	
+		zeroy_jeep_willis_camo2,		VNK,		25000,		8000
+		CarBattery,							*,		100,		50
+		CarRadiator,						*,		200,		100
+		HeadlightH7_Box,					*,		30,			15
+		SparkPlug,							*,		60,			40
+		HatchbackWheel,						*,		500,		100
+		Jeep_Willis_Windshield,				*,		1500,		75
+		Jeep_Willis_Windshield_clean,		*,		1500,		75
+		Jeep_Willis_Windshield_dirty,		*,		1500,		75
+		Jeep_Willis_Windshield_camo,		*,		1500,		75
+		Jeep_Willis_Windshield_camo2,		*,		1500,		75
 
 		
 <Category> Keys
