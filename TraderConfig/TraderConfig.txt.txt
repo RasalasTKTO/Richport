@@ -77,6 +77,7 @@
 											
 											
 <Category> Meat											
+	BearSteakMeat,			S,		-1,		1000
 	BoarSteakMeat,			S,		-1,		300			
 	Bone,				10,		-1,		200
 	ChickenBreastMeat,		S,		-1,		300				
@@ -90,6 +91,7 @@
 	WolfSteakMeat,			S,		-1,		225
 
 <Category> Animal Pelt											
+	BearPelt,			*,		-1,		7500
 	CowPelt,                	*,      	-1,   		1500						
 	DeerPelt,               	*,      	-1,   		3750						
 	GoatPelt,               	*,      	-1,   		2000						
@@ -99,13 +101,9 @@
 	WolfPelt,               	*,      	-1,   		1750			
 											
 <Category> Fish											
-	Carp,				S,		-1,		5		
-	Mackerel,			S,		-1,		5			
-	Sardines,			S,		-1,		5			
-	zeroy_chub,			S,		-1,		5			
-	zeroy_cod,			S,		-1,		5			
-	zeroy_pike,			S,		-1,		5			
-	zeroy_shell,			S,		-1,		5			
+	Carp,				S,		-1,		500		
+	Mackerel,			S,		-1,		500			
+	Sardines,			S,		-1,		500			
 											
 <Category> Drinks											
 	Canteen,			*,		400,		200			
@@ -594,34 +592,60 @@
 	L85A2_NoGrip,				W, 		20000, 		3300					
 
 <Category> Weapon's Expansion Pack
-	WE_AR15_Olive,				W,		20000,		3300
-	WE_AR15_Tan,				W,		20000,		3300
-	WE_DesertEagle,				W,		20000,		3300
-	WE_HoneyBadger,				W,		20000,		3300
-	WE_HoneyBadger_Olive,			W,		20000,		3300
-	WE_HoneyBadger_Snow,			W,		20000,		3300
-	WE_HoneyBadger_Woodland,		W,		20000,		3300
-	//WE_Luger,				W,		2000,		400
-	WE_M82,				        W,		-1,		50000
-	WE_M82_Snow,			        W,		-1,		50000
-	WE_M82_Woodland,		        W,		-1,		50000
-	WE_M82_Tan,			        W,		-1,		50000
-	WE_M82_Olive,			        W,		-1,		50000
-	WE_RK92_Olive,				W,		20000,		3300
-	WE_RK92_Tan,				W,		20000,		3300
-	WE_SSG69_Black,				W,		25000,		4000
-	WE_SSG69_Olive,				W,		25000,		4000
-	WE_ACR,					W,		20000,		3300
-	WE_AR15,				W,		20000,		3300
-	WE_M16A3,				W,		20000,		3300
-	WE_M24A3,				W,		75000,		15000
-	WE_M9,					W,		3500,		500
-	WE_MAT49,				W,		12500,		2100
-	WE_MP5SD,				W,		15000,		2500
-	WE_PSG1,				W,		20000,		3300
-	WE_RK92,				W,		20000,		3300
-	WE_SSG69,				W,		25000,		4000
-	WE_STG44,				W,		20000,		3300
+	WE_ACR					W,		20000,		3300
+	WE_ACR_Green				W,		20000,		3300
+	WE_ACR_Snow                             W,		20000,		3300
+	WE_ACR_Tan                              W,		20000,		3300
+	WE_ACR_Woodland                         W,		20000,		3300
+	WE_AR15                                 W,		20000,		3300
+	WE_AR15_Green				W,		20000,		3300
+	WE_AR15_Snow                            W,		20000,		3300
+	WE_AR15_Tan                             W,		20000,		3300
+	WE_AR15_Woodland                        W,		20000,		3300
+	WE_DesertEagle                          W,		20000,		3300
+	WE_HoneyBadger				W,		20000,		3300
+	WE_HoneyBadger_Green                    W,		20000,		3300
+	WE_HoneyBadger_Snow                     W,		20000,		3300
+	WE_HoneyBadger_Tan                      W,		20000,		3300
+	WE_HoneyBadger_Woodland                 W,		20000,		3300
+	WE_M16A3                                W,		20000,		3300
+	WE_M16A3_Olive                          W,		20000,		3300
+	WE_M16A3_Snow                           W,		20000,		3300
+	WE_M16A3_Tan                            W,		20000,		3300
+	WE_M16A3_Woodland                       W,		20000,		3300
+	WE_M24A3				W,		75000,		15000
+	WE_M24A3_Olive				W,		75000,		15000
+	WE_M24A3_Snow  				W,		75000,		15000
+	WE_M24A3_Tan                            W,		75000,		15000
+	WE_M24A3_Woodland                       W,		75000,		15000
+	WE_M82                                  W,		   -1,		50000
+	WE_M82_Olive				W,		   -1,		50000
+	WE_M82_Snow                             W,		   -1,		50000
+	WE_M82_Tan                              W,		   -1,		50000
+	WE_M82_Woodland                         W,		   -1,		50000
+	WE_M9                                   W,		3500,		500
+	WE_MAT49				W,		12500,		2100
+	WE_MP5SD				W,		15000,		2500
+	WE_PSG1                                 W,		20000,		3300
+	WE_PSG1_Green                           W,		20000,		3300
+	WE_PSG1_Snow                            W,		20000,		3300
+	WE_PSG1_Tan                             W,		20000,		3300
+	WE_PSG1_Woodland                        W,		20000,		3300
+	WE_RK92                                 W,		20000,		3300
+	WE_RK92_Green				W,		20000,		3300
+	WE_RK92_Snow                            W,		20000,		3300
+	WE_RK92_Tan                             W,		20000,		3300
+	WE_RK92_Woodland                        W,		20000,		3300
+	WE_SSG69                                W,		25000,		4000
+	WE_SSG69_Green                          W,		25000,		4000
+	WE_SSG69_Snow                           W,		25000,		4000
+	WE_SSG69_Tan                            W,		25000,		4000
+	WE_SSG69_Woodland                       W,		25000,		4000
+	WE_STG44				W,		20000,		3300
+	WE_STG44_Green                          W,		20000,		3300
+	WE_STG44_Snow                           W,		20000,		3300
+	WE_STG44_Tan                            W,		20000,		3300
+	WE_STG44_Woodland                       W,		20000,		3300
 
 <Category> Weapon Redux Pack
 	//gp_Blaze95,				W,		15000,		2500
@@ -1436,8 +1460,7 @@
 	WorkingBoots_Yellow,			*,		55,	12				
 											
 <Category> Ghillie											
-	// Keep in Mind that Players can also 										
-	// craft Ghillie Clothing and sell them!										
+// Keep in Mind that Players can also craft Ghillie Clothing and sell them!										
 	GhillieAtt_Mossy,			*,		220,	70				
 	GhillieAtt_Tan,				*,		220,	70			
 	GhillieAtt_Woodland,			*,		220,	70				
@@ -1848,16 +1871,16 @@
 
 <Category> Military Snowgear										
 	GhillieBushrag_Winter,			*,		1000,	200				
-	GhillieHood_Winter,		*,		1000,	200					
+	GhillieHood_Winter,			*,		1000,	200					
 	GhillieSuit_Winter,			*,		1000,	200				
-	GhillieTop_Winter,		*,		1000,	200					
-	Winter_Military_Jacket,		*,		1000,	200					
-	Winter_Military_Hood,		*,		1000,	200					
+	GhillieTop_Winter,			*,		1000,	200					
+	Winter_Military_Jacket,			*,		1000,	200					
+	Winter_Military_Hood,			*,		1000,	200					
 	Winter_Military_Pants,			*,		1000,	200				
-	Arctic_Military_Balaclava,			*,		1000,	200				
-	Arctic_Military_Helmet,		*,		1000,	200					
+	Arctic_Military_Balaclava,		*,		1000,	200				
+	Arctic_Military_Helmet,			*,		1000,	200					
 	Arctic_Military_Jacket,			*,		1000,	200				
-	Arctic_Military_Pants,		*,		1000,	200					
+	Arctic_Military_Pants,			*,		1000,	200					
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	
@@ -1865,205 +1888,229 @@
 				<Trader> Vehicles Trader
 
 <Category> Vehicles
-	CivilianSedan,				V,		18000,		12000		// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
-	CivilianSedan_Black,			V,		18000,		12000
-	CivilianSedan_Wine,			V,		18000,		12000
-	Sedan_02,                               V,              15000,          10000
-	Sedan_02_Grey,                          V,              15000,          10000
-	Sedan_02_Red,                           V,              15000,          10000
-        CrSk_Land_Rover_Defender_110, 		V, 		150000, 	50000
-	CrSk_Land_Rover_Defender_110_Green, 	V, 		150000,		50000
-	CrSk_Land_Rover_Defender_110_UN, 	V, 		150000,		50000
-	//CrSk_HMMWV_PMC,                 	V,		50000,		20000
-	//CrSk_HMMWV_PMC_Woodland,       	V,		50000,		20000
-	//CrSk_Chevrolet_Tahoe_08_Police,       V,      	30000,    	20000
-	CrSk_Chevrolet_Tahoe_08,                V,      	150000,    	50000
-	Gerph_Zil130,				V,		175000,		60000
-	Hatchback_02,				V,		16000,		10500
-	Hatchback_02_Black,			V,		16000,		10500
-	Hatchback_02_Blue,			V,		16000,		10500
-	OffroadHatchback,			V,		14000,		9000
-	OffroadHatchback_Blue,			V,		14000,		9000
-	OffroadHatchback_White,			V,		14000,		9000
-        //MRAP_4x4,      			V,	        200000,         75000
-	CrSk_GAZ_3309,				V,		250000,		100000
-        Dingo,					V,		175000,  	60000
-        CrSk_Ford_Bronco_Offroad_86,            V,              175000,         60000
-	zeroy_jeep_willis,			V,		125000,		25000
+// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
+	//CrSk_Chevrolet_Tahoe_08_Police,       VNK,      	30000,    	20000						
+	//CrSk_GAZ_3309,			VNK,		250000,		100000
+	//CrSk_HMMWV_PMC,                 	VNK,		50000,		20000			
+	//CrSk_HMMWV_PMC_Woodland,       	VNK,		50000,		20000			
+	//CrSk_Land_Rover_Defender_110, 	VNK, 		150000, 	50000			
+	//CrSk_Land_Rover_Defender_110_Green, 	VNK, 		150000,		50000			
+	//CrSk_Land_Rover_Defender_110_UN, 	VNK, 		150000,		50000			
+	//Dingo,				VNK,		175000,  	60000	
+	//Gerph_Zil130,				VNK,		175000,		60000
+	//MRAP_4x4,      			VNK,	        200000,         75000					
+	CivilianSedan,				VNK,		18000,		12000	
+	CivilianSedan_Black,			VNK,		18000,		12000	
+	CivilianSedan_Wine,			VNK,		18000,		12000	
+	CrSk_Chevrolet_Tahoe_08,                VNK,      	150000,    	50000						
+	CrSk_Ford_Bronco_Offroad_86,            VNK,            175000,         60000								
+	Hatchback_02,				VNK,		16000,		10500
+	Hatchback_02_Black,			VNK,		16000,		10500	
+	Hatchback_02_Blue,			VNK,		16000,		10500	
+	OffroadHatchback,			VNK,		14000,		9000	
+	OffroadHatchback_Blue,			VNK,		14000,		9000	
+	OffroadHatchback_White,			VNK,		14000,		9000	
+	Sedan_02,                               VNK,            15000,          10000								
+	Sedan_02_Grey,                          VNK,            15000,          10000								
+	Sedan_02_Red,                           VNK,            15000,          10000								
+	zeroy_jeep_willis,			VNK,		125000,		25000	
+	zeroy_jeep_willis_camo,			VNK,		125000,		25000	
+	zeroy_jeep_willis_camo2,		VNK,		125000,		25000	
+	zeroy_jeep_willis_clean,		VNK,		125000,		25000	
+	zeroy_jeep_willis_dirty,		VNK,		125000,		25000	
+
 	
-<Category> Vehicle Parts
-	CarBattery,			*,		 100,		50
-	CarRadiator,			*,		 200,		100
+<Category> Vanilla Vehicle Parts
+	//EngineOil,				*,		  70,		40
+	//TruckBattery,				*,		 180,		100
+	
+	CanisterGasoline,			*,		2000,		500	
+	CarBattery,				*,		1000,		250	
+	CarRadiator,				*,		1000,		250
+	HeadlightH7_Box,			*,		 200,		50	
+	SparkPlug,				*,		 500,		125
+	TireRepairKit,				*,		 500,		125
+
+	CivSedanDoors_BackLeft,			*,		1000,		500
+	CivSedanDoors_BackLeft_Black,		*,		1000,		500
+	CivSedanDoors_BackLeft_Wine,		*,		1000,		500
+	CivSedanDoors_BackRight,		*,		1000,		500
+	CivSedanDoors_BackRight_Black,		*,		1000,		500
+	CivSedanDoors_BackRight_Wine,		*,		1000,		500
+	CivSedanDoors_CoDriver,			*,		1000,		500
+	CivSedanDoors_CoDriver_Black,		*,		1000,		500
+	CivSedanDoors_CoDriver_Wine,		*,		1000,		500
+	CivSedanDoors_Driver,			*,		1000,		500
+	CivSedanDoors_Driver_Black,		*,		1000,		500
+	CivSedanDoors_Driver_Wine,		*,		1000,		500
+	CivSedanHood,				*,		1000,		500
+	CivSedanHood_Black,			*,		1000,		500
+	CivSedanHood_Wine,			*,		1000,		500
+	CivSedanTrunk,				*,		1000,		500
+	CivSedanTrunk_Black,			*,		1000,		500
+	CivSedanTrunk_Wine,			*,		1000,		500
+	CivSedanWheel,				*,		1000,		500
+	CivSedanWheel_Black,			*,		1000,		500
+	CivSedanWheel_Wine,			*,		1000,		500
+
+	Hatchback_02_Door_1_1,			*,		1000,		500
+	Hatchback_02_Door_1_1_Black,		*,		1000,		500
+	Hatchback_02_Door_1_1_Blue,		*,		1000,		500
+	Hatchback_02_Door_1_2,			*,		1000,		500
+	Hatchback_02_Door_1_2_Black,		*,		1000,		500
+	Hatchback_02_Door_1_2_Blue,		*,		1000,		500
+	Hatchback_02_Door_2_1,			*,		1000,		500
+	Hatchback_02_Door_2_1_Black,		*,		1000,		500
+	Hatchback_02_Door_2_1_Blue,		*,		1000,		500
+	Hatchback_02_Door_2_2,			*,		1000,		500
+	Hatchback_02_Door_2_2_Black,		*,		1000,		500
+	Hatchback_02_Door_2_2_Blue,		*,		1000,		500
+	Hatchback_02_Hood,			*,		1000,		500
+	Hatchback_02_Hood_Black,		*,		1000,		500
+	Hatchback_02_Hood_Blue,			*,		1000,		500
+	Hatchback_02_Trunk,			*,		1000,		500
+	Hatchback_02_Trunk_Black,		*,		1000,		500
+	Hatchback_02_Trunk_Blue,		*,		1000,		500
+	Hatchback_02_Wheel,			*,		1000,		500
+
+	HatchbackDoors_CoDriver,		*,		1000,		500
+	HatchbackDoors_CoDriver_Blue,		*,		1000,		500
+	HatchbackDoors_CoDriver_White,		*,		1000,		500
+	HatchbackDoors_Driver,			*,		1000,		500
+	HatchbackDoors_Driver_Blue,		*,		1000,		500
+	HatchbackDoors_Driver_White,		*,		1000,		500
+	HatchbackHood,				*,		1000,		500
+	HatchbackHood_Blue,			*,		1000,		500
+	HatchbackHood_White,			*,		1000,		500
+	HatchbackTrunk,				*,		1000,		500
+	HatchbackTrunk_Blue,			*,		1000,		500
+	HatchbackTrunk_White,			*,		1000,		500
+	HatchbackWheel,				*,		1000,		500
+	
+	Sedan_02_Door_1_1,			*,		1000,		500
+	Sedan_02_Door_1_1_Grey,			*,		1000,		500
+	Sedan_02_Door_1_1_Red,			*,		1000,		500
+	Sedan_02_Door_1_2,			*,		1000,		500
+	Sedan_02_Door_1_2_Grey,			*,		1000,		500
+	Sedan_02_Door_1_2_Red,			*,		1000,		500
+	Sedan_02_Door_2_1,			*,		1000,		500
+	Sedan_02_Door_2_1_Grey,			*,		1000,		500
+	Sedan_02_Door_2_1_Red,			*,		1000,		500
+	Sedan_02_Door_2_2,			*,		1000,		500
+	Sedan_02_Door_2_2_Grey,			*,		1000,		500
+	Sedan_02_Door_2_2_Red,			*,		1000,		500
+	Sedan_02_Hood,				*,		1000,		500
+	Sedan_02_Hood_Grey,			*,		1000,		500
+	Sedan_02_Hood_Red,			*,		1000,		500
+	Sedan_02_Trunk, 			*,		1000,		500
+	Sedan_02_Trunk_Grey, 			*,		1000,		500
+	Sedan_02_Trunk_Red, 			*,		1000,		500
+	Sedan_02_Wheel,				*,		1000,		500
+
+<Category> Modded Vehicle Parts
+	//ChevyTahoe08_dver_1_1_Police, *,      	2500,   	1000				
+	//ChevyTahoe08_dver_2_1_Police, *,      	2500,   	1000				
+	//HMMWV_PMC_dver_1_1,		*,		2500,		1000
+	//HMMWV_PMC_dver_1_1,           *,		2000,		1000		
+	//HMMWV_PMC_dver_1_2,		*,		2200,		1200
+	//HMMWV_PMC_dver_1_2,           *,		2000,		1000		
+	//HMMWV_PMC_dver_2_1,		*,		2500,		1000
+	//HMMWV_PMC_dver_2_1,           *,		2000,		1000		
+	//HMMWV_PMC_dver_2_2,		*,		2500,		1000
+	//HMMWV_PMC_dver_2_2,           *,		2000,		1000		
+	//HMMWV_PMC_koleso,		*,		2500,		1000
+	//HMMWV_PMC_koleso,             *,		1500,		500		
+	//HMMWV_PMC_koleso,             *,		1500,		500		
+	//HMMWV_PMC_koleso,             *,		1500,		500		
+	//HMMWV_PMC_koleso,             *,		1500,		500		
+	//HMMWV_PMC_Woodland_dver_1_1,	*,		2500,		1000	
+	//HMMWV_PMC_Woodland_dver_1_1,  *,		2000,		1000		
+	//HMMWV_PMC_Woodland_dver_1_2,	*,		2200,		1200	
+	//HMMWV_PMC_Woodland_dver_1_2,  *,		2000,		1000		
+	//HMMWV_PMC_Woodland_dver_2_1,	*,		2500,		1000	
+	//HMMWV_PMC_Woodland_dver_2_1,  *,		2000,		1000		
+	//HMMWV_PMC_Woodland_dver_2_2,	*,		2500,		1000	
+	//HMMWV_PMC_Woodland_dver_2_2,  *,		2000,		1000		
+	//mrap_doors_cargo1,          	*,              1000,           500					
+	//mrap_doors_cargo2,          	*,              1000,           500					
+	//mrap_doors_codriver,       	*,              1000,           500					
+	//mrap_doors_driver,       	*,              1000,           500					
+	//mrap_doors_hood,             	*,              1000,           500					
+	//mrap_doors_trunk,         	*,              1000,           500					
+	//mrap_wheel,             	*,              1000,           100					
 	//EngineOil,			*,		  70,		40
-	HeadlightH7_Box,		*,		  30,		15
-	SparkPlug,			*,		  60,		40
-	TireRepairKit,			*,		 220,		100
 	//TruckBattery,			*,		 180,		100
-	CivSedanDoors_BackLeft,		*,		 500,		180
-	CivSedanDoors_BackRight,	*,		 500,		180
-	CivSedanDoors_CoDriver,		*,		 500,		180
-	CivSedanDoors_Driver,		*,		 500,		180
-	CivSedanHood,			*,		 400,		140
-	CivSedanTrunk,			*,		 450,		150
-	CivSedanWheel,			*,		 600,		120
-	ChevyTahoe08_bagazhnik,         *,      	2200,   	1200					
-	ChevyTahoe08_dver_1_1,          *,      	2500,   	1000					
-	//ChevyTahoe08_dver_1_1_Police, *,      	2500,   	1000					
-	ChevyTahoe08_dver_1_2,          *,      	2500,   	1000					
-	ChevyTahoe08_dver_2_1,          *,      	2500,   	1000					
-	//ChevyTahoe08_dver_2_1_Police, *,      	2500,   	1000					
-	ChevyTahoe08_dver_2_2,          *,      	2500,   	1000					
-	ChevyTahoe08_kapot,             *,      	2500,   	1000					
-	ChevyTahoe08_Koleso,		*,		2000,		1000
 	
-	Sedan_02_Trunk, 		*,		 500,		180
-	Sedan_02_Hood,	                *,		 500,		180
-	Sedan_02_Door_2_2,		*,		 500,		180
-	Sedan_02_Door_1_2,		*,		 500,		180
-	Sedan_02_Door_2_1,		*,		 400,		140
-	Sedan_02_Door_1_1,		*,		 450,		150
-	Sedan_02_Trunk_Grey, 		*,		 500,		180
-	Sedan_02_Hood_Grey,	        *,		 500,		180
-	Sedan_02_Door_2_2_Grey,		*,		 500,		180
-	Sedan_02_Door_2_1_Grey,		*,		 500,		180
-	Sedan_02_Door_1_2_Grey,		*,		 400,		140
-	Sedan_02_Door_1_1_Grey,		*,		 450,		150
-	Sedan_02_Trunk_Red, 		*,		 500,		180
-	Sedan_02_Hood_Red,	        *,		 500,		180
-	Sedan_02_Door_2_2_Red,		*,		 500,		180
-	Sedan_02_Door_2_1_Red,		*,		 500,		180
-	Sedan_02_Door_1_2_Red,		*,		 400,		140
-	Sedan_02_Door_1_1_Red,		*,		 450,		150
-	Sedan_02_Wheel,				*,		 600,		120
-
-	Defender110_koleso, 		*, 		2000, 		1000
-	Defender110_dver_1_1, 		*, 		2000, 		1000
-	Defender110_dver_2_1, 		*, 		2000, 		1000
-	Defender110_dver_1_2, 		*, 		2000, 		1000
-	Defender110_dver_2_2, 		*, 		2000, 		1000
-	Defender110_kapot, 		*, 		2000, 		1000
-	Defender110_bagazhnik, 		*, 		2000, 		1000
-	Defender110_koleso, 		*, 		2000, 		1000
-	Defender110_dver_1_1_Green, 	*, 		2000, 		1000
-	Defender110_dver_2_1_Green, 	*, 		2000, 		1000
-	Defender110_dver_1_2_Green, 	*, 		2000, 		1000
-	Defender110_dver_2_2_Green, 	*, 		2000, 		1000
-	Defender110_kapot_Green, 	*, 		2000,		1000
-	Defender110_bagazhnik_Green, 	*, 		2000, 		1000
-	Defender110_dver_1_1_UN, 	*, 		2000, 		1000
-	Defender110_dver_2_1_UN, 	*, 		2000, 		1000
-	Defender110_dver_1_2_UN, 	*, 		2000, 		1000
-	Defender110_dver_2_2_UN, 	*, 		2000, 		1000
-	Defender110_kapot_UN, 		*,		2000, 		1000
-	Defender110_bagazhnik_UN, 	*, 		2000, 		1000
+	CanisterGasoline,		*,		2000,		500	
+	CarBattery,			*,		1000,		250	
+	CarRadiator,			*,		1000,		250
+	HeadlightH7_Box,		*,		 200,		50	
+	SparkPlug,			*,		 500,		125
+	TireRepairKit,			*,		 500,		125
 	
-	Hatchback_02_Door_1_1,		*,		 450,		160
-	Hatchback_02_Door_1_2,		*,		 450,		160
-	Hatchback_02_Door_2_1,		*,		 450,		160
-	Hatchback_02_Door_2_2,		*,		 450,		160
-	Hatchback_02_Hood,			*,		 300,		100
-	Hatchback_02_Trunk,			*,		 380,		130
+	BroncoOff86_dver_1_1,		*,		2500,		1000	
+	BroncoOff86_dver_2_1,		*,		2500,		1000	
+	BroncoOff86_kapot,		*,		2500,		1000	
+	BroncoOff86_koleso,		*,		2500,		1000	
 	
-	Hatchback_02_Door_1_1_Black,		*,		 450,		160
-	Hatchback_02_Door_1_2_Black,		*,		 450,		160
-	Hatchback_02_Door_2_1_Black,		*,		 450,		160
-	Hatchback_02_Door_2_2_Black,		*,		 450,		160
-	Hatchback_02_Hood_Black,			*,		 300,		100
-	Hatchback_02_Trunk_Black,			*,		 380,		130
+	ChevyTahoe08_bagazhnik,         *,      	2500,   	1000						
+	ChevyTahoe08_dver_1_1,          *,      	2500,   	1000						
+	ChevyTahoe08_dver_1_2,          *,      	2500,   	1000						
+	ChevyTahoe08_dver_2_1,          *,      	2500,   	1000						
+	ChevyTahoe08_dver_2_2,          *,      	2500,   	1000						
+	ChevyTahoe08_kapot,             *,      	2500,   	1000						
+	ChevyTahoe08_Koleso,		*,		2500,		1000		
 	
-	Hatchback_02_Door_1_1_Blue,		*,		 450,		160
-	Hatchback_02_Door_1_2_Blue,		*,		 450,		160
-	Hatchback_02_Door_2_1_Blue,		*,		 450,		160
-	Hatchback_02_Door_2_2_Blue,		*,		 450,		160
-	Hatchback_02_Hood_Blue,			*,		 300,		100
-	Hatchback_02_Trunk_Blue,			*,		 380,		130
-	Hatchback_02_Wheel,			*,		 500,		100
+	Defender110_bagazhnik, 		*, 		2500, 		1000		
+	Defender110_bagazhnik_Green, 	*, 		2500, 		1000			
+	Defender110_bagazhnik_UN, 	*, 		2500, 		1000			
+	Defender110_dver_1_1, 		*, 		2500, 		1000		
+	Defender110_dver_1_1_Green, 	*, 		2500, 		1000			
+	Defender110_dver_1_1_UN, 	*, 		2500, 		1000			
+	Defender110_dver_1_2, 		*, 		2500, 		1000		
+	Defender110_dver_1_2_Green, 	*, 		2500, 		1000			
+	Defender110_dver_1_2_UN, 	*, 		2500, 		1000			
+	Defender110_dver_2_1, 		*, 		2500, 		1000		
+	Defender110_dver_2_1_Green, 	*, 		2500, 		1000			
+	Defender110_dver_2_1_UN, 	*, 		2500, 		1000			
+	Defender110_dver_2_2, 		*, 		2500, 		1000		
+	Defender110_dver_2_2_Green, 	*, 		2500, 		1000			
+	Defender110_dver_2_2_UN, 	*, 		2500, 		1000			
+	Defender110_kapot, 		*, 		2500, 		1000		
+	Defender110_kapot_Green, 	*, 		2500,		1000			
+	Defender110_kapot_UN, 		*,		2500, 		1000		
+	Defender110_koleso, 		*, 		2500, 		1000		
+	Defender110_koleso, 		*, 		2500, 		1000		
 	
-	HatchbackDoors_CoDriver,	*,		 450,		160
-	HatchbackDoors_Driver,		*,		 450,		160
-	HatchbackHood,			*,		 300,		100
-	HatchbackTrunk,			*,		 380,		130
+	DingoDoors_Cargo1,		*,		2500,		1000		
+	DingoDoors_Cargo2,		*,		2500,		1000		
+	DingoDoors_CoDriver,		*,		2500,		1000			
+	DingoDoors_Driver,		*,		2500,		1000		
+	DingoHood,			*,		2500,		1000	
+	DingoTrunk,			*,		2500,		1000	
+	DingoWheel,			*,		2500,		1000	
 	
-	HatchbackDoors_Driver_Blue,	*,		 450,		160
-	HatchbackDoors_CoDriver_Blue,		*,		 450,		160
-	HatchbackHood_Blue,			*,		 300,		100
-	HatchbackTrunk_Blue,			*,		 380,		130
+	GAZ3309_dver_1_1,		*,		2500,		1000		
+	GAZ3309_dver_2_1,		*,		2500,		1000		
+	GAZ3309_kapot,			*,		2500,		1000	
+	GAZ3309_koleso,			*,		2500,		1000	
+	GAZ3309_koleso_double,		*,		2500,		1000		
 	
-	HatchbackDoors_CoDriver_White,	*,		 450,		160
-	HatchbackDoors_Driver_White,	*,		 450,		160
-	HatchbackHood_White,			*,		 300,		100
-	HatchbackTrunk_White,			*,		 380,		130
+	Jeep_Willis_Windshield,		*,		2500,		1000
+	Jeep_Willis_Windshield_camo,	*,		2500,		1000		
+	Jeep_Willis_Windshield_camo2,	*,		2500,		1000		
+	Jeep_Willis_Windshield_clean,	*,		2500,		1000		
+	Jeep_Willis_Windshield_dirty,	*,		2500,		1000		
 	
-	HatchbackWheel,			*,		 500,		100
-	
-	// HMMWV_PMC_dver_1_1,		*,		2500,		1000
-	// HMMWV_PMC_dver_1_1,             *,		2000,		1000
-	// HMMWV_PMC_dver_1_2,		*,		2200,		1200
-	// HMMWV_PMC_dver_1_2,             *,		2000,		1000
-	// HMMWV_PMC_dver_2_1,		*,		2500,		1000
-	// HMMWV_PMC_dver_2_1,             *,		2000,		1000
-	// HMMWV_PMC_dver_2_2,		*,		2500,		1000
-	// HMMWV_PMC_dver_2_2,             *,		2000,		1000
-	// HMMWV_PMC_koleso,		*,		2500,		1000
-	// HMMWV_PMC_koleso,               *,		1500,		500
-	// HMMWV_PMC_koleso,               *,		1500,		500
-	// HMMWV_PMC_koleso,               *,		1500,		500
-	// HMMWV_PMC_koleso,               *,		1500,		500
-	// HMMWV_PMC_Woodland_dver_1_1,	*,		2500,		1000
-	// HMMWV_PMC_Woodland_dver_1_1,    *,		2000,		1000
-	// HMMWV_PMC_Woodland_dver_1_2,	*,		2200,		1200
-	// HMMWV_PMC_Woodland_dver_1_2,    *,		2000,		1000
-	// HMMWV_PMC_Woodland_dver_2_1,	*,		2500,		1000
-	// HMMWV_PMC_Woodland_dver_2_1,    *,		2000,		1000
-	// HMMWV_PMC_Woodland_dver_2_2,	*,		2500,		1000
-	// HMMWV_PMC_Woodland_dver_2_2,    *,		2000,		1000
-	Zil130_Hood,			*,		2500,		1000
-	Zil130_Tailgate,		*,		2500,		1000
-	Zil130Doors_CoDriver,		*,		2500,		1000
-	Zil130Doors_Driver,		*,		2500,		1000
-	Zil130Wheel,			*,		1000,		750
-	Zil130WheelRear,		*,		2000,		1500
-        //mrap_wheel,             	*,              1000,           100
-        //mrap_doors_driver,       	*,              1000,           500
-        //mrap_doors_codriver,       	*,              1000,           500
-        //mrap_doors_cargo1,          	*,              1000,           500
-        //mrap_doors_cargo2,          	*,              1000,           500
-        //mrap_doors_trunk,         	*,              1000,           500
-        //mrap_doors_hood,             	*,              1000,           500
-	GAZ3309_kapot,				*,		2500,	1000
-	GAZ3309_dver_1_1,			*,		2500,	1000
-	GAZ3309_dver_2_1,			*,		2500,	1000
-	GAZ3309_koleso,				*,		1000,	750
-	GAZ3309_koleso_double,			*,		1800,	1250
-        DingoDoors_Driver,			*,		1000,	500
-        DingoDoors_CoDriver,		        *,		1000,	500
-        DingoDoors_Cargo1,			*,		1000,	500
-        DingoDoors_Cargo2,			*,		1000,	500
-        DingoHood,				*,		700,	350
-        DingoTrunk,				*,		500,	250
-        DingoWheel,				*,		700,	350
-        BroncoOff86_dver_1_1,				   *,		2500,	1000
-	BroncoOff86_dver_2_1,				   *,		2200,	1200
-	BroncoOff86_kapot,				   *,		2500,	1000
-        BroncoOff86_koleso,				   *,		2500,	1000
-		zeroy_jeep_willis_clean,		VNK,		25000,		8000	
-		zeroy_jeep_willis_dirty,		VNK,		25000,		8000	
-		zeroy_jeep_willis_camo,			VNK,		25000,		8000	
-		zeroy_jeep_willis_camo2,		VNK,		25000,		8000
-		CarBattery,							*,		100,		50
-		CarRadiator,						*,		200,		100
-		HeadlightH7_Box,					*,		30,			15
-		SparkPlug,							*,		60,			40
-		HatchbackWheel,						*,		500,		100
-		Jeep_Willis_Windshield,				*,		1500,		75
-		Jeep_Willis_Windshield_clean,		*,		1500,		75
-		Jeep_Willis_Windshield_dirty,		*,		1500,		75
-		Jeep_Willis_Windshield_camo,		*,		1500,		75
-		Jeep_Willis_Windshield_camo2,		*,		1500,		75
-
-		
-<Category> Keys
-	VehicleKeyDuplicate,		K,		1500,		-1 		// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
+	Zil130_Hood,			*,		2500,		1000	
+	Zil130_Tailgate,		*,		2500,		1000		
+	Zil130Doors_CoDriver,		*,		2500,		1000		
+	Zil130Doors_Driver,		*,		2500,		1000		
+	Zil130Wheel,			*,		2500,		1000	
+	Zil130WheelRear,		*,		2500,		1000		
+			
+//<Category> Keys
+	//VehicleKeyDuplicate,		K,		1500,		-1 		// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
