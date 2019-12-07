@@ -498,7 +498,8 @@
 	RDG2SmokeGrenade_White,         	W, 		500, 		100
 	RGD5Grenade,				W, 		2000,		400									
 
-<Category> Fireguns									
+<Category> Fireguns			
+						
 	AK101,					W,		20000,		3300	
 	AK74,					W,		20000,		3300	
 	AKM,					W,		20000,		3300	
@@ -519,6 +520,7 @@
 	Mp133Shotgun,				W,		12000,		2000	
 	Izh43Shotgun,				W,		12000,		2000		
 	MP5K,					W,		12500,		2100	
+	Saiga,					W,		18000,		3000
 	SawedoffMosin9130,			W,		15000,		2500	
 	SKS,					W,		12500,		2100	
 	SVD,					W,		25000,		4000	
@@ -527,7 +529,7 @@
 	Winchester70,				W,		25000,		4000
         B95,			        	W,		50000,		5000
 									
-<Category> Mass Weapons									
+<Category> Mass Weapons							
 	MassG18,                		W,      	4000,   	1000				
 	MassG18_Green,          		W,      	4000,   	1000				
 	Massarmsan,			    	W,		15000,		2500
@@ -592,34 +594,60 @@
 	L85A2_NoGrip,				W, 		20000, 		3300					
 
 <Category> Weapon's Expansion Pack
-	WE_AR15_Olive,				W,		20000,		3300
-	WE_AR15_Tan,				W,		20000,		3300
-	WE_DesertEagle,				W,		20000,		3300
-	WE_HoneyBadger,				W,		20000,		3300
-	WE_HoneyBadger_Olive,			W,		20000,		3300
-	WE_HoneyBadger_Snow,			W,		20000,		3300
-	WE_HoneyBadger_Woodland,		W,		20000,		3300
-	//WE_Luger,				W,		2000,		400
-	WE_M82,				        W,		-1,		50000
-	WE_M82_Snow,			        W,		-1,		50000
-	WE_M82_Woodland,		        W,		-1,		50000
-	WE_M82_Tan,			        W,		-1,		50000
-	WE_M82_Olive,			        W,		-1,		50000
-	WE_RK92_Olive,				W,		20000,		3300
-	WE_RK92_Tan,				W,		20000,		3300
-	WE_SSG69_Black,				W,		25000,		4000
-	WE_SSG69_Olive,				W,		25000,		4000
-	WE_ACR,					W,		20000,		3300
-	WE_AR15,				W,		20000,		3300
-	WE_M16A3,				W,		20000,		3300
-	WE_M24A3,				W,		75000,		15000
-	WE_M9,					W,		3500,		500
-	WE_MAT49,				W,		12500,		2100
-	WE_MP5SD,				W,		15000,		2500
-	WE_PSG1,				W,		20000,		3300
-	WE_RK92,				W,		20000,		3300
-	WE_SSG69,				W,		25000,		4000
+	WE_ACR	,				W,		20000,		3300
+	WE_ACR_Green	,			W,		20000,		3300
+	WE_ACR_Snow  ,                           W,		20000,		3300
+	WE_ACR_Tan ,                             W,		20000,		3300
+	WE_ACR_Woodland   ,                      W,		20000,		3300
+	WE_AR15   ,                              W,		20000,		3300
+	WE_AR15_Green	,			W,		20000,		3300
+	WE_AR15_Snow  ,                          W,		20000,		3300
+	WE_AR15_Tan  ,                           W,		20000,		3300
+	WE_AR15_Woodland ,                       W,		20000,		3300
+	WE_DesertEagle   ,                       W,		20000,		3300
+	WE_HoneyBadger		,		W,		20000,		3300
+	WE_HoneyBadger_Green ,                   W,		20000,		3300
+	WE_HoneyBadger_Snow ,                    W,		20000,		3300
+	WE_HoneyBadger_Tan ,                     W,		20000,		3300
+	WE_HoneyBadger_Woodland   ,              W,		20000,		3300
+	WE_M16A3           ,                     W,		20000,		3300
+	WE_M16A3_Olive    ,                      W,		20000,		3300
+	WE_M16A3_Snow   ,                        W,		20000,		3300
+	WE_M16A3_Tan    ,                        W,		20000,		3300
+	WE_M16A3_Woodland  ,                     W,		20000,		3300
+	WE_M24A3				W,		75000,		15000
+	WE_M24A3_Olive		,		W,		75000,		15000
+	WE_M24A3_Snow  	,			W,		75000,		15000
+	WE_M24A3_Tan  ,                          W,		75000,		15000
+	WE_M24A3_Woodland   ,                    W,		75000,		15000
+	WE_M82    ,                             W,		   -1,		50000
+	WE_M82_Olive	,			W,		   -1,		50000
+	WE_M82_Snow ,                            W,		   -1,		50000
+	WE_M82_Tan    ,                          W,		   -1,		50000
+	WE_M82_Woodland  ,                       W,		   -1,		50000
+	WE_M9    ,                               W,		3500,		500
+	WE_MAT49	,			W,		12500,		2100
+	WE_MP5SD	,			W,		15000,		2500
+	WE_PSG1,        ,                         W,		20000,		3300
+	WE_PSG1_Green                           W,		20000,		3300
+	WE_PSG1_Snow  ,                          W,		20000,		3300
+	WE_PSG1_Tan,                             W,		20000,		3300
+	WE_PSG1_Woodland    ,                    W,		20000,		3300
+	WE_RK92 ,                                W,		20000,		3300
+	WE_RK92_Green,				W,		20000,		3300
+	WE_RK92_Snow,                            W,		20000,		3300
+	WE_RK92_Tan,                             W,		20000,		3300
+	WE_RK92_Woodland,                        W,		20000,		3300
+	WE_SSG69,                                W,		25000,		4000
+	WE_SSG69_Green,                          W,		25000,		4000
+	WE_SSG69_Snow,                           W,		25000,		4000
+	WE_SSG69_Tan,                            W,		25000,		4000
+	WE_SSG69_Woodland,                       W,		25000,		4000
 	WE_STG44,				W,		20000,		3300
+	WE_STG44_Green,                          W,		20000,		3300
+	WE_STG44_Snow,                           W,		20000,		3300
+	WE_STG44_Tan,                            W,		20000,		3300
+	WE_STG44_Woodland,                       W,		20000,		3300
 
 <Category> Weapon Redux Pack
 	//gp_Blaze95,				W,		15000,		2500
@@ -1841,7 +1869,38 @@
 	MassMolleBeltBlack,                  	*,      	600,    300								
 	MassMolleBeltODG,                    	*,      	600,    300								
 	MassMolleBeltWD,                     	*,      	600,    300								
-	MassToolbelt,                        	*,      	400,    200		
+	MassToolbelt,                        	*,      	400,    200	
+
+<Category> Windstrider's Clothing
+		Blue_Leggings,			        *,		500,	150	
+	    Latex_Leggings,		            *,		500,	150	
+	    Adidas_Leggings,			    *,		500,	150	
+	    PMK_5A_Gas_Mask,			    *,		500,	150	
+	    Poncho_Red_Checkered,		    *,		500,	150
+	    Poncho_Blue_Checkered,		    *,		500,	150	
+	    Poncho_Yellow_Checkered,	    *,		500,	150
+	    Poncho_White,			        *,		500,	150	
+	    Poncho_Brown,			        *,		500,	150	
+	    Poncho_Green,			        *,		500,	150	
+	    Poncho_Red,			            *,		500,	150	
+	    Poncho_Black,		            *,		500,	150	
+	    Poncho_BlackAndWhite,		    *,		500,	150	
+	    Poncho_BlackAndWhite2,		    *,		500,	150	
+	    Military_Sweater,			    *,		800,	100	
+	    Military_Sweater_Red,		    *,		800,	100	
+	    Military_Sweater_Blue,		    *,		800,	100	
+	    Military_Sweater_Green,		    *,		800,	100
+	    Military_Sweater_White,		    *,		800,	100
+	    Military_Sweater_Black,		    *,		800,	100
+	    Fingerless_Gloves,		        *,		500,	150	
+	    High_Knee_Sneakers,			    *,		500,	150
+		Shemagh_Brown,			        *,		500,	150
+		Shemagh_Green,			        *,		500,	150
+		Shemagh_Red,	                *,		500,	150
+		Shemagh_White,	                *,		500,	150
+		Layered_Shirt_Base,			    *,		500,	150
+		Layered_Shirt_White,			*,		500,	150
+		Layered_Shirt_Cheburashka,		*,		500,	150	
 
 <Category> Military Snowgear										
 	GhillieBushrag_Winter,			*,		1000,	200				
@@ -1904,6 +1963,7 @@
 	HeadlightH7_Box,			*,		 200,		50	
 	SparkPlug,				*,		 500,		125
 	TireRepairKit,				*,		 500,		125
+<<<<<<< HEAD
 
 	CivSedanDoors_BackLeft,			*,		1000,		500
 	CivSedanDoors_BackLeft_Black,		*,		1000,		500
@@ -1947,6 +2007,51 @@
 	Hatchback_02_Trunk_Blue,		*,		1000,		500
 	Hatchback_02_Wheel,			*,		1000,		500
 
+=======
+
+	CivSedanDoors_BackLeft,			*,		1000,		500
+	CivSedanDoors_BackLeft_Black,		*,		1000,		500
+	CivSedanDoors_BackLeft_Wine,		*,		1000,		500
+	CivSedanDoors_BackRight,		*,		1000,		500
+	CivSedanDoors_BackRight_Black,		*,		1000,		500
+	CivSedanDoors_BackRight_Wine,		*,		1000,		500
+	CivSedanDoors_CoDriver,			*,		1000,		500
+	CivSedanDoors_CoDriver_Black,		*,		1000,		500
+	CivSedanDoors_CoDriver_Wine,		*,		1000,		500
+	CivSedanDoors_Driver,			*,		1000,		500
+	CivSedanDoors_Driver_Black,		*,		1000,		500
+	CivSedanDoors_Driver_Wine,		*,		1000,		500
+	CivSedanHood,				*,		1000,		500
+	CivSedanHood_Black,			*,		1000,		500
+	CivSedanHood_Wine,			*,		1000,		500
+	CivSedanTrunk,				*,		1000,		500
+	CivSedanTrunk_Black,			*,		1000,		500
+	CivSedanTrunk_Wine,			*,		1000,		500
+	CivSedanWheel,				*,		1000,		500
+	CivSedanWheel_Black,			*,		1000,		500
+	CivSedanWheel_Wine,			*,		1000,		500
+
+	Hatchback_02_Door_1_1,			*,		1000,		500
+	Hatchback_02_Door_1_1_Black,		*,		1000,		500
+	Hatchback_02_Door_1_1_Blue,		*,		1000,		500
+	Hatchback_02_Door_1_2,			*,		1000,		500
+	Hatchback_02_Door_1_2_Black,		*,		1000,		500
+	Hatchback_02_Door_1_2_Blue,		*,		1000,		500
+	Hatchback_02_Door_2_1,			*,		1000,		500
+	Hatchback_02_Door_2_1_Black,		*,		1000,		500
+	Hatchback_02_Door_2_1_Blue,		*,		1000,		500
+	Hatchback_02_Door_2_2,			*,		1000,		500
+	Hatchback_02_Door_2_2_Black,		*,		1000,		500
+	Hatchback_02_Door_2_2_Blue,		*,		1000,		500
+	Hatchback_02_Hood,			*,		1000,		500
+	Hatchback_02_Hood_Black,		*,		1000,		500
+	Hatchback_02_Hood_Blue,			*,		1000,		500
+	Hatchback_02_Trunk,			*,		1000,		500
+	Hatchback_02_Trunk_Black,		*,		1000,		500
+	Hatchback_02_Trunk_Blue,		*,		1000,		500
+	Hatchback_02_Wheel,			*,		1000,		500
+
+>>>>>>> 80588eb36b0b5438bc31eba7aac9d0e99406ed2e
 	HatchbackDoors_CoDriver,		*,		1000,		500
 	HatchbackDoors_CoDriver_Blue,		*,		1000,		500
 	HatchbackDoors_CoDriver_White,		*,		1000,		500
