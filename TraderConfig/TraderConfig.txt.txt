@@ -596,60 +596,60 @@ Category> Seeds & Lime
 	L85A2_NoGrip,				W, 		20000, 		3300					
 
 <Category> Weapon's Expansion Pack
-	WE_ACR	,				W,		20000,		3300
-	WE_ACR_Green	,			W,		20000,		3300
-	WE_ACR_Snow  ,                           W,		20000,		3300
-	WE_ACR_Tan ,                             W,		20000,		3300
-	WE_ACR_Woodland   ,                      W,		20000,		3300
-	WE_AR15   ,                              W,		20000,		3300
-	WE_AR15_Green	,			W,		20000,		3300
-	WE_AR15_Snow  ,                          W,		20000,		3300
-	WE_AR15_Tan  ,                           W,		20000,		3300
-	WE_AR15_Woodland ,                       W,		20000,		3300
-	WE_DesertEagle   ,                       W,		20000,		3300
-	WE_HoneyBadger		,		W,		20000,		3300
-	WE_HoneyBadger_Green ,                   W,		20000,		3300
-	WE_HoneyBadger_Snow ,                    W,		20000,		3300
-	WE_HoneyBadger_Tan ,                     W,		20000,		3300
-	WE_HoneyBadger_Woodland   ,              W,		20000,		3300
-	WE_M16A3           ,                     W,		20000,		3300
-	WE_M16A3_Olive    ,                      W,		20000,		3300
-	WE_M16A3_Snow   ,                        W,		20000,		3300
-	WE_M16A3_Tan    ,                        W,		20000,		3300
-	WE_M16A3_Woodland  ,                     W,		20000,		3300
-	WE_M24A3				W,		75000,		15000
-	WE_M24A3_Olive		,		W,		75000,		15000
-	WE_M24A3_Snow  	,			W,		75000,		15000
-	WE_M24A3_Tan  ,                          W,		75000,		15000
-	WE_M24A3_Woodland   ,                    W,		75000,		15000
-	WE_M82    ,                             W,		   -1,		50000
-	WE_M82_Olive	,			W,		   -1,		50000
-	WE_M82_Snow ,                            W,		   -1,		50000
-	WE_M82_Tan    ,                          W,		   -1,		50000
-	WE_M82_Woodland  ,                       W,		   -1,		50000
-	WE_M9    ,                               W,		3500,		500
-	WE_MAT49	,			W,		12500,		2100
-	WE_MP5SD	,			W,		15000,		2500
-	WE_PSG1,        ,                         W,		20000,		3300
-	WE_PSG1_Green                           W,		20000,		3300
-	WE_PSG1_Snow  ,                          W,		20000,		3300
-	WE_PSG1_Tan,                             W,		20000,		3300
-	WE_PSG1_Woodland    ,                    W,		20000,		3300
-	WE_RK92 ,                                W,		20000,		3300
+	WE_ACR,					W,		20000,		3300
+	WE_ACR_Green,				W,		20000,		3300
+	WE_ACR_Snow,                            W,		20000,		3300
+	WE_ACR_Tan,                             W,		20000,		3300
+	WE_ACR_Woodland,                        W,		20000,		3300
+	WE_AR15,                                W,		20000,		3300
+	WE_AR15_Green,				W,		20000,		3300
+	WE_AR15_Snow,                          	W,		20000,		3300
+	WE_AR15_Tan,                          	W,		20000,		3300
+	WE_AR15_Woodland,                       W,		20000,		3300
+	WE_DesertEagle,                       	W,		20000,		3300
+	WE_HoneyBadger,				W,		20000,		3300
+	WE_HoneyBadger_Green,                   W,		20000,		3300
+	WE_HoneyBadger_Snow,                    W,		20000,		3300
+	WE_HoneyBadger_Tan,                     W,		20000,		3300
+	WE_HoneyBadger_Woodland,              	W,		20000,		3300
+	WE_M16A3,                     		W,		20000,		3300
+	WE_M16A3_Olive,                      	W,		20000,		3300
+	WE_M16A3_Snow,                        	W,		20000,		3300
+	WE_M16A3_Tan,                        	W,		20000,		3300
+	WE_M16A3_Woodland,                     	W,		20000,		3300
+	WE_M24A3,				W,		75000,		15000
+	WE_M24A3_Olive,				W,		75000,		15000
+	WE_M24A3_Snow,				W,		75000,		15000
+	WE_M24A3_Tan,                          	W,		75000,		15000
+	WE_M24A3_Woodland,                    	W,		75000,		15000
+	WE_M82,                             	W,		   -1,		50000
+	WE_M82_Olive,				W,		   -1,		50000
+	WE_M82_Snow,                            W,		   -1,		50000
+	WE_M82_Tan,                          	W,		   -1,		50000
+	WE_M82_Woodland,                       	W,		   -1,		50000
+	WE_M9,                               	W,		3500,		500
+	WE_MAT49,				W,		12500,		2100
+	WE_MP5SD,				W,		15000,		2500
+	WE_PSG1,                                W,		20000,		3300
+	WE_PSG1_Green,                          W,		20000,		3300
+	WE_PSG1_Snow,                          	W,		20000,		3300
+	WE_PSG1_Tan,                            W,		20000,		3300
+	WE_PSG1_Woodland,                    	W,		20000,		3300
+	WE_RK92,                                W,		20000,		3300
 	WE_RK92_Green,				W,		20000,		3300
-	WE_RK92_Snow,                            W,		20000,		3300
-	WE_RK92_Tan,                             W,		20000,		3300
-	WE_RK92_Woodland,                        W,		20000,		3300
-	WE_SSG69,                                W,		25000,		4000
-	WE_SSG69_Green,                          W,		25000,		4000
-	WE_SSG69_Snow,                           W,		25000,		4000
-	WE_SSG69_Tan,                            W,		25000,		4000
-	WE_SSG69_Woodland,                       W,		25000,		4000
+	WE_RK92_Snow,                           W,		20000,		3300
+	WE_RK92_Tan,                            W,		20000,		3300
+	WE_RK92_Woodland,                       W,		20000,		3300
+	WE_SSG69,                               W,		25000,		4000
+	WE_SSG69_Green,                         W,		25000,		4000
+	WE_SSG69_Snow,                          W,		25000,		4000
+	WE_SSG69_Tan,                           W,		25000,		4000
+	WE_SSG69_Woodland,                      W,		25000,		4000
 	WE_STG44,				W,		20000,		3300
-	WE_STG44_Green,                          W,		20000,		3300
-	WE_STG44_Snow,                           W,		20000,		3300
-	WE_STG44_Tan,                            W,		20000,		3300
-	WE_STG44_Woodland,                       W,		20000,		3300
+	WE_STG44_Green,                         W,		20000,		3300
+	WE_STG44_Snow,                          W,		20000,		3300
+	WE_STG44_Tan,                           W,		20000,		3300
+	WE_STG44_Woodland,                      W,		20000,		3300
 
 <Category> Weapon Redux Pack
 	//gp_Blaze95,				W,		15000,		2500
