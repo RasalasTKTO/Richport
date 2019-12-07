@@ -258,44 +258,47 @@
 	WoodenPlank,			*,		50,		15		
 	XmasLights,			*,		25,		10		
 
-//<Category> Base Fortifications						
-	//CementBag,			*,        	500,    	100	
-	//Dragon_Teeth_Kit,		*,        	1000,    	500		
-	//Hedgehog_Dismantled,		*,        	500,    	100		
-	//Hedgehog_Kit,			*,        	1000,    	500	
-	//Hesco_1_Kit,			*,        	1000,    	500	
-	//Hesco_3_Kit,			*,        	3000,    	500	
-	//Hesco_5_Kit,			*,        	5000,    	500	
-	//MetalBeam,			*,        	500,    	100	
-	//Razorwire,			*,        	500,    	100	
-	//Razorwire_Kit,			*,        	1000,    	500	
-	//RoadBarrier_Kit,		*,        	1000,    	500		
-	//Sandbag_Empty,			*,        	500,    	100	
-	//SandbagLong_Kit,		*,        	1000,    	500		
-	//SandbagRound_Kit,		*,        	1000,    	500		
-	//WindowBarrier,			*,        	500,    	100	
-	//WindowBarrier_Kit,		*,	  	1000,		500
+<Category> Base Fortifications						
+	CementBag,			*,        	500,    	100	
+	Dragon_Teeth_Kit,		*,        	1000,    	500		
+	Hedgehog_Dismantled,		*,        	500,    	100		
+	Hedgehog_Kit,			*,        	1000,    	500	
+	Hesco_1_Kit,			*,        	1000,    	500	
+	Hesco_3_Kit,			*,        	3000,    	500	
+	Hesco_5_Kit,			*,        	5000,    	500	
+	MetalBeam,			*,        	500,    	100	
+	Razorwire,			*,        	500,    	100	
+	Razorwire_Kit,			*,        	1000,    	500	
+	RoadBarrier_Kit,		*,        	1000,    	500		
+	Sandbag_Empty,			*,        	500,    	100	
+	SandbagLong_Kit,		*,        	1000,    	500		
+	SandbagRound_Kit,		*,        	1000,    	500		
+	WindowBarrier,			*,        	500,    	100	
+	WindowBarrier_Kit,		*,	  	1000,		500
 						
-//<Category> Base Furniture						
-	//Skyline_Kit_Fridge,		*,        	3000,    	1000		
-	//Skyline_Kit_Gun_Cabinet,	*,        	5000,    	1600			
-	//Skyline_Kit_Gun_Rack,		*,        	6500,    	2200		
-	//Skyline_Kit_Shelf,		*,        	4500,    	1500		
-	//Skyline_Kit_StorageBox,		*,        	5000,    	1800	
+<Category> Base Furniture						
+	Skyline_Kit_Fridge,		*,        	3000,    	1000		
+	Skyline_Kit_Gun_Cabinet,	*,        	5000,    	1600			
+	Skyline_Kit_Gun_Rack,		*,        	6500,    	2200		
+	Skyline_Kit_Shelf,		*,        	4500,    	1500		
+	Skyline_Kit_StorageBox,		*,        	5000,    	1800	
 	
-//<Category> Base Storage
-		//Base_Almara_Kit,				*,		1800,	340	
-		//Base_Almara_Large_Kit,				*,		2000,	350
-		//Base_BMetalCrate_Kit,				*,		1500,	325
-		//Base_GMetalCrate_Kit,				*,		1500,	325		
-		//Base_Chernarus_Flag_Kit,			*,		100,	10
-		//Base_Cot_Kit,					*,		650,	100
-		//Base_CornerSofa_Kit,				*,		350,	50
-		//Base_LeatherSofa_Kit,				*,		350,	50
-		//Base_Nightstand_Kit,				*,		1200,	250
-		//Base_SingleBed_Kit,				*,		800,	120
-		//Base_CoffeeTable_Kit,				*,		350,	50
-		//Base_WoodStorage_Kit,				*,		2000,	350
+<Category> Base Storage
+	Base_Almara_Kit,		*,		1800,		340	
+	Base_Almara_Large_Kit,		*,		2000,		350
+	Base_BMetalCrate_Kit,		*,		1500,		325
+	Base_GMetalCrate_Kit,		*,		1500,		325		
+	Base_Chernarus_Flag_Kit,	*,		100,		10
+	Base_Cot_Kit,			*,		650,		100
+	Base_CornerSofa_Kit,		*,		350,		50
+	Base_LeatherSofa_Kit,		*,		350,		50
+	Base_Nightstand_Kit,		*,		1200,		250
+	Base_SingleBed_Kit,		*,		800,		120
+	Base_CoffeeTable_Kit,		*,		350,		50
+	Base_WoodStorage_Kit,		*,		2000,		350
+	gunwall_kit_mung,               *,      	2000,   	500
+	gunwall_metal_kit_mung,         *,      	2000,   	500
+
 
 <Category> Tents											
 	CarTent,			*,		5000,		700		
@@ -309,106 +312,106 @@
 	//SneakyMakeShiftTent2Kit,	*,		1000,		500			
 	//SneakyMakeShiftTentKit,	*,		1000,		500			
 												
-//<Category> OP_Baseitems											
-    	//Gardenbox,			*,		600,		200		
-	//GardenboxEmpty,			*,		600,		200		
-	//GardenpotEmpty,			*,		600,		200		
-	//Locker,				*,		1000,		400		
-	//OP_BannerMount,			*,		1000,		200		
-	//OP_CamoNetEastBanner,		*,		1000,		200			
-	//OP_CamoNetNatoBanner,		*,		1000,		200			
-	//OP_Lockerblue,			*,		1000,		400		
-	//OP_StorageCabinetBlack,		*,		2000,		1000			
-	//OP_StorageCabinetGreen,		*,		2000,		1000			
-	//OP_StorageCabinetGrey,		*,		2000,		1000			
-	//OP_StorageCabinetSmall,		*,		1000,		400			
-	//OP_UCPBanner,			*,		1000,		200		
-	//OP_WoodlandBanner,		*,		1000,		200			
-	//Waterbarrel,			*,		2000,		500		
+<Category> OP_Baseitems											
+    	Gardenbox,			*,		600,		200		
+	GardenboxEmpty,			*,		600,		200		
+	GardenpotEmpty,			*,		600,		200		
+	Locker,				*,		1000,		400		
+	OP_BannerMount,			*,		1000,		200		
+	OP_CamoNetEastBanner,		*,		1000,		200			
+	OP_CamoNetNatoBanner,		*,		1000,		200			
+	OP_Lockerblue,			*,		1000,		400		
+	OP_StorageCabinetBlack,		*,		2000,		1000			
+	OP_StorageCabinetGreen,		*,		2000,		1000			
+	OP_StorageCabinetGrey,		*,		2000,		1000			
+	OP_StorageCabinetSmall,		*,		1000,		400			
+	OP_UCPBanner,			*,		1000,		200		
+	OP_WoodlandBanner,		*,		1000,		200			
+	Waterbarrel,			*,		2000,		500		
 												
 //<Category> Chopper Items											
 	//Chopper_Bracket,		*,		350,		175			
 	//Chopper_DoorKit,		*,		300,		150			
 	//Chopper_FloorKit,		*,		200,		100			
-	//Chopper_Hinge,			*,		100,		50		
+	//Chopper_Hinge,		*,		100,		50		
 	//Chopper_StaircaseKit,		*,		8000,		4000			
 	//Chopper_WallKit,		*,		200,		100			
 	//Chopper_WindowKit,		*,		250,		125
 
-	<Category> BaseBuildingPlus
-		BBP_Land_Claim_FlagKit,								*,		5000,		2500
-		BBP_Blueprint,									*,		100,		50
-		BBP_Workbench,									*,		150,		75
-		BBP_T1_WallKit,									*,		200,		100
-		BBP_T1_Wall_HalfKit,								*,		200,		100
-		BBP_T1_DoorKit,									*,		300,		150
-		BBP_T1_GateKit,									*,		400,		200
-		BBP_T1_WindowKit,								*,		300,		150
-		BBP_T1_RoofKit,									*,		200,		100
-		BBP_T1_FloorKit,								*,		200,		100
-		BBP_T1_Floor_HatchKit,								*,		200,		100
-		BBP_T1_StairKit,								*,		300,		150
-		BBP_T1_RampKit,									*,		300,		150
-		BBP_T1_Ramp_WideKit,								*,		320,		160
-		BBP_T2_WallKit,									*,		400,		200
-		BBP_T2_Wall_HalfKit,								*,		400,		200
-		BBP_T2_DoorKit,									*,		600,		300
-		BBP_T2_GateKit,									*,		800,		400
-		//BBP_T2_WindowKit,								*,		600,		300// Not ready for use
-		BBP_T2_RoofKit,									*,		400,		200
-		BBP_T2_FloorKit,								*,		400,		200
-		//BBP_T2_Floor_HatchKit,							*,		400,		200// Not ready for use
-		BBP_T3_WallKit,									*,		800,		400
-		BBP_T3_Wall_HalfKit,								*,		800,		400
-		BBP_T3_DoorKit,									*,		1200,		600
-		BBP_T3_GateKit,									*,		1400,		700
-		//BBP_T3_WindowKit,								*,		1200,		600// Not ready for use
-		BBP_T3_RoofKit,									*,		800,		400
-		BBP_T3_FloorKit,								*,		800,		400
-		//BBP_T3_FloorHatchKit,								*,		800,		400// Not ready for use
-		//BBP_Underground_BunkerKit,							*,		4000,		2000 // Not ready for use
-		//BBP_Ladder_Kit,								*,		500,		250  // Not ready for use
-		BBP_Cement,									*,		60,		30
-		BBP_Concrete_Bricks_Pile,							*,		100,		50
-		BBP_Mortar_Mix,									*,		60,		30
-		BBP_Wood_Storage,								*,		1000,		500
-		BBP_Old_Lamp,									*,		600,		300
-		BBP_Floor_Lamp,									*,		800,		400
-		BBP_Sun_Shade,									*,		600,		300
-		BBP_Tape_Measure,								*,		20,		10
-		BBP_Painting,									*,		200,		100
-		BBP_Painting_1,									*,		200,		100
-		BBP_Painting_2,									*,		200,		100
-		BBP_Xmas_Tree,									*,		400,		200
-		BBP_MagnetBox,									*,		100,		50
-		BBP_Letter_Large_A,								*,		100,		50
-		BBP_Letter_Large_B,								*,		100,		50
-		BBP_Letter_Large_C,								*,		100,		50
-		BBP_Letter_Large_D,								*,		100,		50
-		BBP_Letter_Large_E,								*,		100,		50
-		BBP_Letter_Large_F,								*,		100,		50
-		BBP_Letter_Large_G,								*,		100,		50
-		BBP_Letter_Large_H,								*,		100,		50
-		BBP_Letter_Large_I,								*,		100,		50
-		BBP_Letter_Large_J,								*,		100,		50
-		BBP_Letter_Large_K,								*,		100,		50
-		BBP_Letter_Large_L,								*,		100,		50
-		BBP_Letter_Large_M,								*,		100,		50
-		BBP_Letter_Large_N,								*,		100,		50
-		BBP_Letter_Large_O,								*,		100,		50
-		BBP_Letter_Large_P,								*,		100,		50
-		BBP_Letter_Large_Q,								*,		100,		50
-		BBP_Letter_Large_R,								*,		100,		50
-		BBP_Letter_Large_S,								*,		100,		50
-		BBP_Letter_Large_T,								*,		100,		50
-		BBP_Letter_Large_U,								*,		100,		50
-		BBP_Letter_Large_V,								*,		100,		50
-		BBP_Letter_Large_W,								*,		100,		50
-		BBP_Letter_Large_X,								*,		100,		50
-		BBP_Letter_Large_Y,								*,		100,		50
-		BBP_Letter_Large_Z,								*,		100,		50			
-												
-<Category> Seeds & Lime											
+<Category> BaseBuildingPlus
+	//BBP_Land_Claim_FlagKit,	*,		5000,		2500
+	BBP_Blueprint,			*,		100,		50
+	BBP_Workbench,			*,		150,		75
+	BBP_T1_WallKit,			*,		200,		100
+	BBP_T1_Wall_HalfKit,		*,		200,		100
+	BBP_T1_DoorKit,			*,		300,		150
+	BBP_T1_GateKit,			*,		400,		200
+	BBP_T1_WindowKit,		*,		300,		150
+	BBP_T1_RoofKit,			*,		200,		100
+	BBP_T1_FloorKit,		*,		200,		100
+	BBP_T1_Floor_HatchKit,		*,		200,		100
+	BBP_T1_StairKit,		*,		300,		150
+	BBP_T1_RampKit,			*,		300,		150
+	BBP_T1_Ramp_WideKit,		*,		320,		160
+	BBP_T2_WallKit,			*,		400,		200
+	BBP_T2_Wall_HalfKit,		*,		400,		200
+	BBP_T2_DoorKit,			*,		600,		300
+	BBP_T2_GateKit,			*,		800,		400
+	//BBP_T2_WindowKit,		*,		600,		300  // Not ready for use
+	BBP_T2_RoofKit,			*,		400,		200
+	BBP_T2_FloorKit,		*,		400,		200
+	//BBP_T2_Floor_HatchKit,	*,		400,		200  // Not ready for use
+	BBP_T3_WallKit,			*,		800,		400
+	BBP_T3_Wall_HalfKit,		*,		800,		400
+	BBP_T3_DoorKit,			*,		1200,		600
+	BBP_T3_GateKit,			*,		1400,		700
+	//BBP_T3_WindowKit,		*,		1200,		600  // Not ready for use
+	BBP_T3_RoofKit,			*,		800,		400
+	BBP_T3_FloorKit,		*,		800,		400
+	//BBP_T3_FloorHatchKit,		*,		800,		400  // Not ready for use
+	//BBP_Underground_BunkerKit,	*,		4000,		2000 // Not ready for use
+	//BBP_Ladder_Kit,		*,		500,		250  // Not ready for use
+	BBP_Cement,			*,		60,		30
+	BBP_Concrete_Bricks_Pile,	*,		100,		50
+	BBP_Mortar_Mix,			*,		60,		30
+	BBP_Wood_Storage,		*,		1000,		500
+	BBP_Old_Lamp,			*,		600,		300
+	BBP_Floor_Lamp,			*,		800,		400
+	BBP_Sun_Shade,			*,		600,		300
+	BBP_Tape_Measure,		*,		20,		10
+	BBP_Painting,			*,		200,		100
+	BBP_Painting_1,			*,		200,		100
+	BBP_Painting_2,			*,		200,		100
+	BBP_Xmas_Tree,			*,		400,		200
+	BBP_MagnetBox,			*,		100,		50
+	BBP_Letter_Large_A,		*,		100,		50
+	BBP_Letter_Large_B,		*,		100,		50
+	BBP_Letter_Large_C,		*,		100,		50
+	BBP_Letter_Large_D,		*,		100,		50
+	BBP_Letter_Large_E,		*,		100,		50
+	BBP_Letter_Large_F,		*,		100,		50
+	BBP_Letter_Large_G,		*,		100,		50
+	BBP_Letter_Large_H,		*,		100,		50
+	BBP_Letter_Large_I,		*,		100,		50
+	BBP_Letter_Large_J,		*,		100,		50
+	BBP_Letter_Large_K,		*,		100,		50
+	BBP_Letter_Large_L,		*,		100,		50
+	BBP_Letter_Large_M,		*,		100,		50
+	BBP_Letter_Large_N,		*,		100,		50
+	BBP_Letter_Large_O,		*,		100,		50
+	BBP_Letter_Large_P,		*,		100,		50
+	BBP_Letter_Large_Q,		*,		100,		50
+	BBP_Letter_Large_R,		*,		100,		50
+	BBP_Letter_Large_S,		*,		100,		50
+	BBP_Letter_Large_T,		*,		100,		50
+	BBP_Letter_Large_U,		*,		100,		50
+	BBP_Letter_Large_V,		*,		100,		50
+	BBP_Letter_Large_W,		*,		100,		50
+	BBP_Letter_Large_X,		*,		100,		50
+	BBP_Letter_Large_Y,		*,		100,		50
+	BBP_Letter_Large_Z,		*,		100,		50			
+											
+Category> Seeds & Lime											
 	GardenLime,			*,		20,		7			
 	PepperSeedsPack,		*,		4, 		1				
 	PumpkinSeedsPack,		*,		10, 		3				
@@ -421,7 +424,7 @@
 	Bear_Pink,			*,		5,		1		
 	Bear_White,			*,		5,		1		
 
-//<Category> Zeroy's FishingZ											
+//<Category> Fishing Supplies											
 	//Hook,					*,		100,		50
 	//Zeroy_fishing_backpack_black,		*,		500,		200			
 	//Zeroy_fishing_backpack_brown,		*,		500,		200			
@@ -449,14 +452,13 @@
 	//zeroy_ImprovisedFishingRod,		*,		50,		20				
 	//zeroy_tacklebox,		    	*,		50,		20			
 	//zeroy_tacklebox_camo,		      	*,		50,		20		
-	//zeroy_tacklebox_green,		        *,		50,		20	
+	//zeroy_tacklebox_green,		*,		50,		20	
 
 <Category> Car Tools
-
-        ToolKit,		        *,		10000,		1500
-        BlowTorch,		        *,		10000,		1500
-        Ratchet,		        *,		10000,		1500
-        SteelBrush,		        *,		10000,		1500
+	ToolKit,		        	*,		10000,		1500
+        BlowTorch,		        	*,		10000,		1500
+        Ratchet,		        	*,		10000,		1500
+        SteelBrush,		        	*,		10000,		1500
 		
         												
 <Category> Gold												
@@ -496,10 +498,10 @@
 	MK2Grenade,				W, 		2000,		400
 	RDG2SmokeGrenade_Black,         	W, 		500,		100
 	RDG2SmokeGrenade_White,         	W, 		500, 		100
-	RGD5Grenade,				W, 		2000,		400									
+	RGD5Grenade,				W, 		2000,		400						
+	stielhandgranate_mung,			W,		2000,		400			
 
 <Category> Fireguns			
-						
 	AK101,					W,		20000,		3300	
 	AK74,					W,		20000,		3300	
 	AKM,					W,		20000,		3300	
@@ -841,6 +843,9 @@
 	Mag_AK74_30Rnd,			M,		200,		100
 	Mag_AK101_30Rnd,		M,		220,		110
 	Mag_AKM_30Rnd,			M,		220,		110
+	Mag_AKM_Drum75Rnd_Green,        M,		400,		200                                                            
+	Mag_AKM_Drum75Rnd_Black,        M,		400,		200                                                              
+	Mag_AKM_Drum75Rnd,		M,		400,		200
 	Mag_AKSR_30Rnd,			M,		300,		150
 	Mag_AR15_30Rnd,			M,		220,		110
 	Mag_CZ527_5rnd,			M,		60,		30
@@ -921,11 +926,13 @@
 	KashtanOptic,			*,		1000,		200
 	KazuarOptic,			*,		2200,		500
 	KobraOptic,			*,		1000,		200
+	Leupold_mung,			*,		10000,		2000
 	LongrangeOptic,			*,		10000,		2000
 	M4_CarryHandleOptic,		*,		1000,		200
 	M4_T3NRDSOptic,			*,		1000,		200
 	M68Optic,			*,		1000,		200
 	M82Optic,			*,		1000,		200
+	Mass1p69,			*,		4000,		800
 	MosinLRS,			*,		10000,		2000
 	PistolOptic,			*,		1000,		200
 	PSO11Optic,			*,		2000,		500
@@ -940,18 +947,18 @@
 	WE_PSG1Optic,			*,		2000,		500
 
 									
-//<Category> Supressors								
-	//AK_Suppressor,		*,		250,		125
-	//M4_Suppressor,		*,		250,		125
-	//PistolSuppressor,		*,		150,		75
+<Category> Supressors								
+	AK_Suppressor,			*,		250,		125
+	M4_Suppressor,			*,		250,		125
+	PistolSuppressor,		*,		150,		75
 
-<Category> Better Supressors
-	BS_AKSuppressor,			*,		250,	125
-	BS_M4Suppressor,			*,		250,	125
-	BS_AKImprovisedSuppressor,		*,		250,	125
-	BS_M4ImprovisedSuppressor,		*,		250,	125
-	BS_PistolImprovisedSuppressor,		*,		150,	75
-	BS_MakarovPBImprovisedSuppressor,	*,		150,	75
+//<Category> Better Supressors
+	//BS_AKSuppressor,			*,		250,	125
+	//BS_M4Suppressor,			*,		250,	125
+	//BS_AKImprovisedSuppressor,		*,		250,	125
+	//BS_M4ImprovisedSuppressor,		*,		250,	125
+	//BS_PistolImprovisedSuppressor,	*,		150,	75
+	//BS_MakarovPBImprovisedSuppressor,	*,		150,	75
 									
 <Category> Mass Suppressors									
 	MassScoutSuppressor,		*,		500,		250
@@ -959,6 +966,10 @@
 	shotgun_Suppressor,		*,		500,		250
 									
 <Category> Compensators								
+	MassMuzzle338			*,		400,		100
+	MassMuzzle556                   *,		400,		100
+	MassMuzzle762                   *,		400,		100
+	MassMuzzlePistol                *,		400,		100
 	Mosin_Compensator,		*,		150,		75
 	MP5_Compensator,		*,		200,		100
 									
@@ -1557,87 +1568,74 @@
 	//LeatherStorageVest_Brown,		*,		0,	0					
 	//LeatherStorageVest_Natural,		*,		0,	0					
 											
-<Category> Munghards Itempack											
-	6B38_camo_mung,			        *,		1000,	500				
-	6B38_LETO_mung,			        *,		1000,	500				
-	Airam_mung,			        *,		400,	200				
-	ballgrill_mung,			        *,		300,	150				
-	bandana_mung,                        	*,      	100,    50								
-	bowieknife_mung,			*,		200,	100				
-	brain_Mung,                          	*,      	100,    50								
-	carrierrig_mung,                     	*, 		10000, 	2000						
-	cigar_mung,			        *,		100,	50				
-	cigarette_mung,			        *,		100,	50				
-	Clawhammer_mung,                     	*,      	200,    100								
-	clownmask_mung,			        *,		100,	50				
-	csmcmillan_mung,			*,		-1,	3000
-	fannypack_black_mung,                	*,      	200,    100								
-	fannypack_camo_mung,			*,		300,	100				
-	fannypack_multi_mung,			*,		300,	100				
-	fannypack_pink_mung,                 	*,      	200,    100								
-	Gewehr43_mung,			        *,		1200,	600				
-	guitar_mung,                         	*,      	200,    100								
-	gunwall_kit_mung,                    	*,      	1000,   400								
-	gunwall_metal_kit_mung,              	*,      	1000,   400								
-	gunwalldisplay_metal_mung,           	*,      	1000,   400								
-	gunwalldisplay_mung,			*,		1000,	400				
-	hannibal_mask_mung,                  	*,      	100,    50								
-	hardigg_Mung,                        	*,      	300,    150								
-	Hikingbagmung_black,                 	*,      	600,    300								
-	Hikingbagmung_blue,                  	*,     		500,    250							
-	Hikingbagmung_camo,			*,		600,	300				
-	Hikingbagmung_green,                 	*,      	500,    250								
-	Hikingbagmung_meow,                  	*, 		1000, 	500						
-	Hikingbagmung_pink,                  	*, 		1000, 	500						
-	Hikingbagmung_red,                   	*,      	500,    250								
-	Hikingbagmung_snow,                  	*, 		1000, 	500						
-	Hikingbagmung_white,			*,		500,	250				
-	Hikingbagmung_yellow,			*,		500,	250				
-	jesterhat_mung,                      	*,      	100,    50								
-	joint_mung,                          	*,      	100,    50								
-	katana_Mung,			        *,		500,	250				
-	ketchup_mung,			        *,		100,	50				
-	Lennon_glasses_black_mung,           	*,     		200,	100						
-	Lennon_glasses_blue_mung,            	*,      	200,	100							
-	Lennon_glasses_galaxy_mung,		*,		200,	100					
-	Lennon_glasses_pink_mung,		*,		200,	100					
-	Lennon_glasses_white_mung,           	*,      	200,	100							
-	Lennon_glasses_yellow_mung,          	*,      	200,	100							
-	m52helmet_mung,			        *,		400,	200				
-	Mag_cs5_10Rnd_mung,			*,		200,	100				
-	Mag_gewehr43_10Rnd_mung,		*,		400,	200					
-	mag3_gasmask_mung,			*,		400,	200				
-	maglite_mung,			        *,		600,	300				
-	mcmillan_buttstock,			*,		100,	50				
-	Nagant1895_mung,                     	*,      	1000,   500								
-	oillamp_mung,			        *,		200,	100				
-	oxygentankrig_mung,			*,		500,	250				
-	pickles_closed,                      	*,      	100,    50								
-	rifleholster_black_mung,             	*,      	300,    150								
-	rifleholster_camo_mung,              	*,      	400,    200								
-	rifleholster_camo_ucp_mung,		*,		400,	200					
-	SAK_Mung,                            	*,      	300,   	150							
-	sandwich_mung,                       	*,      	100,   	50							
-	Screwdriver,			        *,		3,	1				
-	Scythe_Mung,                         	*,      	200,   	100							
-	sherlockpipe_mung,                   	*,      	100,    50								
-	shovel_Mung,                         	*,      	400,    200								
-	simplebackpack_blue_mung,            	*,      	800,   	400							
-	simplebackpack_camoblack_mung,		*,		800,   	400					
-	simplebackpack_green_mung,		*,		800,   	400					
-	simplebackpack_redpink_mung,	     	*,		800,   	400					
-	simplebackpack_redyellow_mung,		*,		800,   	400					
-	stalker_gasmask_black_mung,          	*,      	500,    250								
-	stalker_gasmask_white_mung,          	*,      	500,    250								
-	stielhandgranate_mung,               	*,      	800,    400								
-	strawhat_mung,                       	*,     		100,    50							
-	teddyhead_mung,			        *,		200,	100				
-	Vesuri_mung,                         	*,      	100,    50								
-	vinegar_mung,			        *,		100,	50				
-	wonderbread_mung,                    	*,      	100,    50								
-	zenitco_pt3_buttstock,			*,		200,	100				
-	Zippo_new,                           	*,      	100,    50								
-											
+<Category> Munghards Itempack										
+	6B38_Snow_mung,				*,		2000,   1000	                                                                                              
+	6B38_Black_mung,                        *,		2000,   1000                                                                   
+	6B38_LETO_mung,                         *,		2000,   1000                                                                       
+	6B38_camo_mung,				*,		2000,   1000
+	Airam_mung,			        *,		400,	200
+	ballgrill_mung,			        *,		300,	150
+	bandana_mung,                        	*,      	100,    50				
+	bowieknife_mung,			*,		200,	100
+	brain_Mung,                          	*,      	100,    50				
+	carrierrig_mung,                     	*, 		10000, 	2000		
+	cigar_mung,			        *,		100,	50
+	cigarette_mung,			        *,		100,	50
+	Clawhammer_mung,                     	*,      	200,    100				
+	clownmask_mung,			        *,		100,	50
+	fannypack_black_mung,                	*,      	200,    100				
+	fannypack_camo_mung,			*,		300,	100
+	fannypack_multi_mung,			*,		300,	100
+	fannypack_pink_mung,                 	*,      	200,    100				
+	guitar_mung,                         	*,      	200,    100				
+	hannibal_mask_mung,                  	*,      	100,    50				
+	hardigg_Mung,                        	*,      	5000,   1000 				
+	Hikingbagmung_black,                 	*,      	1000,   500				
+	Hikingbagmung_blue,                  	*,     		1000,   500			
+	Hikingbagmung_camo,			*,		1000,	500
+	Hikingbagmung_green,                 	*,      	1000,   500				
+	Hikingbagmung_meow,                  	*, 		1000, 	500		
+	Hikingbagmung_pink,                  	*, 		1000, 	500		
+	Hikingbagmung_red,                   	*,      	1000,   500				
+	Hikingbagmung_snow,                  	*, 		1000, 	500		
+	Hikingbagmung_white,			*,		1000,	500
+	Hikingbagmung_yellow,			*,		1000,	500
+	jesterhat_mung,                      	*,      	100,    50				
+	joint_mung,                          	*,      	100,    50				
+	Lennon_glasses_black_mung,           	*,     		200,	100		
+	Lennon_glasses_blue_mung,            	*,      	200,	100			
+	Lennon_glasses_galaxy_mung,		*,		200,	100	
+	Lennon_glasses_pink_mung,		*,		200,	100	
+	Lennon_glasses_white_mung,           	*,      	200,	100			
+	Lennon_glasses_yellow_mung,          	*,      	200,	100			
+	m52helmet_mung,			        *,		400,	200
+	mag3_gasmask_mung,			*,		400,	200
+	maglite_mung,			        *,		600,	300
+	mcmillan_buttstock,			*,		100,	50
+	oillamp_mung,			        *,		200,	100
+	oxygentankrig_mung,			*,		500,	250
+	pickles_closed,                      	*,      	100,    50				
+	rifleholster_black_mung,             	*,      	300,    150				
+	rifleholster_camo_mung,              	*,      	400,    200				
+	rifleholster_camo_ucp_mung,		*,		400,	200	
+	SAK_Mung,                            	*,      	300,   	150			
+	Scythe_Mung,                         	*,      	200,   	100			
+	sherlockpipe_mung,                   	*,      	100,    50				
+	shovel_Mung,                         	*,      	400,    200				
+	simplebackpack_blue_mung,            	*,      	800,   	400			
+	simplebackpack_camoblack_mung,		*,		800,   	400	
+	simplebackpack_green_mung,		*,		800,   	400	
+	simplebackpack_redpink_mung,	     	*,		800,   	400	
+	simplebackpack_redyellow_mung,		*,		800,   	400	
+	stalker_gasmask_black_mung,          	*,      	500,    250				
+	stalker_gasmask_white_mung,          	*,      	500,    250				
+	strawhat_mung,                       	*,     		100,    50			
+	teddyhead_mung,			        *,		200,	100
+	Vesuri_mung,                         	*,      	100,    50				
+	zenitco_pt3_buttstock,			*,		200,	100
+	Zippo_new,                           	*,      	100,    50				
+												
+
 <Category> Mass' Armbands											
 	MassArmband_BT,				*,		20,	5			
 	MassArmband_BWS,			*,		20,	5				
@@ -1674,10 +1672,10 @@
 	MassHeavyPlateVest_ODG,			*,		2000,	700				
 	MassHeavyPlateVest_PartizanM,		*,		2000,	700					
 	MassHeavyPlateVest_Winter,		*,		2000,	700					
-	MassLargeMollePouch,                	*,      	800,    400								
-	MassLargeMollePouchBlack,           	*,      	800,    400								
-	MassLargeMollePouchGorka,           	*,      	800,    400								
-	MassLargeMollePouchGreen,	        *,      	800,    400								
+	MassLargeMollePouch,                	*,      	800,    400							
+	MassLargeMollePouchBlack,           	*,      	800,    400							
+	MassLargeMollePouchGorka,           	*,      	800,    400							
+	MassLargeMollePouchGreen,	        *,      	800,    400							
 	MassPlateCarrier_Black,			*,		1200,	500				
 	MassPlateCarrier_ODG,			*,		1200,	500				
 	MassPlateCarrier_PartizanM,		*,		1200,	500					
@@ -1784,8 +1782,7 @@
 	MassPlateCarrierPouches_Winter,		*,		500,	200					
 											
 <Category> Mass' Other Stuff	
-
-	MassBallisticShield,	                *,		3500,	500								
+	MassBallisticShield,	                *,		3500,	500							
 	Mag_CMAG_10Rnd_Black,	                *,		600,	300						
 	Mass_TradeVest,			        *,		500,	200				
 	MassAR500,			        *,		1000,	500				
@@ -1851,13 +1848,13 @@
 	MassMolleBagDesert,		    	*,		2000,	500				
 	MassMolleBagGorka,		    	*,		2000,	500				
 	MassNBC_Bag,				*,		500,	200			
-	MassRuckBagBlack,                   	*,      	1000,   200								
-	MassRuckBagDesert,                  	*,      	1000,   200								
-	MassRuckBagGorka,                   	*,      	1000,   200								
-	MassRuckBagGreen,                   	*,      	1000,   200								
-	MassSlingBag,                       	*,      	1000,   400								
-	MassSlingBagDesert,                 	*,      	1000,   400								
-	MassSlingBagGorka,                  	*,      	1000,   400								
+	MassRuckBagBlack,                   	*,      	1000,   200							
+	MassRuckBagDesert,                  	*,      	1000,   200							
+	MassRuckBagGorka,                   	*,      	1000,   200							
+	MassRuckBagGreen,                   	*,      	1000,   200							
+	MassSlingBag,                       	*,      	1000,   400							
+	MassSlingBagDesert,                 	*,      	1000,   400							
+	MassSlingBagGorka,                  	*,      	1000,   400							
 	MassTacticalBag,	            	*,		500,	200					
 	MassTacticalBagBlack,	            	*,		500,	200					
 	MassTacticalBagWD,	            	*,		500,	200					
@@ -1865,43 +1862,43 @@
 	MassWinterTortilla,		    	*,		1000,	500				
 											
 <Category> Mass' Belts											
-	MassMolleBelt,                       	*,      	600,    300								
-	MassMolleBeltBlack,                  	*,      	600,    300								
-	MassMolleBeltODG,                    	*,      	600,    300								
-	MassMolleBeltWD,                     	*,      	600,    300								
+	MassMolleBelt,                       	*,      	600,    300							
+	MassMolleBeltBlack,                  	*,      	600,    300							
+	MassMolleBeltODG,                    	*,      	600,    300							
+	MassMolleBeltWD,                     	*,      	600,    300							
 	MassToolbelt,                        	*,      	400,    200	
 
 <Category> Windstrider's Clothing
-		Blue_Leggings,			        *,		500,	150	
-	    Latex_Leggings,		            *,		500,	150	
-	    Adidas_Leggings,			    *,		500,	150	
-	    PMK_5A_Gas_Mask,			    *,		500,	150	
-	    Poncho_Red_Checkered,		    *,		500,	150
-	    Poncho_Blue_Checkered,		    *,		500,	150	
-	    Poncho_Yellow_Checkered,	    *,		500,	150
-	    Poncho_White,			        *,		500,	150	
-	    Poncho_Brown,			        *,		500,	150	
-	    Poncho_Green,			        *,		500,	150	
-	    Poncho_Red,			            *,		500,	150	
-	    Poncho_Black,		            *,		500,	150	
-	    Poncho_BlackAndWhite,		    *,		500,	150	
-	    Poncho_BlackAndWhite2,		    *,		500,	150	
-	    Military_Sweater,			    *,		800,	100	
-	    Military_Sweater_Red,		    *,		800,	100	
-	    Military_Sweater_Blue,		    *,		800,	100	
-	    Military_Sweater_Green,		    *,		800,	100
-	    Military_Sweater_White,		    *,		800,	100
-	    Military_Sweater_Black,		    *,		800,	100
-	    Fingerless_Gloves,		        *,		500,	150	
-	    High_Knee_Sneakers,			    *,		500,	150
-		Shemagh_Brown,			        *,		500,	150
-		Shemagh_Green,			        *,		500,	150
-		Shemagh_Red,	                *,		500,	150
-		Shemagh_White,	                *,		500,	150
-		Layered_Shirt_Base,			    *,		500,	150
-		Layered_Shirt_White,			*,		500,	150
-		Layered_Shirt_Cheburashka,		*,		500,	150	
-
+	Adidas_Leggings,			*,		500,	150
+	Blue_Leggings,			        *,		500,	150
+	Fingerless_Gloves,			*,		500,	150
+	High_Knee_Sneakers,			*,		500,	150
+	Latex_Leggings,			        *,		500,	150
+	Layered_Shirt_Base,			*,		500,	150
+	Layered_Shirt_Cheburashka,		*,		500,	150
+	Layered_Shirt_White,			*,		500,	150
+	Military_Sweater,			*,		800,	100
+	Military_Sweater_Black,			*,		800,	100
+	Military_Sweater_Blue,			*,		800,	100
+	Military_Sweater_Green,			*,		800,	100
+	Military_Sweater_Red,			*,		800,	100
+	Military_Sweater_White,			*,		800,	100
+	PMK_5A_Gas_Mask,			*,		500,	150
+	Poncho_Black,			        *,		500,	150
+	Poncho_BlackAndWhite,			*,		500,	150
+	Poncho_BlackAndWhite2,			*,		500,	150
+	Poncho_Blue_Checkered,			*,		500,	150
+	Poncho_Brown,			        *,		500,	150
+	Poncho_Green,			        *,		500,	150
+	Poncho_Red,			        *,		500,	150
+	Poncho_Red_Checkered,			*,		500,	150
+	Poncho_White,			        *,		500,	150
+	Poncho_Yellow_Checkered,		*,		500,	150
+	Shemagh_Brown,			        *,		500,	150
+	Shemagh_Green,			        *,		500,	150
+	Shemagh_Red,			        *,		500,	150
+	Shemagh_White,			        *,		500,	150
+	
 <Category> Military Snowgear										
 	GhillieBushrag_Winter,			*,		1000,	200				
 	GhillieHood_Winter,			*,		1000,	200					
@@ -3433,6 +3430,9 @@
 	MSFC_AK15MR_Green,			W,		75000,		10000
 	MSFC_AK12M,				W,		75000,		10000
 	MSFC_AK13M,				W,		75000,		10000
+	MSFC_RPK16,				W,		75000,		10000
+	MSFC_RPK16_Desert,                      W,		75000,		10000                                                                    
+	MSFC_RPK16_Green,  			W,		75000,		10000
 	MSFC_RPK74,				W,		75000,		10000	
 	MSFC_TacAR15,				W,		75000,		10000
 	MSFC_AR15,				W,		75000,		10000		
@@ -3850,8 +3850,12 @@
 	MSFC_PMAG762_Mag_30Rnd,					*,	500,	250
 	MSFC_PMAG762_Mag_30Rnd_Desert,				*,	350,	125
 	MSFC_PMAG762_Mag_30Rnd_Green,				*,	350,	125
-	MSFC_RPK_Mag_45Rnd,					*,	350,	125
-	MSFC_RPK16_DRUM_Mag_96Rnd,				*,	500,	250
+	MSFC_RPK16_DRUM_Mag_96Rnd_Desert,                       *,	700,	250                                 
+	MSFC_RPK16_DRUM_Mag_96Rnd_Green,                        *,	700,	250                                   
+	MSFC_RPK16_DRUM_Mag_96Rnd,                              *,	700,	250                                    
+	MSFC_RPK16_Mag_45Rnd_Desert,                            *,	350,	125                                            
+	MSFC_RPK16_Mag_45Rnd_Green,                             *,	350,	125                                                            
+	MSFC_RPK16_Mag_45Rnd,					*,	350,	125
 	MSFC_RPK74_Mag_45Rnd,					*,	500,	250
 	MSFC_SCAR17_Mag_20Rnd,					*,	350,	125
 	MSFC_STANAG556_Mag_30Rnd,				*,	500,	250
