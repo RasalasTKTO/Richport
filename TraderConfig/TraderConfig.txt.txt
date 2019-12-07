@@ -498,7 +498,8 @@
 	RDG2SmokeGrenade_White,         	W, 		500, 		100
 	RGD5Grenade,				W, 		2000,		400									
 
-<Category> Fireguns									
+<Category> Fireguns			
+						
 	AK101,					W,		20000,		3300	
 	AK74,					W,		20000,		3300	
 	AKM,					W,		20000,		3300	
@@ -519,6 +520,7 @@
 	Mp133Shotgun,				W,		12000,		2000	
 	Izh43Shotgun,				W,		12000,		2000		
 	MP5K,					W,		12500,		2100	
+	Saiga,					W,		18000,		3000
 	SawedoffMosin9130,			W,		15000,		2500	
 	SKS,					W,		12500,		2100	
 	SVD,					W,		25000,		4000	
@@ -527,7 +529,7 @@
 	Winchester70,				W,		25000,		4000
         B95,			        	W,		50000,		5000
 									
-<Category> Mass Weapons									
+<Category> Mass Weapons							
 	MassG18,                		W,      	4000,   	1000				
 	MassG18_Green,          		W,      	4000,   	1000				
 	Massarmsan,			    	W,		15000,		2500
