@@ -8,7 +8,6 @@
         //      // THIS COMMENT WORKS!                                                                                    //
         //                                                                                                                //
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 <CurrencyName> #tm_ruble		ccccc						// Currency Name (Only used for the Text in the upper right Corner of the Trader Menu)
 	<Currency> MoneyRuble1, 	1						// Currency Classname, Currency Money Value
 	<Currency> MoneyRuble5, 	5
@@ -120,7 +119,7 @@
 	//Syringe,			*,		8, 		5			
 	BandageDressing,		2,		150,		75				
 	BloodBagEmpty,			*,		75,		50			
-	BloodTestKit,			*,		50,		25			
+	BloodTestKit,			*,		500,		50
 	DisinfectantSpray,		*,		500,		250				
 	FirstAidKit,			*,		1000,		500			
 	SalineBag,			*,		100,		50			
@@ -128,14 +127,14 @@
 	Thermometer,			*,		500,		250			
 											
 <Category> Medications											
-	CharcoalTablets,		*,		250,		125				
-	DisinfectantAlcohol,		*,		200,		100				
+	CharcoalTablets,		*,		1000,		100
+	DisinfectantAlcohol,		*,		500,		50
 	Epinephrine,			*,		100,		50			
 	Morphine,			*,		100,		50			
-	PainkillerTablets,		*,		100,		50				
-	PurificationTablets,		*,		250,		125								
-	TetracyclineAntibiotics,	*,		250,		125					
-	VitaminBottle,			*,		500,		250			
+	PainkillerTablets,		*,		500,		50				
+	PurificationTablets,		*,		250,		50
+	TetracyclineAntibiotics,	*,		500,		100
+	VitaminBottle,			*,		1500,		100
 											
 <Category> Money Exchange (stacks of 10)											
 	MoneyRuble1,			10,		10,		-1			
@@ -596,60 +595,60 @@ Category> Seeds & Lime
 	L85A2_NoGrip,				W, 		20000, 		3300					
 
 <Category> Weapon's Expansion Pack
-	WE_ACR,					W,		20000,		3300
-	WE_ACR_Green,				W,		20000,		3300
-	WE_ACR_Snow,                            W,		20000,		3300
-	WE_ACR_Tan,                             W,		20000,		3300
-	WE_ACR_Woodland,                        W,		20000,		3300
-	WE_AR15,                                W,		20000,		3300
-	WE_AR15_Green,				W,		20000,		3300
-	WE_AR15_Snow,                          	W,		20000,		3300
-	WE_AR15_Tan,                          	W,		20000,		3300
-	WE_AR15_Woodland,                       W,		20000,		3300
-	WE_DesertEagle,                       	W,		20000,		3300
-	WE_HoneyBadger,				W,		20000,		3300
-	WE_HoneyBadger_Green,                   W,		20000,		3300
-	WE_HoneyBadger_Snow,                    W,		20000,		3300
-	WE_HoneyBadger_Tan,                     W,		20000,		3300
-	WE_HoneyBadger_Woodland,              	W,		20000,		3300
-	WE_M16A3,                     		W,		20000,		3300
-	WE_M16A3_Olive,                      	W,		20000,		3300
-	WE_M16A3_Snow,                        	W,		20000,		3300
-	WE_M16A3_Tan,                        	W,		20000,		3300
-	WE_M16A3_Woodland,                     	W,		20000,		3300
+	WE_ACR	,				W,		20000,		3300
+	WE_ACR_Green	,			W,		20000,		3300
+	WE_ACR_Snow  ,                           W,		20000,		3300
+	WE_ACR_Tan ,                             W,		20000,		3300
+	WE_ACR_Woodland   ,                      W,		20000,		3300
+	WE_AR15   ,                              W,		20000,		3300
+	WE_AR15_Green	,			W,		20000,		3300
+	WE_AR15_Snow  ,                          W,		20000,		3300
+	WE_AR15_Tan  ,                           W,		20000,		3300
+	WE_AR15_Woodland ,                       W,		20000,		3300
+	WE_DesertEagle   ,                       W,		20000,		150
+	WE_HoneyBadger		,		W,		20000,		3300
+	WE_HoneyBadger_Green ,                   W,		20000,		3300
+	WE_HoneyBadger_Snow ,                    W,		20000,		3300
+	WE_HoneyBadger_Tan ,                     W,		20000,		3300
+	WE_HoneyBadger_Woodland   ,              W,		20000,		3300
+	WE_M16A3           ,                     W,		20000,		3300
+	WE_M16A3_Olive    ,                      W,		20000,		3300
+	WE_M16A3_Snow   ,                        W,		20000,		3300
+	WE_M16A3_Tan    ,                        W,		20000,		3300
+	WE_M16A3_Woodland  ,                     W,		20000,		3300
 	WE_M24A3,				W,		75000,		15000
-	WE_M24A3_Olive,				W,		75000,		15000
-	WE_M24A3_Snow,				W,		75000,		15000
-	WE_M24A3_Tan,                          	W,		75000,		15000
-	WE_M24A3_Woodland,                    	W,		75000,		15000
-	WE_M82,                             	W,		   -1,		50000
-	WE_M82_Olive,				W,		   -1,		50000
-	WE_M82_Snow,                            W,		   -1,		50000
-	WE_M82_Tan,                          	W,		   -1,		50000
-	WE_M82_Woodland,                       	W,		   -1,		50000
-	WE_M9,                               	W,		3500,		500
-	WE_MAT49,				W,		12500,		2100
-	WE_MP5SD,				W,		15000,		2500
-	WE_PSG1,                                W,		20000,		3300
-	WE_PSG1_Green,                          W,		20000,		3300
-	WE_PSG1_Snow,                          	W,		20000,		3300
-	WE_PSG1_Tan,                            W,		20000,		3300
-	WE_PSG1_Woodland,                    	W,		20000,		3300
-	WE_RK92,                                W,		20000,		3300
+	WE_M24A3_Olive		,		W,		75000,		15000
+	WE_M24A3_Snow  	,			W,		75000,		15000
+	WE_M24A3_Tan  ,                          W,		75000,		15000
+	WE_M24A3_Woodland   ,                    W,		75000,		15000
+	WE_M82    ,                             W,		   -1,		50000
+	WE_M82_Olive	,			W,		   -1,		50000
+	WE_M82_Snow ,                            W,		   -1,		50000
+	WE_M82_Tan    ,                          W,		   -1,		50000
+	WE_M82_Woodland  ,                       W,		   -1,		50000
+	WE_M9    ,                               W,		3500,		500
+	WE_MAT49	,			W,		12500,		2100
+	WE_MP5SD	,			W,		15000,		2500
+	WE_PSG1,                                 W,		20000,		3300
+	WE_PSG1_Green,                           W,		20000,		3300
+	WE_PSG1_Snow  ,                          W,		20000,		3300
+	WE_PSG1_Tan,                             W,		20000,		3300
+	WE_PSG1_Woodland    ,                    W,		20000,		3300
+	WE_RK92 ,                                W,		20000,		3300
 	WE_RK92_Green,				W,		20000,		3300
-	WE_RK92_Snow,                           W,		20000,		3300
-	WE_RK92_Tan,                            W,		20000,		3300
-	WE_RK92_Woodland,                       W,		20000,		3300
-	WE_SSG69,                               W,		25000,		4000
-	WE_SSG69_Green,                         W,		25000,		4000
-	WE_SSG69_Snow,                          W,		25000,		4000
-	WE_SSG69_Tan,                           W,		25000,		4000
-	WE_SSG69_Woodland,                      W,		25000,		4000
+	WE_RK92_Snow,                            W,		20000,		3300
+	WE_RK92_Tan,                             W,		20000,		3300
+	WE_RK92_Woodland,                        W,		20000,		3300
+	WE_SSG69,                                W,		25000,		4000
+	WE_SSG69_Green,                          W,		25000,		4000
+	WE_SSG69_Snow,                           W,		25000,		4000
+	WE_SSG69_Tan,                            W,		25000,		4000
+	WE_SSG69_Woodland,                       W,		25000,		4000
 	WE_STG44,				W,		20000,		3300
-	WE_STG44_Green,                         W,		20000,		3300
-	WE_STG44_Snow,                          W,		20000,		3300
-	WE_STG44_Tan,                           W,		20000,		3300
-	WE_STG44_Woodland,                      W,		20000,		3300
+	WE_STG44_Green,                          W,		20000,		3300
+	WE_STG44_Snow,                           W,		20000,		3300
+	WE_STG44_Tan,                            W,		20000,		3300
+	WE_STG44_Woodland,                       W,		20000,		3300
 
 <Category> Weapon Redux Pack
 	//gp_Blaze95,				W,		15000,		2500
@@ -662,7 +661,7 @@ Category> Seeds & Lime
 	GP_izh43new,				W,		10000,		1700	
 	GP_izh43new_SawedOff,			W,		10000,		1700	
 	gp_Longhorn,				W,		15000,		2500	
-	gp_M249,				W,		75000,		10000	
+	//gp_M249,				W,		75000,		10000	
 	gp_MiniUzi,				W,		12500,		2100	
 	gp_P1,					W,		1500,		300
 	gp_Ruger1022,				W,		12500,		2100	
@@ -812,7 +811,7 @@ Category> Seeds & Lime
 	Mag_1911_7Rnd, 				M,		500,		100
 	Mag_308WinSnapLoader_2Rnd,		M,		500,		100
 	Mag_DE_9Rnd,				M,		500,		100
-	Mag_M249_Box200Rnd,			M,		500,		100
+	//Mag_M249_Box200Rnd,			M,		500,		100
 	Mag_MiniUzi_10Rnd,			M,		500,		100
 	Mag_MiniUzi_22Rnd,			M,		500,		100
 	Mag_p1_8Rnd,				M,		500,		100
@@ -861,6 +860,7 @@ Category> Seeds & Lime
 	Mag_SVD_10Rnd,			M,		250,		125
         Mag_UMP_25Rnd,			M,		150,		75
 	Mag_VSS_10Rnd,			M,		220,		110
+        Mag_lebedev_PL15_16Rnd,         M,              250,            125
 
 <Category> Weapon's Expansion Pack
         Mag_HoneyBadger_30Rnd,          M,              500,            100
@@ -966,10 +966,10 @@ Category> Seeds & Lime
 	shotgun_Suppressor,		*,		500,		250
 									
 <Category> Compensators								
-	MassMuzzle338			*,		400,		100
-	MassMuzzle556                   *,		400,		100
-	MassMuzzle762                   *,		400,		100
-	MassMuzzlePistol                *,		400,		100
+	MassMuzzle338,			*,		400,		100
+	MassMuzzle556,                   *,		400,		100
+	MassMuzzle762,                   *,		400,		100
+	MassMuzzlePistol,                *,		400,		100
 	Mosin_Compensator,		*,		150,		75
 	MP5_Compensator,		*,		200,		100
 									
@@ -1917,17 +1917,16 @@ Category> Seeds & Lime
 
 				<Trader> Vehicles Trader
 
-<Category> Vehicles
-// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
+<Category> Vehicles                // Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
 	//CrSk_Chevrolet_Tahoe_08_Police,       VNK,      	30000,    	20000						
-	//CrSk_GAZ_3309,			VNK,		250000,		100000
+	CrSk_GAZ_3309,			VNK,		250000,		100000
 	//CrSk_HMMWV_PMC,                 	VNK,		50000,		20000			
 	//CrSk_HMMWV_PMC_Woodland,       	VNK,		50000,		20000			
-	//CrSk_Land_Rover_Defender_110, 	VNK, 		150000, 	50000			
-	//CrSk_Land_Rover_Defender_110_Green, 	VNK, 		150000,		50000			
-	//CrSk_Land_Rover_Defender_110_UN, 	VNK, 		150000,		50000			
-	//Dingo,				VNK,		175000,  	60000	
-	//Gerph_Zil130,				VNK,		175000,		60000
+	CrSk_Land_Rover_Defender_110, 	VNK, 		150000, 	50000			
+	CrSk_Land_Rover_Defender_110_Green, 	VNK, 		150000,		50000			
+	CrSk_Land_Rover_Defender_110_UN, 	VNK, 		150000,		50000			
+	Dingo,				VNK,		175000,  	60000	
+	Gerph_Zil130,				VNK,		175000,		60000
 	//MRAP_4x4,      			VNK,	        200000,         75000					
 	CivilianSedan,				VNK,		18000,		12000	
 	CivilianSedan_Black,			VNK,		18000,		12000	
@@ -1949,7 +1948,6 @@ Category> Seeds & Lime
 	zeroy_jeep_willis_clean,		VNK,		125000,		25000	
 	zeroy_jeep_willis_dirty,		VNK,		125000,		25000	
 
-	
 <Category> Vanilla Vehicle Parts
 	//EngineOil,				*,		  70,		40
 	//TruckBattery,				*,		 180,		100
@@ -1960,7 +1958,6 @@ Category> Seeds & Lime
 	HeadlightH7_Box,			*,		 200,		50	
 	SparkPlug,				*,		 500,		125
 	TireRepairKit,				*,		 500,		125
-<<<<<<< HEAD
 
 	CivSedanDoors_BackLeft,			*,		1000,		500
 	CivSedanDoors_BackLeft_Black,		*,		1000,		500
@@ -2004,8 +2001,6 @@ Category> Seeds & Lime
 	Hatchback_02_Trunk_Blue,		*,		1000,		500
 	Hatchback_02_Wheel,			*,		1000,		500
 
-=======
-
 	CivSedanDoors_BackLeft,			*,		1000,		500
 	CivSedanDoors_BackLeft_Black,		*,		1000,		500
 	CivSedanDoors_BackLeft_Wine,		*,		1000,		500
@@ -2048,7 +2043,6 @@ Category> Seeds & Lime
 	Hatchback_02_Trunk_Blue,		*,		1000,		500
 	Hatchback_02_Wheel,			*,		1000,		500
 
->>>>>>> 80588eb36b0b5438bc31eba7aac9d0e99406ed2e
 	HatchbackDoors_CoDriver,		*,		1000,		500
 	HatchbackDoors_CoDriver_Blue,		*,		1000,		500
 	HatchbackDoors_CoDriver_White,		*,		1000,		500
@@ -2201,8 +2195,8 @@ Category> Seeds & Lime
         MSFCBeerZhigulevskoeSoviet,                             *,      150,     50
         MSFCBeerZhigulevskoeBarnoe,                             *,      150,     50
         MSFCMilkSgushenkaCan,                                   *,      150,     50
-        MSFCPohuinBottle,                                       *,      150,     50
-        MSFC_FirstAidKit,                                       *,      150,     50
+        MSFCPohuinBottle,                                       *,      1500,     50
+        MSFC_FirstAidKit,                                       *,      5000,     50
         MSFCBankaBeerFranziskanerWeissbier,                     *,      150,     50
         MSFC_Case,                                              *,      150,     50
         MSFCBankaSPRUNK,                                        *,      150,     50
