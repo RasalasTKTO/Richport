@@ -967,9 +967,9 @@ Category> Seeds & Lime
 									
 <Category> Compensators								
 	MassMuzzle338,			*,		400,		100
-	MassMuzzle556,                   *,		400,		100
-	MassMuzzle762,                   *,		400,		100
-	MassMuzzlePistol,                *,		400,		100
+	MassMuzzle556,                  *,		400,		100
+	MassMuzzle762,                  *,		400,		100
+	MassMuzzlePistol,               *,		400,		100
 	Mosin_Compensator,		*,		150,		75
 	MP5_Compensator,		*,		200,		100
 									
