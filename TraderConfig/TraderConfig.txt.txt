@@ -117,11 +117,12 @@
 	//InjectionVial,		*,		5, 		2				
 	//Rag,				1,		1,		0		
 	//Syringe,			*,		8, 		5			
-	BandageDressing,		2,		150,		75				
+	BandageDressing,		4,		150,		75				
 	BloodBagEmpty,			*,		75,		50			
 	BloodTestKit,			*,		500,		50
 	DisinfectantSpray,		*,		500,		250				
 	FirstAidKit,			*,		1000,		500			
+	MSFCPohuinBottle,		*,		1500,		750
 	SalineBag,			*,		100,		50			
 	StartKitIV,			*,		100,		50			
 	Thermometer,			*,		500,		250			
@@ -522,6 +523,7 @@ Category> Seeds & Lime
 	Izh43Shotgun,				W,		12000,		2000		
 	MP5K,					W,		12500,		2100	
 	Saiga,					W,		18000,		3000
+	Sawedoffizh43Shotgun,		W,		10000,		1700
 	SawedoffMosin9130,			W,		15000,		2500	
 	SKS,					W,		12500,		2100	
 	SVD,					W,		25000,		4000	
@@ -544,6 +546,8 @@ Category> Seeds & Lime
 	MassStevens301SuperShort_green,		W,      	1500,   	500				
 	MassStevens301SuperShort_tan,		W,      	1500,   	500	
 	MassM16,				W,		15000,		2500
+	MassMP153,						W,			12000,			2000
+	MassMP153Short,					w,			12000,			2000
 	MassType81,      	    		W,		15000,		2500			
 	MassAR15,               		W,		20000,		3300		
 	MassB52,			    	W,		20000,		3300
@@ -557,6 +561,7 @@ Category> Seeds & Lime
 	MassM19,              			W,      	4500,    	1000			
 	MassM19_Wood,           		W,      	4500,   	1000				
 	Massm300,			    	W,		75000,		15000
+	m300BL,						W,		75000,		15000
 	Massm300_camo,				W,		75000,		15000
 	Massmini14,             		W,      	5000,    	1250				
 	MassScout556,				W,		10000,		2000
@@ -577,9 +582,13 @@ Category> Seeds & Lime
 
 <Category> Arma Weapon Pack Remastered									
 	A2AA12, 				W, 		20000, 		3300	
+	A2AKSGOLD,				W,		20000,		3300
 	A2AS50, 				W, 		-1,     	20000		
 	A2bizon, 				W, 		15000, 		2500	
 	A2G36_C, 				W, 		20000, 		3300	
+	A2HKM5_SD,				W,		15000,		2500
+	A2LRR,					W,		-1,			20000
+	A2M107,					W,		-1,			20000
 	A2M14_DMR, 				W, 		75000, 		10000	
 	A2M16A4, 				W, 		25000,		4000	
 	A2M240, 				W, 		-1,     	20000		
@@ -592,7 +601,8 @@ Category> Seeds & Lime
 	A2WM110_desert, 			W, 		25000,		4000		
 	DMRScope, 				W, 		10000, 		2000	
 	L85A2,					W, 		20000, 		3300
-	L85A2_NoGrip,				W, 		20000, 		3300					
+	L85A2_NoGrip,				W, 		20000, 		3300
+	LrrScope,				W,		10000,		1700
 
 <Category> Weapon's Expansion Pack
 	WE_ACR	,				W,		20000,		3300
@@ -611,6 +621,11 @@ Category> Seeds & Lime
 	WE_HoneyBadger_Snow ,                    W,		20000,		3300
 	WE_HoneyBadger_Tan ,                     W,		20000,		3300
 	WE_HoneyBadger_Woodland   ,              W,		20000,		3300
+	//WE_M14,									W,		25000,		4000
+	//WE_M14_Green,							W,		25000,		4000
+	//WE_M14_Snow,							W,		25000,		4000
+	//WE_M14_Tan,								W,		25000,		4000
+	//WE_M14_Woodland,						W,		25000,		4000
 	WE_M16A3           ,                     W,		20000,		3300
 	WE_M16A3_Olive    ,                      W,		20000,		3300
 	WE_M16A3_Snow   ,                        W,		20000,		3300
@@ -622,7 +637,7 @@ Category> Seeds & Lime
 	WE_M24A3_Tan  ,                          W,		75000,		15000
 	WE_M24A3_Woodland   ,                    W,		75000,		15000
 	WE_M82    ,                             W,		   -1,		50000
-	WE_M82_Olive	,			W,		   -1,		50000
+	WE_M82_Olive,							W,		   -1,		50000
 	WE_M82_Snow ,                            W,		   -1,		50000
 	WE_M82_Tan    ,                          W,		   -1,		50000
 	WE_M82_Woodland  ,                       W,		   -1,		50000
@@ -634,11 +649,16 @@ Category> Seeds & Lime
 	WE_PSG1_Snow  ,                          W,		20000,		3300
 	WE_PSG1_Tan,                             W,		20000,		3300
 	WE_PSG1_Woodland    ,                    W,		20000,		3300
-	WE_RK92 ,                                W,		20000,		3300
+	WE_RK92,                                W,		20000,		3300
 	WE_RK92_Green,				W,		20000,		3300
 	WE_RK92_Snow,                            W,		20000,		3300
 	WE_RK92_Tan,                             W,		20000,		3300
 	WE_RK92_Woodland,                        W,		20000,		3300
+	//WE_SCARH,						W,			20000,		3300
+	//WE_SCARH_Green,					W,			20000,		3300
+	//WE_SCARH_Snow,					W,			20000,		3300
+	//WE_SCARH_Tan,					W,			20000,		3300
+	//WE_SCARH_Woodland,					W,			20000,		3300
 	WE_SSG69,                                W,		25000,		4000
 	WE_SSG69_Green,                          W,		25000,		4000
 	WE_SSG69_Snow,                           W,		25000,		4000
@@ -671,8 +691,9 @@ Category> Seeds & Lime
 	gp_ScoutNew,				W,		15000,		2500	
 	gp_ScoutNew_Black,			W,		15000,		2500	
 	gp_ScoutNew_Green,			W,		15000,		2500	
-	gp_Trumpet,				W,		12500,		2100	
-
+	gp_Trumpet,				W,		12500,		2100
+	
+	
 //<Category> Military Overhault Pack                    					
 	//AdminHatchet,                    	*,        	500000,    	500000
 	//AdminSaw,                        	*,        	500000,    	500000
@@ -858,13 +879,13 @@ Category> Seeds & Lime
 	Mag_MP5_30Rnd,			M,		200,		100
 	Mag_STANAG_30Rnd,		M,		220,		110
 	Mag_SVD_10Rnd,			M,		250,		125
-        Mag_UMP_25Rnd,			M,		150,		75
+    Mag_UMP_25Rnd,			M,		150,		75
 	Mag_VSS_10Rnd,			M,		220,		110
-        Mag_lebedev_PL15_16Rnd,         M,              250,            125
+    Mag_lebedev_PL15_16Rnd,         M,              250,            125
 
 <Category> Weapon's Expansion Pack
-        Mag_HoneyBadger_30Rnd,          M,              500,            100
-        Mag_DesertEagle_9rnd,           M,              500,            100
+    Mag_HoneyBadger_30Rnd,          M,              500,            100
+    Mag_DesertEagle_9rnd,           M,              500,            100
 	Mag_M24A3_5Rnd,			M,		500,		100
 	Mag_m9_15Rnd,			M,		500,		100
 	Mag_MAT49_20Rnd,		M,		500,		100
@@ -971,7 +992,9 @@ Category> Seeds & Lime
 	MassMuzzle762,                  *,		400,		100
 	MassMuzzlePistol,               *,		400,		100
 	Mosin_Compensator,		*,		150,		75
+	MP133Shotgun_PistolGrip,	*,		500,		100
 	MP5_Compensator,		*,		200,		100
+	
 									
 <Category> Bayonets								
 	AK_Bayonet,			*,		150,		75
@@ -3484,7 +3507,7 @@ Category> Seeds & Lime
 	MSFC_AKM_Gray,				W,		75000,		10000
 	MSFC_AKM_Golden,			W,		75000,		10000
 	MSFC_AKM_ATACS_FG,			W,		75000,		10000
-	MSFC_AKM_HELL,				W,		75000,		10000
+	MSFC_AKM_Hell,				W,		75000,		10000
 	MSFC_M4A1_White,			W,		75000,		10000
 	MSFC_M4A1_ATACS_FG,			W,		75000,		10000
 	MSFC_M4A1_SURPAT_TAN,			W,		75000,		10000
@@ -4034,7 +4057,10 @@ Category> Seeds & Lime
 <Category> FIDOv4 Assault Rifles
 	DDM,			        W,	20000,	3300	
 	FP4_AK101_Blue,			W,	20000,	3300	
-	FP4_AK101_red,			W,	20000,	3300	
+	FP4_AK101_red,			W,	20000,	3300
+	FP4_AK101_Lime,			W,	20000,	3300
+	FP4_AK101_Purpure,			W,	20000,	3300
+	FP4_AK101_HungryOrange,			W,	20000,	3300	
 	FP4_AKS74U_Brown,		W,	20000,	3300	
 	FP4_AKS74U_Blue,		W,	20000,	3300	
 	FP4_AKS74U_Red,			W,	20000,	3300	
@@ -4135,6 +4161,7 @@ Category> Seeds & Lime
 	RS_x1_Armtac_TwoFire,   	W,	12000,	2000	
 	RS_x1_Armtac_Desert,    	W,	12000,	2000	
 	RS_x1_Armtac_berezka,   	W,	12000,	2000	
+	Schofield,					W,	12000,	2000
 	VEPR12u,			W,	12000,	2000	
 	VEPR12,			        W,	12000,	2000	
 
@@ -4169,13 +4196,15 @@ Category> Seeds & Lime
 	HK_MP7,			        W,	15000,	2500	
 	TEC9,			        W,	15000,	2500	
 	pp91,			        W,	15000,	2500
-	FP4_PPSH,			W,	15000,	2500	
+	FP4_PPSH,			W,	15000,	2500
+	//OTS_14,			W,		15000,		2500
 
 <Category> FIDOv4 Heavy Guns
 	m82,			        *,	-1,	50000
 	m82_308win,			*,	-1,	20000
         m300_cheytac,			*,	-1,	20000	
-	M500,			        *,	15000,	2500	
+	M500,			        *,	15000,	2500
+	//ChinaLake,			W,		100000,		20000
 
 <Category> FIDOv4 Magazines Part 1
 	Mag_M1_15Rnds,	                M,	300,	150
