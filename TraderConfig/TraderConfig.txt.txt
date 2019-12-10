@@ -530,6 +530,22 @@ Category> Seeds & Lime
 	VSS,					W,		20000,		3300	
 	Winchester70,				W,		25000,		4000
         B95,			        	W,		50000,		5000
+
+<Category> Rifles
+		DDM4V5,					W,		1000,	300
+
+<Category> Submachine Guns
+		M49MM,					W,		600,	200
+		Thompson,				W,		800,	250
+
+<Category> Assault Rifles
+		HK416,					W,		1000,	330
+		Scar_H,					W,		1000,	330
+
+<Category> Sniper Rifles
+		FD338,					W,		2200,	650
+		M200,					W,		-1,	15000
+		Barret_camo,			        W,		-1, 	25000
 									
 <Category> Mass Weapons							
 	MassG18,                		W,      	4000,   	1000				
@@ -924,7 +940,18 @@ Category> Seeds & Lime
 	Massppshdrum,			M,		600,		200
 	MassSVTmag,			M,		400,		200
 	Scout556mag,			M,		250,		100
-									
+
+<Category> CPB Magazines
+
+        Barret_Magazine,        M,      1000,   250
+        FD338_mag,              M,      250,    100
+        HK416_mag,              M,      250,    100
+        M49MM_mag,              M,      100,    20
+        m200_Magazine,          M,      1000,   250
+        Scar_H_Mag,             M,      250,    85
+        Thompson_Drum_Magazine, M,      500,    175
+        DDM4_mag,               M,      250,    100		
+					
 <Category> Handguards									
 	AK_WoodHndgrd,			*,		200,		100
 	AK_Wood_insulating_Hndgrd,	*,		500,		250
@@ -1944,6 +1971,7 @@ Category> Seeds & Lime
 				<Trader> Vehicles Trader
 
 <Category> Vehicles                // Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
+        RAPTOR,                                 VNK,           350000,          50000
 	//CrSk_Chevrolet_Tahoe_08_Police,       VNK,      	30000,    	20000						
 	CrSk_GAZ_3309,			VNK,		250000,		100000
 	//CrSk_HMMWV_PMC,                 	VNK,		50000,		20000			
@@ -2143,6 +2171,14 @@ Category> Seeds & Lime
 	HeadlightH7_Box,		*,		 200,		50	
 	SparkPlug,			*,		 500,		125
 	TireRepairKit,			*,		 500,		125
+
+RAPTOR_doors_trunk,		*,		2500,		1000	
+RAPTOR_Doors_coDriver,		*,		2500,		1000	
+RAPTOR_doors_cargo2,		*,		2500,		1000	
+RAPTOR_doors_Driver,		*,		2500,		1000	
+RAPTOR_doors_cargo1,		*,		2500,		1000	
+RAPTOR_doors_hood,		*,		2500,		1000	
+RAPTOR_Wheel,		        *,		1000,		250
 	
 	BroncoOff86_dver_1_1,		*,		2500,		1000	
 	BroncoOff86_dver_2_1,		*,		2500,		1000	
