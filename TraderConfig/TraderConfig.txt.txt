@@ -523,7 +523,6 @@ Category> Seeds & Lime
 	Izh43Shotgun,				W,		12000,		2000		
 	MP5K,					W,		12500,		2100	
 	Saiga,					W,		18000,		3000
-	Sawedoffizh43Shotgun,		W,		10000,		1700
 	SawedoffMosin9130,			W,		15000,		2500	
 	SKS,					W,		12500,		2100	
 	SVD,					W,		25000,		4000	
@@ -621,11 +620,11 @@ Category> Seeds & Lime
 	WE_HoneyBadger_Snow ,                    W,		20000,		3300
 	WE_HoneyBadger_Tan ,                     W,		20000,		3300
 	WE_HoneyBadger_Woodland   ,              W,		20000,		3300
-	//WE_M14,									W,		25000,		4000
-	//WE_M14_Green,							W,		25000,		4000
-	//WE_M14_Snow,							W,		25000,		4000
-	//WE_M14_Tan,								W,		25000,		4000
-	//WE_M14_Woodland,						W,		25000,		4000
+	WE_M14,									W,		25000,		4000
+	WE_M14_Green,							W,		25000,		4000
+	WE_M14_Snow,							W,		25000,		4000
+	WE_M14_Tan,								W,		25000,		4000
+	WE_M14_Woodland,						W,		25000,		4000
 	WE_M16A3           ,                     W,		20000,		3300
 	WE_M16A3_Olive    ,                      W,		20000,		3300
 	WE_M16A3_Snow   ,                        W,		20000,		3300
@@ -654,11 +653,11 @@ Category> Seeds & Lime
 	WE_RK92_Snow,                            W,		20000,		3300
 	WE_RK92_Tan,                             W,		20000,		3300
 	WE_RK92_Woodland,                        W,		20000,		3300
-	//WE_SCARH,						W,			20000,		3300
-	//WE_SCARH_Green,					W,			20000,		3300
-	//WE_SCARH_Snow,					W,			20000,		3300
-	//WE_SCARH_Tan,					W,			20000,		3300
-	//WE_SCARH_Woodland,					W,			20000,		3300
+	WE_SCARH,						W,			20000,		3300
+	WE_SCARH_Green,					W,			20000,		3300
+	WE_SCARH_Snow,					W,			20000,		3300
+	WE_SCARH_Tan,					W,			20000,		3300
+	WE_SCARH_Woodland,					W,			20000,		3300
 	WE_SSG69,                                W,		25000,		4000
 	WE_SSG69_Green,                          W,		25000,		4000
 	WE_SSG69_Snow,                           W,		25000,		4000
@@ -894,6 +893,12 @@ Category> Seeds & Lime
 	Mag_SSG69_5Rnd,			M,		500,		100
 	Mag_STG44_30Rnd,		M,		500,		100
 	Magazine_M24_10Rnd,		M,		500,		100
+	Spraycan_Tan,    		M,		500,		100
+	WE_PaintThinner,		M,		500,		100
+	WE_WeaponTagCircular_Base,	M,		500,		100
+	WE_WeaponTagRectangular_Base,	M,		500,		100
+	WE_WeaponTagDayZ,		M,		500,		100
+
 
 <Category> Arma Weapon Pack Remastered Magazines
 	//Mag_L85A2_30Rnd			M,		500,		250	
@@ -992,9 +997,7 @@ Category> Seeds & Lime
 	MassMuzzle762,                  *,		400,		100
 	MassMuzzlePistol,               *,		400,		100
 	Mosin_Compensator,		*,		150,		75
-	MP133Shotgun_PistolGrip,	*,		500,		100
 	MP5_Compensator,		*,		200,		100
-	
 									
 <Category> Bayonets								
 	AK_Bayonet,			*,		150,		75
