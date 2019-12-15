@@ -87,17 +87,17 @@
 	Lard,				S,		-1,		750		
 	PigSteakMeat,			S,		-1,		175			
 	SheepSteakMeat,			S,		-1,		175			
-	WolfSteakMeat,			S,		-1,		175
+	WolfSteakMeat,			S,		-1,		225
 
 <Category> Animal Pelt											
-	BearPelt,			*,		-1,		6500
+	BearPelt,			*,		-1,		7500
 	CowPelt,                	*,      	-1,   		1500						
 	DeerPelt,               	*,      	-1,   		3750						
 	GoatPelt,               	*,      	-1,   		2000						
 	PigPelt,                	*,      	-1,   		2000						
 	SheepPelt,              	*,      	-1,   		2000						
 	WildboarPelt,           	*,      	-1,   		3750						
-	WolfPelt,               	*,      	-1,   		1250			
+	WolfPelt,               	*,      	-1,   		1750			
 											
 <Category> Fish											
 	Carp,				S,		-1,		500		
@@ -518,12 +518,14 @@ Category> Seeds & Lime
 	M4A1,					W,		20000,		3300	
 	MakarovIJ70,				W,		1500,		300		
 	MKII,					W,		1750,		350	
-	Mosin9130,				W,		25000,		4000		
+	Mosin9130,				W,		25000,		4000	
+	Mosin9130_Black,			W,		25000,		4000	
+	Mosin9130_Green,			W,		25000,		4000	
+	Mosin9130_Camo,				W,		25000,		4000		
 	Mp133Shotgun,				W,		12000,		2000	
 	Izh43Shotgun,				W,		12000,		2000		
 	MP5K,					W,		12500,		2100	
 	Saiga,					W,		18000,		3000
-	Sawedoffizh43Shotgun,			W,		10000,		1700
 	SawedoffMosin9130,			W,		15000,		2500	
 	SKS,					W,		12500,		2100	
 	SVD,					W,		25000,		4000	
@@ -531,7 +533,17 @@ Category> Seeds & Lime
 	VSS,					W,		20000,		3300	
 	Winchester70,				W,		25000,		4000
         B95,			        	W,		50000,		5000
-									
+
+<Category> CPB Weapons
+	DDM4V5,					W,		20000,	3300
+	Barret_camo,			        W,		-1, 	20000
+        HK416,					W,		25000,	4000
+        M49MM,					W,		10000,	1700
+	M200,					W,		-1,	15000
+	Scar_H,					W,		25000,	4000
+	//FD338,				W,		2200,	500
+	Thompson,				W,		15000,	2500
+										
 <Category> Mass Weapons							
 	MassG18,                		W,      	4000,   	1000				
 	MassG18_Green,          		W,      	4000,   	1000				
@@ -547,7 +559,7 @@ Category> Seeds & Lime
 	MassStevens301SuperShort_tan,		W,      	1500,   	500	
 	MassM16,				W,		15000,		2500
 	MassMP153,				W,		12000,		2000
-	MassMP153Short,				w,		12000,		2000
+	MassMP153Short,				W,		12000,		2000
 	MassType81,      	    		W,		15000,		2500			
 	MassAR15,               		W,		20000,		3300		
 	MassB52,			    	W,		20000,		3300
@@ -621,11 +633,11 @@ Category> Seeds & Lime
 	WE_HoneyBadger_Snow ,                    W,		20000,		3300
 	WE_HoneyBadger_Tan ,                     W,		20000,		3300
 	WE_HoneyBadger_Woodland   ,              W,		20000,		3300
-	//WE_M14,									W,		25000,		4000
-	//WE_M14_Green,							W,		25000,		4000
-	//WE_M14_Snow,							W,		25000,		4000
-	//WE_M14_Tan,								W,		25000,		4000
-	//WE_M14_Woodland,						W,		25000,		4000
+	WE_M14,									W,		25000,		4000
+	WE_M14_Green,							W,		25000,		4000
+	WE_M14_Snow,							W,		25000,		4000
+	WE_M14_Tan,								W,		25000,		4000
+	WE_M14_Woodland,						W,		25000,		4000
 	WE_M16A3           ,                     W,		20000,		3300
 	WE_M16A3_Olive    ,                      W,		20000,		3300
 	WE_M16A3_Snow   ,                        W,		20000,		3300
@@ -654,11 +666,11 @@ Category> Seeds & Lime
 	WE_RK92_Snow,                            W,		20000,		3300
 	WE_RK92_Tan,                             W,		20000,		3300
 	WE_RK92_Woodland,                        W,		20000,		3300
-	//WE_SCARH,						W,			20000,		3300
-	//WE_SCARH_Green,					W,			20000,		3300
-	//WE_SCARH_Snow,					W,			20000,		3300
-	//WE_SCARH_Tan,					W,			20000,		3300
-	//WE_SCARH_Woodland,					W,			20000,		3300
+	WE_SCARH,						W,			20000,		3300
+	WE_SCARH_Green,					W,			20000,		3300
+	WE_SCARH_Snow,					W,			20000,		3300
+	WE_SCARH_Tan,					W,			20000,		3300
+	WE_SCARH_Woodland,					W,			20000,		3300
 	WE_SSG69,                                W,		25000,		4000
 	WE_SSG69_Green,                          W,		25000,		4000
 	WE_SSG69_Snow,                           W,		25000,		4000
@@ -894,6 +906,12 @@ Category> Seeds & Lime
 	Mag_SSG69_5Rnd,			M,		500,		100
 	Mag_STG44_30Rnd,		M,		500,		100
 	Magazine_M24_10Rnd,		M,		500,		100
+	Spraycan_Tan,    		M,		500,		100
+	WE_PaintThinner,		M,		500,		100
+	WE_WeaponTagCircular_Base,	M,		500,		100
+	WE_WeaponTagRectangular_Base,	M,		500,		100
+	WE_WeaponTagDayZ,		M,		500,		100
+
 
 <Category> Arma Weapon Pack Remastered Magazines
 	//Mag_L85A2_30Rnd			M,		500,		250	
@@ -919,7 +937,18 @@ Category> Seeds & Lime
 	Massppshdrum,			M,		600,		200
 	MassSVTmag,			M,		400,		200
 	Scout556mag,			M,		250,		100
-									
+
+<Category> CPB Magazines
+
+        Barret_Magazine,        M,      1000,   250
+        //FD338_mag,              M,      250,    100
+        HK416_mag,              M,      250,    100
+        M49MM_mag,              M,      100,    20
+        m200_Magazine,          M,      1000,   250
+        Scar_H_Mag,             M,      250,    85
+        Thompson_Drum_Magazine, M,      500,    175
+        DDM4_mag,               M,      250,    100		
+					
 <Category> Handguards									
 	AK_WoodHndgrd,			*,		200,		100
 	AK_Wood_insulating_Hndgrd,	*,		500,		250
@@ -992,9 +1021,7 @@ Category> Seeds & Lime
 	MassMuzzle762,                  *,		400,		100
 	MassMuzzlePistol,               *,		400,		100
 	Mosin_Compensator,		*,		150,		75
-	MP133Shotgun_PistolGrip,	*,		500,		100
 	MP5_Compensator,		*,		200,		100
-	
 									
 <Category> Bayonets								
 	AK_Bayonet,			*,		150,		75
@@ -1592,10 +1619,10 @@ Category> Seeds & Lime
 	//LeatherStorageVest_Natural,		*,		0,	0					
 											
 <Category> Munghards Itempack										
-	6B38_Snow_mung,				*,		2000,   1000	                                                                                              
-	6B38_Black_mung,                        *,		2000,   1000                                                                   
-	6B38_LETO_mung,                         *,		2000,   1000                                                                       
-	6B38_camo_mung,				*,		2000,   1000
+	bag_6B38_Snow_mung,				*,		2000,   1000	                                                                                              
+	bag_6B38_Black_mung,                        *,		2000,   1000                                                                   
+	bag_6B38_LETO_mung,                         *,		2000,   1000                                                                       
+	bag_6B38_camo_mung,				*,		2000,   1000
 	Airam_mung,			        *,		400,	200
 	ballgrill_mung,			        *,		300,	150
 	bandana_mung,                        	*,      	100,    50				
@@ -1941,6 +1968,7 @@ Category> Seeds & Lime
 				<Trader> Vehicles Trader
 
 <Category> Vehicles                // Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
+        RAPTOR,                                 VNK,           350000,          50000
 	//CrSk_Chevrolet_Tahoe_08_Police,       VNK,      	30000,    	20000						
 	CrSk_GAZ_3309,			VNK,		250000,		100000
 	//CrSk_HMMWV_PMC,                 	VNK,		50000,		20000			
@@ -2140,6 +2168,14 @@ Category> Seeds & Lime
 	HeadlightH7_Box,		*,		 200,		50	
 	SparkPlug,			*,		 500,		125
 	TireRepairKit,			*,		 500,		125
+
+RAPTOR_doors_trunk,		*,		2500,		1000	
+RAPTOR_Doors_coDriver,		*,		2500,		1000	
+RAPTOR_doors_cargo2,		*,		2500,		1000	
+RAPTOR_doors_Driver,		*,		2500,		1000	
+RAPTOR_doors_cargo1,		*,		2500,		1000	
+RAPTOR_doors_hood,		*,		2500,		1000	
+RAPTOR_Wheel,		        *,		1000,		250
 	
 	BroncoOff86_dver_1_1,		*,		2500,		1000	
 	BroncoOff86_dver_2_1,		*,		2500,		1000	
@@ -3444,6 +3480,8 @@ Category> Seeds & Lime
 	MSFC_Tigr308,				W,		75000,		10000
 	MSFC_AKCR2019,				W,		75000,		10000
 	MSFC_AK15M,				W,		75000,		10000
+	MSFC_AK15MR,			        W,		75000,		10000
+	MSFC_AK15MR_Desert,			W,		75000,		10000
 	MSFC_AK15MR_Green,			W,		75000,		10000
 	MSFC_AK12M,				W,		75000,		10000
 	MSFC_AK13M,				W,		75000,		10000
@@ -4515,9 +4553,9 @@ Category> Seeds & Lime
 	TAGn_cartel,                          *,		100,	50
 		
 <Category> FIDOv4 Grenades
-	F1Grenade,                            *,		2000,	500
-	GermanGrenade,                        *,		2000,	500
-	MK2Grenade,                           *,		2000,	500
+	F1Grenade,                            *,		1000,	500
+	GermanGrenade,                        *,		1000,	500
+	MK2Grenade,                           *,		1000,	500
 		
 <Category> FIDOv4 Bags
 	FP4_LesnikBag,                        *,		1000,	500
