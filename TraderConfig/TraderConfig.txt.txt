@@ -76,7 +76,7 @@
 											
 											
 <Category> Meat											
-	BearSteakMeat,			S,		-1,		1000
+	BearSteakMeat,			S,		-1,		800
 	BoarSteakMeat,			S,		-1,		300			
 	Bone,				10,		-1,		200
 	ChickenBreastMeat,		S,		-1,		300				
@@ -87,17 +87,17 @@
 	Lard,				S,		-1,		750		
 	PigSteakMeat,			S,		-1,		175			
 	SheepSteakMeat,			S,		-1,		175			
-	WolfSteakMeat,			S,		-1,		225
+	WolfSteakMeat,			S,		-1,		175
 
 <Category> Animal Pelt											
-	BearPelt,			*,		-1,		7500
+	BearPelt,			*,		-1,		6500
 	CowPelt,                	*,      	-1,   		1500						
 	DeerPelt,               	*,      	-1,   		3750						
 	GoatPelt,               	*,      	-1,   		2000						
 	PigPelt,                	*,      	-1,   		2000						
 	SheepPelt,              	*,      	-1,   		2000						
 	WildboarPelt,           	*,      	-1,   		3750						
-	WolfPelt,               	*,      	-1,   		1750			
+	WolfPelt,               	*,      	-1,   		1500			
 											
 <Category> Fish											
 	Carp,				S,		-1,		500		
