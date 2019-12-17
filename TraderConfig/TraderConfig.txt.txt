@@ -90,7 +90,7 @@
 	WolfSteakMeat,			S,		-1,		175
 
 <Category> Animal Pelt											
-	BearPelt,			*,		-1,		6500
+	BearPelt,			*,		-1,	        6500
 	CowPelt,                	*,      	-1,   		1500						
 	DeerPelt,               	*,      	-1,   		3750						
 	GoatPelt,               	*,      	-1,   		2000						
@@ -599,7 +599,7 @@ Category> Seeds & Lime
 	A2bizon, 				W, 		15000, 		2500	
 	A2G36_C, 				W, 		20000, 		3300	
 	A2HKM5_SD,				W,		15000,		2500
-	A2LRR,					W,		-1,			20000
+	A2LRRAWM,				W,		-1,			20000
 	A2M107,					W,		-1,			20000
 	A2M14_DMR, 				W, 		75000, 		10000	
 	A2M16A4, 				W, 		25000,		4000	
@@ -648,11 +648,11 @@ Category> Seeds & Lime
 	WE_M24A3_Snow  	,			W,		75000,		15000
 	WE_M24A3_Tan  ,                          W,		75000,		15000
 	WE_M24A3_Woodland   ,                    W,		75000,		15000
-	WE_M82    ,                             W,		   -1,		50000
-	WE_M82_Olive,							W,		   -1,		50000
-	WE_M82_Snow ,                            W,		   -1,		50000
-	WE_M82_Tan    ,                          W,		   -1,		50000
-	WE_M82_Woodland  ,                       W,		   -1,		50000
+	WE_M82    ,                             W,		   -1,		25000
+	WE_M82_Olive,				W,		   -1,		25000
+	WE_M82_Snow ,                            W,		   -1,		25000
+	WE_M82_Tan    ,                          W,		   -1,		25000
+	WE_M82_Woodland  ,                       W,		   -1,		25000
 	WE_M9    ,                               W,		3500,		500
 	WE_MAT49	,			W,		12500,		2100
 	WE_MP5SD	,			W,		15000,		2500
@@ -924,6 +924,8 @@ Category> Seeds & Lime
 	A2WM110_mag,				M,		500,		250
 	bizon_magazine, 			M,		500,		250	
 	m240_magazine, 				M, 		1000, 		250
+	A2M107_Magazine, 			M, 		1000, 		250
+        A2LRRAWM_Magazine,                      M,              1000,           250
 								
 <Category> Mass Magazines									
 	kivaarimag,			M,		300,		150
@@ -4217,7 +4219,7 @@ RAPTOR_Wheel,		        *,		1000,		250
 	SV98,			        W,	-1,	20000
 	FP4_M24_Rifle_Snake,    	W,      -1,     20000
 	M200_Intervention,      	W,      100000, 20000
- 	VSSK,			        W,	-1,	50000
+  	VSSK,			        W,	-1,	25000
  	L96A1,			        W,	-1,	20000
 	L96A1_tactical,         	W,      -1,     20000
 
@@ -4238,7 +4240,7 @@ RAPTOR_Wheel,		        *,		1000,		250
 	//OTS_14,			W,		15000,		2500
 
 <Category> FIDOv4 Heavy Guns
-	m82,			        *,	-1,	50000
+	m82,			        *,	-1,	30000
 	m82_308win,			*,	-1,	20000
         m300_cheytac,			*,	-1,	20000	
 	M500,			        *,	15000,	2500
