@@ -540,6 +540,7 @@ Category> Seeds & Lime
         HK416,					W,		25000,	4000
         M49MM,					W,		10000,	1700
 	M200,					W,		-1,	15000
+        p226,					W,		10000,	1700
 	Scar_H,					W,		25000,	4000
 	//FD338,				W,		2200,	500
 	Thompson,				W,		15000,	2500
@@ -599,12 +600,15 @@ Category> Seeds & Lime
 	A2bizon, 				W, 		15000, 		2500	
 	A2G36_C, 				W, 		20000, 		3300	
 	A2HKM5_SD,				W,		15000,		2500
-	A2LRRAWM,				W,		-1,			20000
-	A2M107,					W,		-1,			20000
+	A2LRRAWM,				W,		-1,		20000
+	A2M107,					W,		-1,		20000
 	A2M14_DMR, 				W, 		75000, 		10000	
 	A2M16A4, 				W, 		25000,		4000	
 	A2M240, 				W, 		-1,     	20000		
-	A2M40A3, 				W, 		25000, 		4000	
+	A2M40A3, 				W, 		25000, 		4000
+        A2M249,                                 W,              25000,          4000	
+        A2M24_Green,                            W,              25000,          4000	
+        A2M24_Desert,                           W,              25000,          4000	
 	A2MK16, 				W, 		20000, 		3300	
 	A2mk17, 				W, 		25000,		4000	
 	A2mk17_s, 				W, 		25000, 		4000	
@@ -840,19 +844,24 @@ Category> Seeds & Lime
 
 <Category> Weapon Redux Pack
 	Mag_12gaSnaploader_2Rnd,		M,		500,		100
-	Mag_1911_7Rnd,				M,		500,		100
-	Mag_1911_7Rnd, 				M,		500,		100
+	Mag_1911_7Rnd,					M,		500,		100
+	Mag_1911_7Rnd, 					M,		500,		100
 	Mag_308WinSnapLoader_2Rnd,		M,		500,		100
-	Mag_DE_9Rnd,				M,		500,		100
+	Mag_762x54SnapLoader_2Rnd,		M,		500,		100
+	Mag_DE_9Rnd,					M,		500,		100
 	//Mag_M249_Box200Rnd,			M,		500,		100
-	Mag_MiniUzi_10Rnd,			M,		500,		100
-	Mag_MiniUzi_22Rnd,			M,		500,		100
-	Mag_p1_8Rnd,				M,		500,		100
+	Mag_MiniUzi_10Rnd,				M,		500,		100
+	Mag_MiniUzi_22Rnd,				M,		500,		100
+	Mag_p1_8Rnd,					M,		500,		100
 	Mag_ruger1022_10Rnd,			M,		500,		100
 	Mag_Ruger1022_30Rnd,			M,		500,		100
-	Mag_Saiga_5Rnd,				M,		500,		100
-	Mag_Saiga_8Rnd,				M,		500,		100
+	Mag_Saiga_5Rnd,					M,		500,		100
+	Mag_Saiga_8Rnd,					M,		500,		100
 	Mag_Saiga_Drum20Rnd,			M,		500,		100
+	Mag_AKM_Palm30Rnd_Green,		M,		1000,		500
+	Mag_AKM_Palm30Rnd_Black,		M,		1000,		500
+	Mag_AKM_Palm30Rnd,				M,		1000,		500
+
 
 <Category> Military Overhault Pack                    					
 	//AdminHatchet,                    	*,        	500000,    	500000
@@ -873,7 +882,11 @@ Category> Seeds & Lime
 										
 <Category> Magazines									
 	Mag_AK74_30Rnd,			M,		200,		100
+	Mag_AK74_30Rnd_Green,	M,		200,		100
+	Mag_AK74_30Rnd_Black,	M,		200,		100
 	Mag_AK101_30Rnd,		M,		220,		110
+	Mag_AK101_30Rnd_Green,	M,		220,		110
+	Mag_AK101_30Rnd_Black,	M,		220,		110
 	Mag_AKM_30Rnd,			M,		220,		110
 	Mag_AKM_Drum75Rnd_Green,        M,		400,		200                                                            
 	Mag_AKM_Drum75Rnd_Black,        M,		400,		200                                                              
@@ -898,11 +911,13 @@ Category> Seeds & Lime
 <Category> Weapon's Expansion Pack
     Mag_HoneyBadger_30Rnd,          M,              500,            100
     Mag_DesertEagle_9rnd,           M,              500,            100
+	Mag_M14_20Rnd,			M,		500,		100
 	Mag_M24A3_5Rnd,			M,		500,		100
 	Mag_m9_15Rnd,			M,		500,		100
 	Mag_MAT49_20Rnd,		M,		500,		100
 	Mag_PSG1_20Rnd,			M,		500,		100
 	Mag_RK92_30Rnd,			M,		500,		100
+	Mag_SCARH_20Rnd,		M,		500,		100
 	Mag_SSG69_5Rnd,			M,		500,		100
 	Mag_STG44_30Rnd,		M,		500,		100
 	Magazine_M24_10Rnd,		M,		500,		100
@@ -917,6 +932,7 @@ Category> Seeds & Lime
 	//Mag_L85A2_30Rnd			M,		500,		250	
 	A2AA12_Magazine, 			M, 		1000, 		500	
 	A2AS50_Magazine, 			M, 		1000, 		500	
+    A2M249_Magazine, 			M, 		1000, 		500	
 	A2M14_DMRMAG, 				M,		500,		250
 	A2M40A3_Magazine, 			M, 		1000, 		500	
 	A2mk17_mag,				M,		500,		250
@@ -925,8 +941,13 @@ Category> Seeds & Lime
 	bizon_magazine, 			M,		500,		250	
 	m240_magazine, 				M, 		1000, 		250
 	A2M107_Magazine, 			M, 		1000, 		250
-        A2LRRAWM_Magazine,                      M,              1000,           250
-								
+    A2LRRAWM_Magazine,                      M,              1000,           250
+	A2PKM_Magazine,			M,			1000,		500
+	A2HKM5_SD_Magazine,		M,			1000,		500
+	A2M9_Magazine,			M,			500,		250
+	A2M16A4_Magazine,		M,			1000,		500
+	
+	
 <Category> Mass Magazines									
 	kivaarimag,			M,		300,		150
 	Mag_Scout_5Rnd,         	M,		250,		100
@@ -942,14 +963,29 @@ Category> Seeds & Lime
 
 <Category> CPB Magazines
 
-        Barret_Magazine,        M,      1000,   250
-        //FD338_mag,              M,      250,    100
-        HK416_mag,              M,      250,    100
-        M49MM_mag,              M,      100,    20
-        m200_Magazine,          M,      1000,   250
-        Scar_H_Mag,             M,      250,    85
-        Thompson_Drum_Magazine, M,      500,    175
-        DDM4_mag,               M,      250,    100		
+    Barret_Magazine,        M,      1000,   250
+    //FD338_mag,              M,      250,    100
+    HK416_mag,              M,      250,    100
+    M49MM_mag,              M,      100,    20
+    m200_Magazine,          M,      1000,   250
+    Scar_H_Mag,             M,      250,    85
+    Thompson_Magazine,		M,		300,	150
+	Thompson_Drum_Magazine, M,      500,    175
+    DDM4_mag,               M,      250,    100
+	P226_mag,				M,		1000,		500
+	Mag_CMAG_40Rnd_Green,				M,	1500,	750
+	Mag_CMAG_40Rnd_Black,				M,	1500,	750
+	Mag_CMAG_40Rnd,						M,	1500,	750
+	Mag_CMAG_30Rnd_Green,				M,	1250,	600
+	Mag_CMAG_30Rnd_Black,				M,	1250,	600
+	Mag_CMAG_30Rnd,						M,	1250,	600
+	Mag_CMAG_20Rnd_Green,				M,	1000,	500
+	Mag_CMAG_20Rnd_Black,				M,	1000,	500
+	Mag_CMAG_20Rnd,						M,	1000,	500
+	Mag_CMAG_10Rnd_Green,				M,	500,	250
+	Mag_CMAG_10Rnd_Black,				M,	500,	250
+	Mag_CMAG_10Rnd,						M,	500,	250
+
 					
 <Category> Handguards									
 	AK_WoodHndgrd,			*,		200,		100
@@ -1970,14 +2006,14 @@ Category> Seeds & Lime
 				<Trader> Vehicles Trader
 
 <Category> Vehicles                // Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
-        RAPTOR,                                 VNK,           350000,          50000
+        //RAPTOR,                                 VNK,           350000,          50000
 	//CrSk_Chevrolet_Tahoe_08_Police,       VNK,      	30000,    	20000						
 	CrSk_GAZ_3309,			VNK,		250000,		100000
 	//CrSk_HMMWV_PMC,                 	VNK,		50000,		20000			
 	//CrSk_HMMWV_PMC_Woodland,       	VNK,		50000,		20000			
-	CrSk_Land_Rover_Defender_110, 	VNK, 		150000, 	50000			
-	CrSk_Land_Rover_Defender_110_Green, 	VNK, 		150000,		50000			
-	CrSk_Land_Rover_Defender_110_UN, 	VNK, 		150000,		50000			
+	//CrSk_Land_Rover_Defender_110, 	VNK, 		150000, 	50000			
+	//CrSk_Land_Rover_Defender_110_Green, 	VNK, 		150000,		50000			
+	//CrSk_Land_Rover_Defender_110_UN, 	VNK, 		150000,		50000			
 	Dingo,				VNK,		175000,  	60000	
 	Gerph_Zil130,				VNK,		175000,		60000
 	//MRAP_4x4,      			VNK,	        200000,         75000					
@@ -2171,13 +2207,13 @@ Category> Seeds & Lime
 	SparkPlug,			*,		 500,		125
 	TireRepairKit,			*,		 500,		125
 
-RAPTOR_doors_trunk,		*,		2500,		1000	
-RAPTOR_Doors_coDriver,		*,		2500,		1000	
-RAPTOR_doors_cargo2,		*,		2500,		1000	
-RAPTOR_doors_Driver,		*,		2500,		1000	
-RAPTOR_doors_cargo1,		*,		2500,		1000	
-RAPTOR_doors_hood,		*,		2500,		1000	
-RAPTOR_Wheel,		        *,		1000,		250
+//RAPTOR_doors_trunk,		*,		2500,		1000	
+//RAPTOR_Doors_coDriver,		*,		2500,		1000	
+//RAPTOR_doors_cargo2,		*,		2500,		1000	
+//RAPTOR_doors_Driver,		*,		2500,		1000	
+//RAPTOR_doors_cargo1,		*,		2500,		1000	
+//RAPTOR_doors_hood,		*,		2500,		1000	
+//RAPTOR_Wheel,		        *,		1000,		250
 	
 	BroncoOff86_dver_1_1,		*,		2500,		1000	
 	BroncoOff86_dver_2_1,		*,		2500,		1000	
@@ -2192,26 +2228,26 @@ RAPTOR_Wheel,		        *,		1000,		250
 	ChevyTahoe08_kapot,             *,      	2500,   	1000						
 	ChevyTahoe08_Koleso,		*,		2500,		1000		
 	
-	Defender110_bagazhnik, 		*, 		2500, 		1000		
-	Defender110_bagazhnik_Green, 	*, 		2500, 		1000			
-	Defender110_bagazhnik_UN, 	*, 		2500, 		1000			
-	Defender110_dver_1_1, 		*, 		2500, 		1000		
-	Defender110_dver_1_1_Green, 	*, 		2500, 		1000			
-	Defender110_dver_1_1_UN, 	*, 		2500, 		1000			
-	Defender110_dver_1_2, 		*, 		2500, 		1000		
-	Defender110_dver_1_2_Green, 	*, 		2500, 		1000			
-	Defender110_dver_1_2_UN, 	*, 		2500, 		1000			
-	Defender110_dver_2_1, 		*, 		2500, 		1000		
-	Defender110_dver_2_1_Green, 	*, 		2500, 		1000			
-	Defender110_dver_2_1_UN, 	*, 		2500, 		1000			
-	Defender110_dver_2_2, 		*, 		2500, 		1000		
-	Defender110_dver_2_2_Green, 	*, 		2500, 		1000			
-	Defender110_dver_2_2_UN, 	*, 		2500, 		1000			
-	Defender110_kapot, 		*, 		2500, 		1000		
-	Defender110_kapot_Green, 	*, 		2500,		1000			
-	Defender110_kapot_UN, 		*,		2500, 		1000		
-	Defender110_koleso, 		*, 		2500, 		1000		
-	Defender110_koleso, 		*, 		2500, 		1000		
+	//Defender110_bagazhnik, 		*, 		2500, 		1000		
+	//Defender110_bagazhnik_Green, 	*, 		2500, 		1000			
+	//Defender110_bagazhnik_UN, 	*, 		2500, 		1000			
+	//Defender110_dver_1_1, 		*, 		2500, 		1000		
+	//Defender110_dver_1_1_Green, 	*, 		2500, 		1000			
+	//Defender110_dver_1_1_UN, 	*, 		2500, 		1000			
+	//Defender110_dver_1_2, 		*, 		2500, 		1000		
+	//Defender110_dver_1_2_Green, 	*, 		2500, 		1000			
+	//Defender110_dver_1_2_UN, 	*, 		2500, 		1000			
+	//Defender110_dver_2_1, 		*, 		2500, 		1000		
+	//Defender110_dver_2_1_Green, 	*, 		2500, 		1000			
+	//Defender110_dver_2_1_UN, 	*, 		2500, 		1000			
+	//Defender110_dver_2_2, 		*, 		2500, 		1000		
+	//Defender110_dver_2_2_Green, 	*, 		2500, 		1000			
+	//Defender110_dver_2_2_UN, 	*, 		2500, 		1000			
+	//Defender110_kapot, 		*, 		2500, 		1000		
+	//Defender110_kapot_Green, 	*, 		2500,		1000			
+	//Defender110_kapot_UN, 		*,		2500, 		1000		
+	//Defender110_koleso, 		*, 		2500, 		1000		
+	//Defender110_koleso, 		*, 		2500, 		1000		
 	
 	DingoDoors_Cargo1,		*,		2500,		1000		
 	DingoDoors_Cargo2,		*,		2500,		1000		
@@ -3885,22 +3921,18 @@ RAPTOR_Wheel,		        *,		1000,		250
 		
 <Category> SQUAD MSF-C Weapon Magazines
 
-//      MSFC_PMAG762_Mag_30Rnd_Desert,                          *,      440,    155
-//      MSFC_PMAG762_Mag_30Rnd_Green,                           *,      440,    155
-//      MSFC_PMAG556_Mag_30Rnd_Desert,                          *,      440,    155
-//      MSFC_PMAG556_Mag_30Rnd_Green,                           *,      440,    155
-//      MSFC_Tigr308_10_Rnd,                                    *,      440,    155
-//      MSFC_RPK_Mag_45Rnd,                                     *,      440,    155
-//      MSFC_SCAR17_Mag_20Rnd,                                  *,      440,    155
-//      MSFC_PMAG762_Mag_30Rnd,                                 *,      625,    310
-//      MSFC_PMAG556_Mag_30Rnd,                                 *,      625,    310
-//      MSFC_STANAG556_Mag_30Rnd,                               *,      625,    310
-//      MSFC_RPK74_Mag_45Rnd,                                   *,      625,    310
-//      MSFC_DRUM762_Mag_75Rnd,                                 *,      625,    310
-//	MSFC_Mag_AK101_30Rnd_WHITE,				*,	350,	125
-//	MSFC_Mag_AK74_30Rnd_WHITE,				*,	350,	125
-//	MSFC_Mag_AKM_Drum75Rnd_WHITE,				*,	350,	125
-//	MSFC_Mag_AKM_Palm30Rnd_WHITE,				*,	350,	125
+	MSFC_Tigr308_10_Rnd,                                    *,      440,    155
+    MSFC_RPK_Mag_45Rnd,                                     *,      440,    155
+    MSFC_SCAR17_Mag_20Rnd,                                  *,      440,    155
+    MSFC_PMAG762_Mag_30Rnd,                                 *,      625,    310
+    MSFC_PMAG556_Mag_30Rnd,                                 *,      625,    310
+    MSFC_STANAG556_Mag_30Rnd,                               *,      625,    310
+    MSFC_RPK74_Mag_45Rnd,                                   *,      625,    310
+    MSFC_DRUM762_Mag_75Rnd,                                 *,      625,    310
+	MSFC_Mag_AK101_30Rnd_WHITE,				*,	350,	125
+	MSFC_Mag_AK74_30Rnd_WHITE,				*,	350,	125
+	MSFC_Mag_AKM_Drum75Rnd_WHITE,				*,	350,	125
+	MSFC_Mag_AKM_Palm30Rnd_WHITE,				*,	350,	125
 	MSFC_PMAG556_Mag_30Rnd,					M,	500,	250
 	MSFC_PMAG556_Mag_30Rnd_Desert,				M,	350,	125
 	MSFC_PMAG556_Mag_30Rnd_Green,				M,	350,	125
@@ -3917,6 +3949,14 @@ RAPTOR_Wheel,		        *,		1000,		250
 	MSFC_SCAR17_Mag_20Rnd,					M,	350,	125
 	MSFC_STANAG556_Mag_30Rnd,				M,	500,	250
 	MSFC_Tigr308_10_Rnd,					M,	350,	125
+	MSFC_AK15_Mag_30Rnd_Desert,				M,		500,		250
+	MSFC_AK15_Mag_30Rnd_Green,				M,		500,		250
+	MSFC_AK15_Mag_30Rnd,				M,		500,		250
+	MSFC_AK12_Mag_30Rnd_Desert,				M,		500,		250
+	MSFC_AK12_Mag_30Rnd_Green,				M,		500,		250
+	MSFC_AK12_Mag_30Rnd,				M,		500,		250
+	MSFC_Mag_AS_VAL_20Rnd,				M,		1000,			500
+	
 		
 <Category> SQUAD MSF-C Weapon Attachments
         MSFC_AK_Zenitco_Handguard,                              *,      500,     250
@@ -4240,9 +4280,9 @@ RAPTOR_Wheel,		        *,		1000,		250
 	//OTS_14,			W,		15000,		2500
 
 <Category> FIDOv4 Heavy Guns
-	m82,			        *,	-1,	30000
+	//m82,			        *,	-1,	30000
 	m82_308win,			*,	-1,	20000
-        m300_cheytac,			*,	-1,	20000	
+    m300_cheytac,			*,	-1,	20000	
 	M500,			        *,	15000,	2500
 	//ChinaLake,			W,		100000,		20000
 
@@ -4252,9 +4292,9 @@ RAPTOR_Wheel,		        *,		1000,		250
 	Mag_val_20Rnd_coupled_Tracer,   M,	300,	150
 	Mag_tokarev_8Rnd,               M,	300,	150
 	Mag_CS5_10rnd,                  M,	500,	150
-	Mag_MakarovPB_8Rnd ,            M,	300,	150
+	Mag_MakarovPB_8Rnd,            M,	300,	150
 	Mag_VSK94_20Rnd,                M,	300,	150
-	Mag_DDM_30Rnd ,                 M,	650,	150
+	Mag_DDM_30Rnd,                 M,	650,	150
 	Mag_rpk_40RndSpar,              M,	750,	150
 	Mag_val_20Rnd_coupled,          M,	300,	150
 	Mag_vss_10Rnds_coupled,         M,	300,	150
@@ -4306,6 +4346,7 @@ RAPTOR_Wheel,		        *,		1000,		250
 	FP4_Mag_Saiga_8Rnd,             M,	500,	150
 	FP4_Mag_Saiga_5Rnd,             M,	350,	100
 	Mag_SV98_10Rnd,                 M,      1200,   600
+	CMAG_100Rnd_Magazine,			M,		1500,	750
 	Mag_CMAG_100Rnd,                M,      2500,   1000
 	Mag_CMAG_100Rnd_tracers,        M,      3500,   1500
 	Magazine_M24_10rnd,             M,      1200,   600
@@ -4321,6 +4362,7 @@ RAPTOR_Wheel,		        *,		1000,		250
 	Mag_MP7_20Rnds,                 M,      1000,   500
 	Mag_VZ58_30Rnd,                 M,      1200,   600
 	Mag_P90_50Rnd,                  M,      2000,   1000
+	Mag_P90_50RndFULLTRACER,        M,      2000,   1000
 	Mag_m200_7rnds,                 M,      2000,   1000
 	Mag_m200_7rnds_FullTracer,      M,      3000,   1500
 	Mag_VSSK_5Rnd,                  M,      2000,   1000
@@ -4329,6 +4371,7 @@ RAPTOR_Wheel,		        *,		1000,		250
 	Mag_m300_7rnds,                 M,      1000,   500
 	Mag_TEC9_32Rnd,                 M,      2000,   1000
 	Mag_l96a1_5rnd,                 M,      1000,   500
+	RPK_magazine,					M,		1000,	500
 	Mag_SCAR_H_40Rnd,               M,      2000,   1000
 	Mag_Scar_40rnd,                 M,      2000,   1000
 	Mag_Tompson_50Rnd,              M,      2500,   1000
