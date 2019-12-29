@@ -234,7 +234,7 @@
 	BarrelHoles_Yellow,		*,		800,		300			
 	BurlapSack,			*,		50,		10		
 	Camonet,			*,		600,		250		
-	CanisterGasoline,		*,		300,		80			
+	CanisterGasoline,		*,		2000,		250
 	CodeLock,                       *,            	700,            350  										
 	DuctTape,			*,		20,		8		
 	EpoxyPutty,			*,		15,		6		
@@ -338,8 +338,7 @@
 	//Chopper_WallKit,		*,		200,		100			
 	//Chopper_WindowKit,		*,		250,		125
 
-<Category> BaseBuildingPlus
-	
+<Category> Base Building Plus
 	BBP_Bedding,			*,		2500,		500
 	BBP_BedKit,			*,		2500,		500
 	BBP_Blueprint,			*,		10000,		2000
@@ -358,6 +357,7 @@
 	BBP_Painting_2,			*,		2500,		500
 	BBP_PillarKit,			*,		2000,		400
 	BBP_Solar_PanelKit,		*,		15000,		3000
+	TruckBattery,			*,		 7500,		350
 	BBP_Step_LadderKit,		*,		4000,		800
 	BBP_Sun_Shade,			*,		2500,		500
 	BBP_T1_DoorKit,			*,		2000,		400
@@ -447,8 +447,7 @@
 	BBP_Magnet_W,			*,		2500,		500
 	BBP_Magnet_X,			*,		2500,		500
 	BBP_Magnet_Y,			*,		2500,		500
-	BBP_Magnet_Z,			*,		2500,		500
-		
+	BBP_Magnet_Z,			*,		2500,		500			
 											
 Category> Seeds & Lime											
 	GardenLime,			*,		20,		7			
@@ -501,7 +500,7 @@ Category> Seeds & Lime
 		
         												
 <Category> Gold												
-        //Goldbar_Base, 			1, 		-1, 		10000			
+        Goldbar_Base, 			1, 		-1, 		100000			
         Goldbar10k, 				1, 		-1, 		8000			
         Goldbar20k, 				1, 		-1, 		15000			
         Goldbar50k, 				1, 		-1, 		35000			
@@ -635,10 +634,12 @@ Category> Seeds & Lime
 <Category> Arma Weapon Pack Remastered									
 	A2AA12, 				W, 		20000, 		3300	
 	A2AKSGOLD,				W,		20000,		3300
+        A2AK74S,				W,		15000,		2500
 	A2AS50, 				W, 		-1,     	20000		
 	A2bizon, 				W, 		15000, 		2500	
 	A2G36_C, 				W, 		20000, 		3300	
 	A2HKM5_SD,				W,		15000,		2500
+        A2M9,				        W,		10000,		1250
 	A2LRRAWM,				W,		-1,		20000
 	A2M107,					W,		-1,		20000
 	A2M14_DMR, 				W, 		75000, 		10000	
@@ -651,7 +652,8 @@ Category> Seeds & Lime
 	A2MK16, 				W, 		20000, 		3300	
 	A2mk17, 				W, 		25000,		4000	
 	A2mk17_s, 				W, 		25000, 		4000	
-	A2MK48, 				W, 		-1, 		20000	
+	A2MK48, 				W, 		-1, 		20000
+        A2PKM,		        		W, 		15000, 		2500
 	A2WM110_black,				W, 		25000, 		4000	
 	A2WM110_desert, 			W, 		25000,		4000		
 	DMRScope, 				W, 		10000, 		2000	
@@ -853,9 +855,9 @@ Category> Seeds & Lime
 	AmmoBox_00buck_Tracers_10rnd,		*,		-1,		15		
 	AmmoBox_127x99_10rnd,			*,		-1,		25	
 	AmmoBox_12GaBB,				*,		-1,		5
-	AmmoBox_12x99_10Rnd,			*,		-1,		25	
-	AmmoBox_12x99_10Rnd_TracerGreen,	*,		-1,		25			
-	AmmoBox_12x99_10Rnd_TracerYell,		*,		-1,		25		
+	//AmmoBox_12x99_10Rnd,			*,		-1,		25	
+	//AmmoBox_12x99_10Rnd_TracerGreen,	*,		-1,		25			
+	//AmmoBox_12x99_10Rnd_TracerYell,		*,		-1,		25		
 	AmmoBox_223_20rnd,			*,		-1,		25	
 	AmmoBox_300_20rnd,			*,		-1,		25	
 	AmmoBox_303_15rnd,			*,		-1,		25	
@@ -1986,7 +1988,10 @@ Category> Seeds & Lime
 	MassTacticalBagBlack,	            	*,		500,	200					
 	MassTacticalBagWD,	            	*,		500,	200					
 	MassWinterHuntingbp,		    	*,		2000,	500				
-	MassWinterTortilla,		    	*,		1000,	500				
+	MassWinterTortilla,		    	*,		1000,	500	
+        Massczech, 		        	*,		1000,	500	
+        MassBlackYellowMB,		    	*,		1000,	500	
+        MassczechWinter,    		    	*,		1000,	500	    			
 											
 <Category> Mass' Belts											
 	MassMolleBelt,                       	*,      	600,    300							
@@ -2047,20 +2052,20 @@ Category> Seeds & Lime
 <Category> Vehicles                // Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
         //RAPTOR,                                 VNK,           350000,          50000
 	//CrSk_Chevrolet_Tahoe_08_Police,       VNK,      	30000,    	20000						
-	CrSk_GAZ_3309,			VNK,		250000,		100000
-	//CrSk_HMMWV_PMC,                 	VNK,		50000,		20000			
-	//CrSk_HMMWV_PMC_Woodland,       	VNK,		50000,		20000			
+	CrSk_GAZ_3309,			VNK,		300000,		30000
+	CrSk_HMMWV_PMC,                 	VNK,		200000,		25000			
+	CrSk_HMMWV_PMC_Woodland,       	        VNK,		200000,		25000			
 	//CrSk_Land_Rover_Defender_110, 	VNK, 		150000, 	50000			
 	//CrSk_Land_Rover_Defender_110_Green, 	VNK, 		150000,		50000			
 	//CrSk_Land_Rover_Defender_110_UN, 	VNK, 		150000,		50000			
-	Dingo,				VNK,		175000,  	60000	
-	Gerph_Zil130,				VNK,		175000,		60000
+	Dingo,				VNK,		200000,  	60000	
+	Gerph_Zil130,				VNK,		200000,		20000
 	//MRAP_4x4,      			VNK,	        200000,         75000					
 	CivilianSedan,				VNK,		18000,		12000	
 	CivilianSedan_Black,			VNK,		18000,		12000	
 	CivilianSedan_Wine,			VNK,		18000,		12000	
-	CrSk_Chevrolet_Tahoe_08,                VNK,      	150000,    	50000						
-	CrSk_Ford_Bronco_Offroad_86,            VNK,            175000,         60000								
+	CrSk_Chevrolet_Tahoe_08,                VNK,      	150000,    	20000						
+	CrSk_Ford_Bronco_Offroad_86,            VNK,            175000,         20000
 	Hatchback_02,				VNK,		16000,		10500
 	Hatchback_02_Black,			VNK,		16000,		10500	
 	Hatchback_02_Blue,			VNK,		16000,		10500	
@@ -2078,9 +2083,9 @@ Category> Seeds & Lime
 
 <Category> Vanilla Vehicle Parts
 	//EngineOil,				*,		  70,		40
-	//TruckBattery,				*,		 180,		100
+	TruckBattery,				*,		 7500,		350
 	
-	CanisterGasoline,			*,		2000,		500	
+	CanisterGasoline,			*,		2000,		250
 	CarBattery,				*,		1000,		250	
 	CarRadiator,				*,		1000,		250
 	HeadlightH7_Box,			*,		 200,		50	
@@ -2239,7 +2244,7 @@ Category> Seeds & Lime
 	//EngineOil,			*,		  70,		40
 	//TruckBattery,			*,		 180,		100
 	
-	CanisterGasoline,		*,		2000,		500	
+	CanisterGasoline,		*,		2000,		250
 	CarBattery,			*,		1000,		250	
 	CarRadiator,			*,		1000,		250
 	HeadlightH7_Box,		*,		 200,		50	
@@ -3561,6 +3566,9 @@ Category> Seeds & Lime
 	MSFC_AK15MR_Desert,			W,		75000,		10000
 	MSFC_AK15MR_Green,			W,		75000,		10000
 	MSFC_AK12M,				W,		75000,		10000
+	MSFC_AK12MR,			        W,		75000,		10000
+	MSFC_AK12MR_Desert,		        W,		75000,		10000
+	MSFC_AK12MR_Green,		        W,		75000,		10000
 	MSFC_AK13M,				W,		75000,		10000
 	MSFC_RPK16,				W,		75000,		10000
 	MSFC_RPK16_Desert,                      W,		75000,		10000                                                                    
@@ -3960,18 +3968,18 @@ Category> Seeds & Lime
 		
 <Category> SQUAD MSF-C Weapon Magazines
 
-	MSFC_Tigr308_10_Rnd,                                    *,      440,    155
-    MSFC_RPK_Mag_45Rnd,                                     *,      440,    155
-    MSFC_SCAR17_Mag_20Rnd,                                  *,      440,    155
-    MSFC_PMAG762_Mag_30Rnd,                                 *,      625,    310
-    MSFC_PMAG556_Mag_30Rnd,                                 *,      625,    310
-    MSFC_STANAG556_Mag_30Rnd,                               *,      625,    310
-    MSFC_RPK74_Mag_45Rnd,                                   *,      625,    310
-    MSFC_DRUM762_Mag_75Rnd,                                 *,      625,    310
-	MSFC_Mag_AK101_30Rnd_WHITE,				*,	350,	125
-	MSFC_Mag_AK74_30Rnd_WHITE,				*,	350,	125
-	MSFC_Mag_AKM_Drum75Rnd_WHITE,				*,	350,	125
-	MSFC_Mag_AKM_Palm30Rnd_WHITE,				*,	350,	125
+	MSFC_Tigr308_10_Rnd,                                    M,      440,    155
+    MSFC_RPK_Mag_45Rnd,                                     M,      440,    155
+    MSFC_SCAR17_Mag_20Rnd,                                  M,      440,    155
+    MSFC_PMAG762_Mag_30Rnd,                                 M,      625,    310
+    MSFC_PMAG556_Mag_30Rnd,                                 M,      625,    310
+    MSFC_STANAG556_Mag_30Rnd,                               M,      625,    310
+    MSFC_RPK74_Mag_45Rnd,                                   M,      625,    310
+    MSFC_DRUM762_Mag_75Rnd,                                 M,      625,    310
+	MSFC_Mag_AK101_30Rnd_WHITE,				M,	350,	125
+	MSFC_Mag_AK74_30Rnd_WHITE,				M,	350,	125
+	MSFC_Mag_AKM_Drum75Rnd_WHITE,				M,	350,	125
+	MSFC_Mag_AKM_Palm30Rnd_WHITE,				M,	350,	125
 	MSFC_PMAG556_Mag_30Rnd,					M,	500,	250
 	MSFC_PMAG556_Mag_30Rnd_Desert,				M,	350,	125
 	MSFC_PMAG556_Mag_30Rnd_Green,				M,	350,	125
@@ -4319,7 +4327,7 @@ Category> Seeds & Lime
 	//OTS_14,			W,		15000,		2500
 
 <Category> FIDOv4 Heavy Guns
-	//m82,			        *,	-1,	30000
+	m82,			        *,	-1,	30000
 	m82_308win,			*,	-1,	20000
     m300_cheytac,			*,	-1,	20000	
 	M500,			        *,	15000,	2500
@@ -4465,9 +4473,9 @@ Category> Seeds & Lime
 	AmmoBox_00buck_Needles_10rnd,		*,		-1,		15
 	AmmoBox_00buck_Tracers_10rnd,		*,		-1,		15
 	AmmoBox_12GaBB,				*,		-1,		5
-	AmmoBox_12x99_10Rnd,			*,		-1,		25
-	AmmoBox_12x99_10Rnd_TracerGreen,	*,		-1,		25
-	AmmoBox_12x99_10Rnd_TracerYell,		*,		-1,		25
+	//AmmoBox_12x99_10Rnd,			*,		-1,		25
+	//AmmoBox_12x99_10Rnd_TracerGreen,	*,		-1,		25
+	//AmmoBox_12x99_10Rnd_TracerYell,		*,		-1,		25
 	AmmoBox_303_15rnd,			*,		-1,		25
 	AmmoBox_338,				*,		-1,		25
 	AmmoBox_338Tracer,			*,		-1,		25
